@@ -1,0 +1,9 @@
+{
+    "total": 1639,
+    "exmatch_num": 998,
+    "exmatch_rate": 0.6089078706528371,
+    "real_exmatch_rate": 0.6249217282404509,
+    "contains_ex_num": 1181,
+    "contains_ex_rate": 0.7205613178767541,
+    "real_contains_ex_rate": 0.7395115842204133
+}

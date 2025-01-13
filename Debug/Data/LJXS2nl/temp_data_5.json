@@ -1,0 +1,525 @@
+[
+    {
+        "metaphor_id": 0,
+        "query": "what does jamaican people speak",
+        "predictions": [
+            "( JOIN ( R [ location, country, languages spoken ] ) [ Jamaica ] )",
+            "( Join (R / people, language spoken by this person, English language ) ( JOIN ( R / people, ethnicity, English language ] ( JOIN ( R / location, country, English language spoken here ) [ Jamaica ] ) [ Jamaican English ] ) )",
+            "( JOIN ( R [ location, country, language ] ) [ Jamaica ] )"
+        ],
+        "gen_label": "( JOIN ( R [ location , country , languages spoken ] ) [ Jamaica ] )",
+        "question": "Q1:相似度：{1}\nQ2:相似度：{0.8}\nQ3:相似度：{1}"
+    },
+    {
+        "metaphor_id": 1,
+        "query": "what did james k polk do before he was president",
+        "predictions": [
+            "( JOIN ( R [ government, government position held, office position or title ] ) ( JOIN ( R [ government, politician, government positions held ] ) [ James K. Polk ] ) )",
+            "( JOIN ( R [ government, government position held, government office position ] ) ( JOIN ( R [ government, politician, government positions held ] ) [ James K. Polk ] ) )",
+            "( JOIN ( R [ government, government position held, governmental body ] ) ( JOIN ( R [ government, politician, government positions held ] ) [ James K. Polk ] ) )",
+            "( JOIN ( R [ government, government position held, office or position held ] ) ( JOIN ( R [ government, politician, government positions held ] ) [ James K. Polk ] ) )",
+            "( JOIN ( R [ people, person, profession ] ) [ James K. Polk ] )",
+            "(JOIN (R [ people, person, profession ]) [ James K. Polk ])"
+        ],
+        "gen_label": "null",
+        "question": "Q1:相似度：{1}\nQ2:相似度：{1}\nQ3:相似度：{1}\nQ4:相似度：{1}\nQ5:相似度：{0}\nQ6:相似度：{0}"
+    },
+    {
+        "metaphor_id": 2,
+        "query": "who plays ken barlow in coronation street",
+        "predictions": [
+            "( JOIN ( R [ tv, regular tv appearance, actor ] ) ( AND ( JOIN [ tv, regular tv appearance, character ] [ Ken Barlow ] ) ( JOIN ( R [ tv, tv program, regular cast ] ) [ Coronation Street ] ) ) )",
+            "( JOIN ( R [ television, television appearance, actor ] ) ( AND ( JOIN [ television, television appearance, character ] [ Ken Barlow ] ) ( JOIN ( R [ television, television program, regular cast ] ) [ Coronation Street ] ) ) )",
+            "(JOIN (R * TV Program, TV Role, Actor ) ( AND ( JOIN [ TV Role, Character ] [ Ken Barlow ] ) ( JOIN ( R * TV Program, TV Appearance ) [ Coronation Street ] ) ) )",
+            "( JOIN ( R [ tv, regular tv appearance, actor ] ) ( JOIN ( R [ tv, tv character, appeared in tv program ] ) [ Ken Barlow ] ) )",
+            "( JOIN ( R [ tv, regulartvappearance, actor ] ) ( JOIN ( R [ tv, tv character, appeared in tv program ] ) [ Ken Barlow ] ) )",
+            "( JOIN ( R [ tv, regular tv appearance, actor ] ) ( AND ( JOIN [ tv, regular tv appearance, character ] [ Kenneth Barlow ] ) ( JOIN ( R [ tv, tv program, regular cast ] ) [ Coronation Street ] ) ) )",
+            "( JOIN ( R [ tv, regular tv appearance, actor ] ) ( AND ( JOIN [ tv, regular tv appearance, character ] [ Ken Barlow ] ) ( JOIN ( R [ tv, tv program, regular cast ] ) [ Corination street ] ) ) )",
+            "( JOIN ( R [ tv, regular tv appearance, actor ] ) ( AND ( JOIN [ tv, regular tv appearance, character ] [ Ken Barlow ] ) ( JOIN ( R [ tv, tv program, regular cast ] ) [ Corinationion Street ] ) ) )"
+        ],
+        "gen_label": "( JOIN ( R [ tv , regular tv appearance , actor ] ) ( AND ( JOIN [ tv , regular tv appearance , character ] [ Ken Barlow ] ) ( JOIN ( R [ tv , tv program , regular cast ] ) [ Coronation Street ] ) ) )",
+        "question": "原问题：who plays ken barlow in coronation street\n\n逻辑形式：\nL0:( JOIN ( R [ tv, regular tv appearance, actor ] ) ( AND ( JOIN [ tv, regular tv appearance, character ] [ Ken Barlow ] ) ( JOIN ( R [ tv, tv program, regular cast ] ) [ Coronation Street ] ) ) )\nL0:( JOIN ( R [ television, television appearance, actor ] ) ( AND ( JOIN [ television, television appearance"
+    },
+    {
+        "metaphor_id": 3,
+        "query": "where is jamarcus russell from",
+        "predictions": [
+            "( JOIN ( R [ people, person, place of birth ] ) [ Jamarcus Russell ] )",
+            "( JOIN ( R [ people, person, place of birth ] ) [ Jarrett Russell ] )",
+            "( JOIN ( R [ people, person, place of birth ] ) [ Jarious Jackson ] )",
+            "( JOIN ( R [ people, person, place of birth ] ) [ Jarrett Jack ] )",
+            "( JOIN ( R [ people, person, place of birth ] ) [ Jamal Russell ] )",
+            "(JOIN (R [ people, person, place of birth] [ Jarrett Jack ] ) [ people, person, place of birth ] )",
+            "( JOIN ( R [ people, person, place of birth ] ) [ Jarious Jarrett ] )",
+            "( JOIN ( R [ people, person, place of birth ] ) [ Jason Campbell ] )"
+        ],
+        "gen_label": "( JOIN ( R [ people , person , place of birth ] ) [ JaMarcus Russell ] )",
+        "question": "输出：\nQ1:相似度：{1}\nQ2:相似度：{0}\nQ3:相似度：{0}\nQ4:相似度：{0}\nQ5:相似度：{0}\nQ6:相似度：{0}\nQ7:相似度：{0}"
+    },
+    {
+        "metaphor_id": 4,
+        "query": "where was george washington carver from",
+        "predictions": [
+            "( JOIN ( R [ people, person, place of birth ] ) [ George Washington Carver ] )",
+            "(JOIN (R [ people, person, place of birth]) [ GeorgeWashingtonCarver]_)"
+        ],
+        "gen_label": "( JOIN ( R [ people , person , place of birth ] ) [ George Washington Carver ] )",
+        "question": "L0: 相似度：{0.8}"
+    },
+    {
+        "metaphor_id": 5,
+        "query": "what else did ben franklin invent",
+        "predictions": [
+            "( JOIN ( R [ law, inventor, inventions ] ) [ Benjamin Franklin ] )",
+            "( AND ( JOIN [ common, topic, notable types ] [ Invention ] ) ( JOIN ( R [ general, invention, invented by ] ) [ Benjamin Franklin ] ) )",
+            "(JOIN (R [ invention, inhibitor of invention, inventions hindered by this ] ) [ Benjamin Franklin ] )",
+            "( JOIN ( R [ invention, invented by, inventions ] ) [ Benjamin Franklin ] )",
+            "( JOIN ( R [ law, inventor, inventions ] ) [ Ben Franklin ] )",
+            "( JOIN ( R [ law, inventor, inventions ] ) [ Ben Frankin ] )"
+        ],
+        "gen_label": "( JOIN ( R [ law , inventor , inventions ] ) [ Benjamin Franklin ] )",
+        "question": "原问题：what else did ben franklin invent\n\n生成问题：\nQ1: What are the inventions by Benjamin Franklin?\nQ2: What are the notable types of inventions related to Invention and invented by Benjamin Franklin?\nQ3: What inventions are hindered by Benjamin Franklin's inventions?\nQ4: What inventions were invented by Benjamin Franklin?\nQ5: What are the inventions by Ben Franklin?\nQ6: What are the inventions by Ben Frankin?\n\n输出：\nQ1: 相"
+    },
+    {
+        "metaphor_id": 6,
+        "query": "who was richard nixon married to",
+        "predictions": [
+            "( JOIN ( R [ people, marriage, spouse ] ) ( AND ( JOIN [ people, marriage, type of union ] [ Marriage ] ) ( JOIN ( R [ people, person, spouse s ] ) [ Richard Nixon ] ) ) )",
+            "( JOIN ( R [people, marriage, spous ] ) ( AND ( JOIN [ people, marriage, type of union ] [ Marriage ] ) ( JOIN ( R [ people, person, spouse s ] ) [ Richard Nixon ] ) ) )",
+            "( JOIN ( R [ people, marriage, spouse ] ) ( AND ( JOIN [ people, marriage, type ofunion ] [ Marriage ] ) ( JOIN ( R [ people, person, spouse s ] ) [ Richard Nixon ] ) ) )"
+        ],
+        "gen_label": "( JOIN ( R [ people , marriage , spouse ] ) ( AND ( JOIN [ people , marriage , type of union ] [ Marriage ] ) ( JOIN ( R [ people , person , spouse s ] ) [ Richard Nixon ] ) ) )",
+        "question": "输出：\nQ1:相似度：{1}\nQ2:相似度：{1}\nQ3:相似度：{1}"
+    },
+    {
+        "metaphor_id": 7,
+        "query": "who is governor of ohio 2011",
+        "predictions": [
+            "( JOIN ( R [ government, government position held, office holder ] ) ( TC ( AND ( JOIN [ government, government position held, basic title ] [ Governor ] ) ( JOIN ( R [ government, governmental jurisdiction, governing officials ] ) [ Ohio ] ) ) [ government, government position held, from ] 2011 ) )",
+            "( joining ( [ base, schemastaging, gubernatorial tenure, governor ] ) ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining [ base, schemastaging, governing body, governor, governing period ] ) [ Ohio ] ) [ base, schemastaging, governing body, governor, start date ] 2011 ) [ base, schemastaging, governing body, governor, end date ] 2011 ) [ base, schemastaging, governing body, governor, title ] Governor ) [ base, schemastaging, governing body, governing term, governing body ] ) [ base, schemastaging, governing body, governing term, start date ] 2011 ) [ base, schemastaging, governing body, governing term, end date ] 2011 ) ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining ( joining",
+            "( JOIN ( R [ government, government position held, office holder ] ) ( TC ( JOIN ( R [ government, government office or title, office holders ] ) [ Governor of Ohio ] ) [ government, government position held, from ] 2011 ) )",
+            "( JOIN ( R [ government, government position held, office holder ] ) ( TC ( JOIN ( R [ government, governmental jurisdiction, governing officials ] ) [ Ohio ] ) [ government, government position held, from ] 2011 ) )",
+            "(JOIN ( R [ government, government position held, office holder ] ) ( TC ( AND ( JOIN [ government, government position held, basic title ] [ Governor ] ) ( JOIN ( R [ government, political district, representatives ] ) [ Ohio ] ) ) [ government, government position held, from ] 2011 ) )"
+        ],
+        "gen_label": "( JOIN ( R [ government , government position held , office holder ] ) ( TC ( AND ( JOIN [ government , government position held , basic title ] [ Governor ] ) ( JOIN ( R [ government , governmental jurisdiction , governing officials ] ) [ Ohio ] ) ) [ government , government position held , from ] 2011 ) )",
+        "question": "原问题：who is governor of ohio 2011\n\n逻辑形式：\nL0:( JOIN ( R [ government, government position held, office holder ] ) ( TC ( AND ( JOIN [ government, government position held, basic title ] [ Governor ] ) ( JOIN ( R [ government, governmental jurisdiction, governing officials ] ) [ Ohio ] ) ) [ government, government position held, from ] 2011 )\n\nL0:( JOIN ( R [ government, government position held,"
+    },
+    {
+        "metaphor_id": 8,
+        "query": "who was vice president after kennedy died",
+        "predictions": [
+            "( JOIN ( R [ government, us president, vice president ] ) [ John F. Kennedy ] )",
+            "(Join (R * after ] [ President of the United States, Vice President of the United States ] [ John F. Kennedy ] ( Join ( R * president ] [ United States of America, Vice President of the United States ] ) [ AND ( JOIN [ common, topic, notable types ] [ Vice President of the United States ] ) ( JOIN ( R * after ] [ President of the United States, Vice Presidents ] ) [ John F. Kennedy ] ) ) )",
+            "( JOIN ( R [ government, us vice president, vice president ] ) [ John F. Kennedy ] )",
+            "( Join (R [ government, us governorship, governor ] ) ( Argumentz ( R [ government, government position held, from ] ) [ John F. Kennedy ] ) )",
+            "( JOIN (R [ government, us vice president, vice president ] ) [ John F. Kennedy ] )"
+        ],
+        "gen_label": "( JOIN ( R [ government , us president , vice president ] ) [ John F. Kennedy ] )",
+        "question": "Q1: Who was the US Vice President during John F. Kennedy's presidency? 相似度：1\nQ3: Who was the Vice President of the United States when John F. Kennedy was in office as President? 相似度：1\nQ2: What notable types of Vice Presidents of the United States succeeded John F. Kennedy? 相似度：0\nQ5: Who served as the US Vice President alongside John F. Kennedy?"
+    },
+    {
+        "metaphor_id": 9,
+        "query": "where is the fukushima daiichi nuclear plant located",
+        "predictions": [
+            "( JOIN ( R [ location, mailing address, citytown ] ) ( JOIN ( R [ location, location, street address ] ) [ Fukushima Daiichi Nuclear Power Plant ] ) )",
+            "( AND ( JOIN [ common, topic, notable types ] [ Location ] ) ( JOIN ( R [ location, location, containedby ] ) [ Fukushima Daiichi Nuclear Power Plant ] ) )",
+            "( JOIN ( R [ location, mailing address, citytown ] ) ( JOIN ( R [ organization, organization, headquarters ] ) [ Fukushima Daiichi Nuclear Power Plant ] ) )",
+            "( JOIN ( R [ location, mailing address, citytown ) ] ( JOIN ( R [ organization, organization, headquarters ] ) [ Fukushima Daiichi Nuclear Power Plant ] ) )"
+        ],
+        "gen_label": "( JOIN ( R [ location , location , containedby ] ) [ Fukushima Daiichi Nuclear Power Plant ] )",
+        "question": "输出：\nQ1:相似度：{0.8}\nQ2:相似度：{0}\nQ3:相似度：{0}\nQ4:相似度：{0}"
+    },
+    {
+        "metaphor_id": 10,
+        "query": "what countries are part of the uk",
+        "predictions": [
+            "( JOIN ( R [ base, aareas, schema, administrative area, administrative children ] ) [ United Kingdom ] )",
+            "( AND ( JOIN [ common, topic, notable types ] [ Country ] ) ( JOIN ( R [ location, location, contains ] ) [ United Kingdom ] ) )",
+            "( JOIN ( R [ organization, organization membership, member ] ) ( JOIN ( R [ organization, membership organization, members ] ) [ United Kingdom ] ) )",
+            "( JOIN ( R [ base, aareas, schema, administrative area, administrative parents ] ) [ United Kingdom ] )"
+        ],
+        "gen_label": "( AND ( JOIN [ base , aareas , schema , administrative area , administrative area type ] [ UK constituent country ] ) ( JOIN ( R [ base , aareas , schema , administrative area , administrative children ] ) [ United Kingdom ] ) )",
+        "question": "Q1:相似度：{0.8}\nQ2:相似度：{0.6}\nQ3:相似度：{0.2}\nQ4:相似度：{0}"
+    },
+    {
+        "metaphor_id": 11,
+        "query": "what is my timezone in louisiana",
+        "predictions": [
+            "( JOIN ( R [ location, location, time zones ] ) [ Louisiana ] )",
+            "( JOIN ( R [ location, location, timezones ) [ Louisiana ] ) [ time zone ] )",
+            "(JOIN ( R [ location, location, location contained by ] ) [ Louisiana ] )"
+        ],
+        "gen_label": "( JOIN ( R [ location , location , time zones ] ) [ Louisiana ] )",
+        "question": "Q1: What are the time zones for Louisiana? 相似度：{1}\nQ2: What are the time zones for Louisiana? 相似度：{1}\nQ3: What is Louisiana contained by? 相似度：{0}"
+    },
+    {
+        "metaphor_id": 12,
+        "query": "what did st augustine do",
+        "predictions": [
+            "( JOIN ( R [ people, person, profession ] ) [ Augustine of Hippo ] )",
+            "( JOIN ( R [ people, person, profession ] ) [ Saint Augustine of Hippo ] )",
+            "( JOIN ( R [ people, person, profession ] ) [ Augustinus of Hippo ] )",
+            "(JOIN (R [ people, person, profession )] [ Saint Augustine of Hippo ])"
+        ],
+        "gen_label": "( JOIN ( R [ people , person , profession ] ) [ Augustine of Hippo ] )",
+        "question": "Q1: What is the profession of Augustine of Hippo? 相似度：{0.8}\nQ2: What is the profession of Saint Augustine of Hippo? 相似度：{1}\nQ3: What is the profession of Augustinus of Hippo? 相似度：{0}\nQ4: What is the profession of Saint Augustine of Hippo? 相似度：{1}"
+    },
+    {
+        "metaphor_id": 13,
+        "query": "who is keyshia cole dad",
+        "predictions": [
+            "( AND ( JOIN [ people, person, gender ] [ Male ] ) ( JOIN ( R [ people, person, parents ] ) [ Keyshia Cole ] ) )",
+            "(_AND (Join (R [ people, person, parents ] ) [ Keyshia Cole ] ) ( JOIN ( R [ people, person, gender ] ) [ Keyshia Cole ] ) )",
+            "( AND ( JOIN [ people, person, gender ] [ Male ] ) ( JOIN ( R [ people, person, parents ] ) [ KeyshiaCole ] ) )",
+            "( AND ( JOIN [ people, person, Gender ] [Male] ) ( JOIN ( R [ people, person, parents ] ) [ Keyshia Cole ] ) )",
+            "( AND (JOIN [ people, person, gender] [ Male] ) (JOIN (R [ people, person, parents] ) [ KeyshiaCole ]) )"
+        ],
+        "gen_label": "( AND ( JOIN [ people , person , gender ] [ Male ] ) ( JOIN ( R [ people , person , parents ] ) [ Keyshia Cole ] ) )",
+        "question": "输出：\nQ1:相似度：{0}\nQ2:相似度：{1}\nQ3:相似度：{0}\nQ4:相似度：{0}\nQ5:相似度：{1}"
+    },
+    {
+        "metaphor_id": 14,
+        "query": "what kind government does egypt have",
+        "predictions": [
+            "( JOIN ( R [ location, country, form of government ] ) [ Egypt ] )",
+            "(JOIN (R [] [ location, country, form of government ] ) [ Egypt ]\") JOIN ( R [ location, country, type of administration ] [ Egypt ] ) [ administration ][/INST]\"/> JOIN ( R [ location, location, administered by ] [ Egypt ] ) [ Egypt ] JOIN ( R [ location, location, administrator ] [ Egypt ] ) [ Egypt ] JOIN ( R [ location, location, administrative division ] [ Egypt ] ) [ Egypt ] JOIN ( R [ location, administrative division, administrative division ] [ Egypt ] ) [ Egypt ] JOIN ( R [ location, administrative division, administrative division ] [ Egypt ] ) [ Egypt ] JOIN ( R [ location, country, administrative division ] [ Egypt ] ) [ Egypt ] JOIN ( R [ location, location, administrative division ] [ Egypt ] ) [ Egypt ] JOIN ( R [ location, location, administrative division ] [ Egypt ] ) [ Egypt ] JOIN ( R [ location, location, administrative division ] [ Egypt ] ) [ Egypt ] JOIN ( R [ location, location, administrative division ] [ Egypt ] ) [ Egypt ] JOIN ( R [ location, location, administrative division ] [ Egypt ] ) [ Egypt ] JOIN ( R [ location, location, administrative division ] [ Egypt ] ) [ Egypt ] JOIN ( R [ location, location, administrative division ] [ Egypt ] ) [ Egypt ] JOIN ( R [ location, location, administrative division ] [ Egypt ] ) [ Egypt ] JOIN ( R [ location, location, administrative division ] [ Egypt ] ) [ Egypt ] JOIN ( R [ location, location, administrative division ] [ Egypt ] ) [ Egypt ] JOIN ( R [ location, location, administrative division ] [ Egypt ] ) [ Egypt ] JOIN ( R [ location, location, administrative division ] [ Egypt ] ) [ Egypt ] JOIN ( R [ location, location, administrative division ] [ Egypt ] ) [ Egypt ] JOIN ( R [ location, location, administrative division ] [ Egypt ] ) [ Egypt ] JOIN ( R [ location, location, administrative division ] [ Egypt ] ) [ Egypt ] JOIN ( R [ location, location, administrative division ] [ Egypt ] ) [ Egypt ] JOIN ( R [ location, location, administrative division ] [ Egypt ] ) [ Egypt ] JOIN ( R [ location, location, administrative division ] [ Egypt ] ) [ Egypt ] JOIN ( R [ location, location, administrative division ] [ Egypt ] ) [ Egypt ] JOIN ( R [ location, location, administrative division ] [ Egypt ] ) [ Egypt ] JOIN",
+            "(JOIN ( R [ location, country, form of government ] ) [ Egypt ]\")"
+        ],
+        "gen_label": "( JOIN ( R [ location , country , form of government ] ) [ Egypt ] )",
+        "question": "L0: 相似度：{1}"
+    },
+    {
+        "metaphor_id": 15,
+        "query": "what town was martin luther king assassinated in",
+        "predictions": [
+            "( JOIN ( R [ people, deceased person, place of death ] ) [ Martin Luther King, Jr. ] )",
+            "( AND ( JOIN [ common, topic, notable types ] [ City/Town/Village ] ) ( JOIN ( R [ people, deceased person, place of death ] ) [ Martin Luther King, Jr. ] ) )",
+            "( JOIN ( R [ people, deed, location ] ) ( AND ( JOIN [ people, deed, type of event ] [ Assassination ] ) ( JOIN ( R [ people, person, deaths ] ) [ Martin Luther King, Jr. ] ) ) )",
+            "( JOIN ( R [ people, deadperson, place of death ] ) [ Martin Luther King, Jr. ] )"
+        ],
+        "gen_label": "( JOIN ( R [ people , deceased person , place of death ] ) [ Martin Luther King, Jr. ] )",
+        "question": "Q1:相似度：{1}\nQ3:相似度：{1}\nQ4:相似度：{1}\nQ2:相似度：{0}"
+    },
+    {
+        "metaphor_id": 16,
+        "query": "where did edgar allan poe died",
+        "predictions": [
+            "( JOIN ( R [ people, deceased person, place of death ] ) [ Edgar Allan Poe ] )",
+            "( JOIN ( R [ people, dead person, place of death ] ) [ Edgar Allan Poe ] )",
+            "( JOIN ( R [ people, deceased personality, placed of burial ] ) [ Edward Allen Pope ] )",
+            "( Join ( R [ people, dead person, place of death ] ) [ Edgar Allan Poe ] )"
+        ],
+        "gen_label": "( JOIN ( R [ people , deceased person , place of death ] ) [ Edgar Allan Poe ] )",
+        "question": "L0:相似度：{1}"
+    },
+    {
+        "metaphor_id": 17,
+        "query": "what to do today in atlanta with kids",
+        "predictions": [
+            "( JOIN ( R [ travel, travel destination, tourist attractions ] ) [ Atlanta ] )",
+            "(JOIN (R *Travel* Travel Destination [ Atlanta ] ) ( JOIN ( R *Travel* Family Travel [ Atlanta ] ) ( JOIN ( R *Travel* Travel Type [ Family travel ] ) ( JOIN ( R *Travel* Travel Region [ Atlanta ] ) ( JOIN ( JOIN ( R *Travel* Travel Destination [ Atlanta ] ) ( JOIN ( R *Travel* Travel Purpose [ Atlanta ] ] ) ( JOIN ( R *Travel* Travel Type [ Family travel ] ) ( JOIN ( R *Travel* Travel Region [ Atlanta ] ) ( JOIN ( R *Travel* Travel Destination [ Atlanta ] ) ( JOIN ( R *Travel* Travel Purpose [ Atlanta ] ] ) ( JOIN ( R *Travel* Travel Type [ Family travel ] ) ( JOIN ( R *Travel* Travel Region [ Atlanta ] ) ( JOIN ( R *Travel* Travel Destination [ Atlanta ] ) ( JOIN ( R *Travel* Travel Purpose [ Atlanta ] ] ) ( JOIN ( R *Travel* Travel Type [ Family travel ] ) ( JOIN ( R *Travel* Travel Region [ Atlanta ] ) ( JOIN ( R *Travel* Travel Destination [ Atlanta ] ) ( JOIN ( R *Travel* Travel Purpose [ Atlanta ] ] ) ( JOIN ( R *Travel* Travel Type [ Family travel ] ) ( JOIN ( R *Travel* Travel Region [ Atlanta ] ) ( JOIN ( R *Travel* Travel Destination [ Atlanta ] ) ( JOIN ( R *Travel* Travel Purpose [ Atlanta ] ] ) ( JOIN ( R *Travel* Travel Type [ Family travel ] ) ( JOIN ( R *Travel* Travel Region [ Atlanta ] ) ( JOIN ( R *Travel* Travel Destination [ Atlanta ] ) ( JOIN ( R *Travel* Travel Purpose [ Atlanta ] ] ) ( JOIN ( R *Travel* Travel Type [ Family travel ] ) ( JOIN ( R *Travel* Travel Region [ Atlanta ] ) ( JOIN ( R *Travel* Travel Destination [ Atlanta ] ) ( JOIN ( R *Travel* Travel Purpose [ Atlanta ] ] ) ( JOIN ( R *Travel* Travel Type [ Family travel ] ) ( JOIN ( R *Travel* Travel Region [ Atlanta ] ) ( JOIN ( R *Travel* Travel Destination [ Atlanta ] ) ( JOIN ( R *Travel* Travel Purpose [ Atlanta ] ] ) ( JOIN ( R *Travel* Travel Type [ Family travel ] ) ( JOIN ( R *Travel* Travel Region [ Atlanta ] ) ( JOIN ( R *Travel* Travel Destination [ Atlanta ] ) ( JOIN ( R *Travel* Travel Purpose [ Atlanta ]"
+        ],
+        "gen_label": "( JOIN ( R [ travel , travel destination , tourist attractions ] ) [ Atlanta ] )",
+        "question": "原问题：what to do today in atlanta with kids\n\n逻辑形式：\nL0:( JOIN ( R [ travel, travel destination, tourist attractions ] ) [ Atlanta ] )\n\n输出：\nL0: 相似度：0\n\n这个逻辑形式过于复杂，无法直接判断是否可以在知识图谱中获得同一个答案，因此得分为0。"
+    },
+    {
+        "metaphor_id": 18,
+        "query": "what electorate does anna bligh represent",
+        "predictions": [
+            "( JOIN ( R [ government, government position held, district represented ] ) ( JOIN ( R [ government, politician, government positions held ] ) [ Anna Bligh ] ) )",
+            "( JOIN ( R [ government, government position held, district represented ] ) ( TC ( JOIN ( R [ government, politician, government positions held ] ) [ Anna Bligh ] ) [ government, government position held, from ] NOW ) )",
+            "( JOIN ( R [ government, government position held, electoral district ] ) ( TC ( AND ( JOIN [ government, government position held, basic title ] [ Member ] ) ( JOIN ( R [ government, politician, government positions held ] ) [ Anna Bligh ] ) ) [ government, government position held, from ] NOW ) )",
+            "( JOIN ( R [ government, governmental body, electoral districts ] ) [ Anna Bligh ] )",
+            "( Join ( R [ government, politician, district represented ] ) [ Anna Bligh ] )",
+            "( JOIN ( R [ government, government position held, district representative ] ) ( TC ( JOIN ( R [ government, politician, government positions held ] ) [ Anna Bligh ] ) [ government, government position held, from ] NOW ) )",
+            "(JOIN ( R [ government, government position held, electoral district ] ) ( JOIN ( R [ government, politician, government positions held ] ) [ Anna Bligh ] ) )"
+        ],
+        "gen_label": "( JOIN ( R [ government , government position held , district represented ] ) ( JOIN ( R [ government , politician , government positions held ] ) [ Anna Bligh ] ) )",
+        "question": "输出：\nQ1:相似度：{0.2}\nQ2:相似度：{0}\nQ3:相似度：{1}\nQ4:相似度：{0.5}\nQ5:相似度：{0.5}\nQ6:相似度：{0}\nQ7:相似度：{0}"
+    },
+    {
+        "metaphor_id": 19,
+        "query": "where did andy murray started playing tennis",
+        "predictions": [
+            "( JOIN ( R [ tennis, tennis player, place of birth ] ) [ Andy Murray ] )",
+            "( JOIN ( R [ sports, pro sports played, sport ] ) ( JOIN ( R [ sports, pro athlete, sports played professionally ] ) [ Andy Murray ] ) )",
+            "(JOIN (R [ sport, sport team roster, team ] ) ( ARGMIN ( JOIN ( R [ sport, tennis player, teams ] ) [ Andy Murray ] ) [ sport, sport team roster, from ] ) )",
+            "( JOIN ( R [ tennis, tennis player, country of birth ] ) [ Andy Murray ] )",
+            "( JOIN ( R [ golf, golf champion, country ] ) [ Andy Murray ] )",
+            "( JOIN ( R [ tennis, tennis player, country of residence ] ) [ Andy Murray ] )",
+            "( JOIN ( R [ tennis, tennis player, place of birth ] ) [ Andrew Murray ] )"
+        ],
+        "gen_label": "( JOIN ( R [ tennis , tennis player , year turned pro ] ) [ Andy Murray ] )",
+        "question": "Q1: Where was Andy Murray born? 相似度：0.8\nQ2: What sports does Andy Murray play professionally? 相似度：0.6\nQ3: Which team does Andy Murray play for? 相似度：0.2\nQ4: What is Andy Murray's country of birth? 相似度：0.9\nQ5: In which country is Andy Murray a golf champion? 相似"
+    },
+    {
+        "metaphor_id": 20,
+        "query": "what is the australian dollar called",
+        "predictions": [
+            "( JOIN ( R [ finance, currency, symbol ] ) [ Australian dollar ] )",
+            "( JOIN ( R [ currency, currency symbol, currency ] ) [ Australian dollar ] )",
+            "( JOIN ( R [ currency, inventory, currency symbol ] ) [ Australian dollar ] )",
+            "(JOIN (R base, currency, symbol ) [ Australian dollar ] )",
+            "( JOIN ( R [ currency, topic, notable values ] ) [ Australian dollar ] )",
+            "( JOIN ( R [ base, currencies, currency, symbol ] ) [ Australian dollar ] )",
+            "( JOIN ( R [ currency, topic relation, currency ] ) [ Australian dollar ] )"
+        ],
+        "gen_label": "( JOIN ( R [ finance , currency , currency code ] ) [ Australian dollar ] )",
+        "question": "输出：\nQ1:相似度：{1}\nQ2:相似度：{1}\nQ3:相似度：{1}\nQ4:相似度：{1}\nQ5:相似度：{0}\nQ6:相似度：{1}\nQ7:相似度：{1}"
+    },
+    {
+        "metaphor_id": 21,
+        "query": "what timezone is sweden",
+        "predictions": [
+            "( JOIN ( R [ location, location, time zones ] ) [ Sweden ] )",
+            "( Join (R [ location, location, time zones ) [ Sweden ] )",
+            "( JOIN ( R [ location, location, Time Zones ] ) [ Sweden ] )"
+        ],
+        "gen_label": "( JOIN ( R [ location , location , time zones ] ) [ Sweden ] )",
+        "question": "输出：\nQ1:相似度：{1}\nQ2:相似度：{1}\nQ3:相似度：{0}"
+    },
+    {
+        "metaphor_id": 22,
+        "query": "who did cam newton sign with",
+        "predictions": [
+            "( JOIN ( R [ sports, sports team roster, team ] ) ( TC ( JOIN ( R [ sports, pro athlete, teams ] ) [ Cam Newton ] ) [ sports, sports team roster, from ] NOW ) )",
+            "( JOIN ( R [ sports, sports team roster, team ] ) ( ARGMAX ( JOIN ( R [ sports, pro athlete, teams ] ) [ Cam Newton ] ) [ sports, sports team roster, from ] ) )",
+            "( JOIN ( R [ sports, sports agent portfolio, team ] ) ( JOIN ( R [ sports, sport agent, portfolio ] ) [ Bus Driver ] ) )",
+            "(JOIN (R * football football player team ] ( JOIN ( R * football football player ] [ Cam Newton ] ) [ football, team owner, team ] ) [ 2011 ] )",
+            "( JOIN ( R [ sports, sports agency client roster, agency ] ) ( JOIN ( R [ sports, sports agent, client roster ] ) [ Genesis Representation Group ] ) )",
+            "(JOIN (R * football football player team s ] 2011 ) ( JOIN ( R * football football player * ) [ Cam Newton ] ) )",
+            "( JOIN ( R [ sports, sports agent, agent of ] ) [ Cam Newton ] )",
+            "( JOIN ( R [ sports, sports agent, agency ] ) ( JOIN ( R [ sports, sports agent, agents of ] ) [ Newton, Cameron ] ) )",
+            "( JOIN ( R [ sports, sports agency client portfolio, agency ] ) ( JOIN ( R [ sports, sports agent, client roster ] ) [ Genesis Representations ] ) )",
+            "( JOIN ( R [ sports, sports agent portfolio, client ] ) [ Newton, Bus Turner ] )"
+        ],
+        "gen_label": "( JOIN ( R [ base , schemastaging , athlete salary , team ] ) ( JOIN ( R [ base , schemastaging , athlete extra , salary ] ) [ Cam Newton ] ) )",
+        "question": "原问题：who did cam newton sign with\n\n逻辑形式：\nL0:( JOIN ( R [ sports, sports team roster, team ] ) ( TC ( JOIN ( R [ sports, pro athlete, teams ] ) [ Cam Newton ] ) [ sports, sports team roster, from ] NOW ) )\nL0:( JOIN ( R [ sports, sports team roster, team ] ) ( ARGMAX ( JOIN ( R [ sports, pro athlete, teams ] ) [ Cam Newton"
+    },
+    {
+        "metaphor_id": 23,
+        "query": "what county is frederick md in",
+        "predictions": [
+            "( JOIN ( R [ location, hud county place, county ] ) [ Frederick ] )",
+            "(JOIN (R base, us states, \"abbrev\" ) [ MD ])",
+            "( JOIN ( R [ location, hood, location of ] ) [ Frederick ] )",
+            "( JOIN ( R [ location,hudcounty, county ] ) [ Frederick ] )",
+            "( JOIN ( R [ locations, hood, location ] ) [ Frederick County ] )"
+        ],
+        "gen_label": "( JOIN ( R [ location , hud county place , county ] ) [ Frederick ] )",
+        "question": "输出：\nQ1:相似度：{0}\nQ2:相似度：{0}\nQ3:相似度：{0}\nQ4:相似度：{1}\nQ5:相似度：{0}"
+    },
+    {
+        "metaphor_id": 24,
+        "query": "what highschool did harper lee go to",
+        "predictions": [
+            "( AND ( JOIN [ common, topic, notable types ] [ School ] ) ( JOIN ( R [ education, education, institution ] ) ( JOIN ( R [ people, person, education ] ) [ Harper Lee ] ) ) )",
+            "( AND ( JOIN [ education, educational institution, school type ] [ High school ] ) ( JOIN ( R [ education, education, institution ] ) ( JOIN ( R [ people, person, education ] ) [ Harper Lee ] ) ) )",
+            "( AND (JOIN [ education, educational institution, school type ] [ High school ] ) ( JOIN ( R [ education, education, institution ] ) ( JOIN ( R [ people, person, education ] ) [ Harper Lee ] ) ) )",
+            "( AND ( JOIN [ common, topic, notable types ] [ School ] ) ( JOIN ( R [ education, education, institution ] ) ( JOIN ( R [ people, person, education ] ) [ Harper Lee ] ) ) )\n"
+        ],
+        "gen_label": "( AND ( JOIN [ education , educational institution , school type ] [ High school ] ) ( JOIN ( R [ education , education , institution ] ) ( JOIN ( R [ people , person , education ] ) [ Harper Lee ] ) ) )",
+        "question": "L0: 相似度：{1}  \nL1: 相似度：{0.8}  \nL2: 相似度：{0.7}  \nL3: 相似度：{0.6}  \n\n排序：L0 > L1 > L2 > L3"
+    },
+    {
+        "metaphor_id": 25,
+        "query": "what timezone is utah in",
+        "predictions": [
+            "( JOIN ( R [ location, location, time zones ] ) [ Utah ] )",
+            "( Join (R [ location, location, timezones ) [ Utah ] )",
+            "( JOIN ( R [ location, location, Time Zones ] ) [ Utah ] )"
+        ],
+        "gen_label": "( JOIN ( R [ location , location , time zones ] ) [ Utah ] )",
+        "question": "输出：\nQ1:相似度：{1}\nQ2:相似度：{1}\nQ3:相似度：{0}"
+    },
+    {
+        "metaphor_id": 26,
+        "query": "who did george w. bush run against for the second term",
+        "predictions": [
+            "( JOIN ( R [ election, election candidate, opponent ] ) ( AND ( JOIN [ election, election candidate, office sought ] [ President of the United States ] ) ( JOIN ( R [ election, election candidate, election ] ) [ George W. Bush, elected to a second term as President ] ) ) )",
+            "( JOIN ( R [ government, election candidate, election ] ) [ George W. Bush ] )",
+            "( JOIN ( R [ base, debate, debate participant, debates ] ) [ George W. Bush ] )",
+            "( JOIN ( R [ government, party nomination process, candidate ] ) ( AND ( JOIN [ government, party nomination process, party ] [ Republican Party ] ) ( JOIN ( R [ government, party nomination process, general election opponent ] ) [ George W. Bush ] ) ) )",
+            "( JOIN ( R [ election, candidate, elections ] ) [ George W. Bush ] )",
+            "( JOIN ( R [ base, debate, debate situation, opponents ] ) ( AND ( JOIN [ base, debate, debate situation, presidential election ] [ United States presidential election, 2004 ] ) ( JOIN ( R [ base, debate, debater, opposed in debate ] ) [ George W. Bush ] ) ) )",
+            "( JOIN ( R [ government, politician, election campaigns ] ) [ George W. Bush ] )",
+            "( JOIN ( R [ book, book review, reviewer ] ) ( AND ( JOIN [ book, book review, presidential campaign ] [ George W. Bush ] ) ( JOIN ( R [ book, book, authors ] ) [ George W. Bush ] ) ) )",
+            "( JOIN ( R [ base, electionresults, candidate, elections ] ) [ George W. Bush ] )",
+            "( JOIN ( R [ argument,\n [ argument position, argument position in election, opponent ] ) ( JOIN ( R [ base, politician, election ] ) [ George W. Bush ] ) )",
+            "( JOIN ( R [ base, debate, debate participant, debate situations ] ) [ George W. Bush ] )",
+            "( JOIN ( R [ election, election candidate, opposed by ] ) [ George W. Bush ] )",
+            "( JOIN ( R [ government, politician, elected with ] ) [ George W. Bush ] )"
+        ],
+        "gen_label": "null",
+        "question": "原问题：who did george w. bush run against for the second term\n\n逻辑形式：\nL0:( JOIN ( R [ election, election candidate, opponent ] ) ( AND ( JOIN [ election, election candidate, office sought ] [ President of the United States ] ) ( JOIN ( R [ election, election candidate, election ] ) [ George W. Bush, elected to a second term as President ] ) ) )\nL0:( JOIN ( R [ government, election candidate"
+    },
+    {
+        "metaphor_id": 27,
+        "query": "who is niall ferguson 's wife",
+        "predictions": [
+            "( JOIN ( R [ people, marriage, spouse ] ) ( ARGMAX ( AND ( JOIN [ people, marriage, type of union ] [ Marriage ] ) ( JOIN ( R [ people, person, spouse s ] ) [ Niall Ferguson ] ) ) [ people, marriage, from ] ) )",
+            "( JOIN ( R [ people, marriage, spouse ] ) ( ARGMAX ( AND ( JOIN [ people, marriage, type of union ] [ Marriage ] ) ( JOIN ( R [ people, person, spouse s ] ) [ Niall Ferguson ] ) ) [ people, marriage, to ] ) )",
+            "( JOIN ( R [ people, marriage, spouse ] ) ( TC ( AND ( JOIN [ people, marriage, type of union ] [ Marriage ] ) ( JOIN ( R [ people, person, spouse s ] ) [ Niall Ferguson ] ) ) [ people, marriage, from ] NOW ) )",
+            "(JOIN (R * ( people, marriage, spouse ) ) ( ARGMAX ( AND ( JOIN [ people, marriage, type of union ] [ Marriage ] ) ( JOIN ( R * ( people, person, spouse s ] ) [ Niall Ferguson ] ) ) [ people, marriage, from ] ) )",
+            "( JOIN ( R [ people, marriage, spouse ] ) ( AND ( JOIN [ people, marriage, type of union ] [ Marriage ] ) ( JOIN ( R [ people, person, spouse s ] ) [ Niall Ferguson ] ) ) )",
+            "( JOIN ( R [ people, marriage, spouses partner ] ) ( TC ( AND ( JOIN [ people, marriage, type of union ] [ Marriage ] ) ( JOIN ( R [ people, person, spouse s ] ) [ Niall Ferguson ] ) ) [ people, marriage, from ] NOW ) )"
+        ],
+        "gen_label": "( JOIN ( R [ people , marriage , spouse ] ) ( TC ( AND ( JOIN [ people , marriage , type of union ] [ Marriage ] ) ( JOIN ( R [ people , person , spouse s ] ) [ Niall Ferguson ] ) ) [ people , marriage , from ] NOW ) )",
+        "question": "原问题：who is niall ferguson 's wife\n\n逻辑形式：\nL0:( JOIN ( R [ people, marriage, spouse ] ) ( ARGMAX ( AND ( JOIN [ people, marriage, type of union ] [ Marriage ] ) ( JOIN ( R [ people, person, spouse s ] ) [ Niall Ferguson ] ) ) [ people, marriage, from ] ) )\nL0:( JOIN ( R [ people, marriage, spouse ] ) ( ARG"
+    },
+    {
+        "metaphor_id": 28,
+        "query": "where is the galapagos islands located on a world map",
+        "predictions": [
+            "( JOIN ( R [ location, location, containedby ] ) [ Galápagos Islands ] )",
+            "( AND ( JOIN [ common, topic, notable types ] [ Region ] ) ( JOIN ( R [ location, location, containedby ] ) [ Galápagos Islands ] ) )",
+            "( JOIN ( R [ location, location, containedby ] ) [ Galapagos Islands ] )"
+        ],
+        "gen_label": "( JOIN ( R [ location , location , containedby ] ) [ Galápagos Islands ] )",
+        "question": "输出：\nQ1:相似度：{0.5}\nQ2:相似度：{0}\nQ3:相似度：{1}"
+    },
+    {
+        "metaphor_id": 29,
+        "query": "what are the songs that justin bieber wrote",
+        "predictions": [
+            "( JOIN ( R [ music, composer, compositions ] ) [ Justin Bieber ] )",
+            "( Join ( RG \" songwriter \" ) ( Join ( RG \" song \" ) ( AND ( JOIN [ song, written by ] [ Justin Bieber ] ) ( JOIN ( R [ music, composer, compositions ] ) [ Justin Bieber ] ) ) ) )",
+            "( Join ( RG \" songwriter \" ) ( JOIN ( R \" song writer \" ) [ Justin Bieber ] ) )",
+            "( JOIN ( R [ music, artist, track contributions ] ) [ Justin Bieber ] )"
+        ],
+        "gen_label": "( JOIN ( R [ music , composer , compositions ] ) [ Justin Bieber ] )",
+        "question": "Q1:相似度：{0.8}\nQ2:相似度：{1}\nQ3:相似度：{0.6}\nQ4:相似度：{0.4}"
+    },
+    {
+        "metaphor_id": 30,
+        "query": "what did george clemenceau do",
+        "predictions": [
+            "( JOIN ( R [ people, person, profession ] ) [ Georges Clemenceau ] )",
+            "( Join (R < base government political party tenure, political party >) ( Join ( R [ government, politician, party ] ) [ Georges Clemenceau ] ) )",
+            "( JOIN ( R [ people, person, profession ] ) [ George Clemenceau ] )",
+            "( join ( r [ people, person, professional affiliation ] ) [ Georges Clemenceau ] )",
+            "( JOIN ( R [ people, person, profession ] ) [ George Clement Clemenceau ] )"
+        ],
+        "gen_label": "( JOIN ( R [ people , person , profession ] ) [ Georges Clémenceau ] )",
+        "question": "Q1: What is the profession of Georges Clemenceau? 相似度：1\nQ2: What political party did Georges Clemenceau belong to during his tenure in government? 相似度：0.8\nQ3: What is the professional affiliation of Georges Clemenceau? 相似度：0.7\nQ4: What is the profession of George Clemenceau? 相似度：0.6\nQ5:"
+    },
+    {
+        "metaphor_id": 31,
+        "query": "what is the state flower of arizona",
+        "predictions": [
+            "( JOIN ( R [ location, location symbol relationship, symbol ] ) ( AND ( JOIN [ location, location symbol relationship, Kind of symbol ] [ State flower ] ) ( JOIN ( R [ government, governmental jurisdiction, official symbols ] ) [ Arizona ] ) ) )",
+            "( JOIN ( R [ location, location landmark, landmark ] ) ( AND ( JOIN [ location, location landmark, location ] [ Arizona ] ) ( JOIN ( R [ location, statistical region, landmarks ] ) [ Arizona ] ) ) )",
+            "(JOIN (R [location, locations in this case, symbol ] ) [ Arizona ] )",
+            "( JOIN ( R [ location, location symbol relationship, symbol ] ) ( AND ( JOIN [ location, location symbolic relationships, Symbolic Relationship ] [ symbolizing ) ( JOIN ( R [ government, governmental jurisdiction, official symbols ] ) [ Arizona ] ) ) ]",
+            "( JOIN ( R [ location, location emblem, emblem of ] ) [ Arizona ] )"
+        ],
+        "gen_label": "( JOIN ( R [ location , location symbol relationship , symbol ] ) ( AND ( JOIN [ location , location symbol relationship , Kind of symbol ] [ State flower ] ) ( JOIN ( R [ government , governmental jurisdiction , official symbols ] ) [ Arizona ] ) ) )",
+        "question": "L0: 相似度：{1}\nL1: 相似度：{0}\nL2: 相似度：{0}\nL3: 相似度：{0}\nL4: 相似度：{0}"
+    },
+    {
+        "metaphor_id": 32,
+        "query": "where was rihanna born and raised",
+        "predictions": [
+            "( JOIN ( R [ people, person, place of birth ] ) [ Rihanna ] )",
+            "(JOIN (R [ people, person, place of birth ]) [ RiRi ])"
+        ],
+        "gen_label": "( JOIN ( R [ people , person , place of birth ] ) [ Rihanna ] )",
+        "question": "输出：\nQ1:相似度：{1}\nQ2:相似度：{0.8}"
+    },
+    {
+        "metaphor_id": 33,
+        "query": "what year did president william henry harrison take office",
+        "predictions": [
+            "( JOIN ( R [ government, government position held, from ] ) ( AND ( JOIN [ government, government position held, office position or title ] [ President of the United States ] ) ( JOIN ( R [ government, politician, government positions held ] ) [ William Henry Harrison ] ) ) )",
+            "( JOIN ( R [ government, government position held, from ] [ William Henry Harrison ] ) ( AND ( JOIN [ government, government position held, office position or title ] [ President of the United States ] ) ( JOIN ( R [ government, politician, government positions held ] ) [ William Henry Harrison ] ) ) )",
+            "( JOIN ( R [ government, government positions held,from ] [ William Henry Harrison ] ) ( AND ( JOIN [ government, government positions held, office position ] [ President of the United States ] ) ( JOIN ( R [ government, politician, government positions held ] ) [ William Henry Harrison ] ) ) )",
+            "(JOIN (R [ government, government positions held, FROM ) [ William Henry Harrison ] ( JOIN ( R [ government, government office holder, office positions held ] ) [ William Henry Harrison ] ) ) [ government, government positions held, from ] )"
+        ],
+        "gen_label": "( JOIN ( R [ government , government position held , from ] ) ( AND ( JOIN [ government , government position held , office position or title ] [ President of the United States ] ) ( JOIN ( R [ government , politician , government positions held ] ) [ William Henry Harrison ] ) ) )",
+        "question": "L0: 相似度：{1}"
+    },
+    {
+        "metaphor_id": 34,
+        "query": "where george lopez was born",
+        "predictions": [
+            "( JOIN ( R [ people, person, place of birth ] ) [ George Lopez ] )",
+            "( JOIN ( R [ people, person, place of birth ] ) [ George López ] )",
+            "(JOIN (R < base, tv show, tv show origin ] ) [ George Lopez ] )",
+            "( JOIN ( R [people, person, place of birth ] ) [ George Lopez ] )"
+        ],
+        "gen_label": "( JOIN ( R [ people , person , place of birth ] ) [ George Lopez ] )",
+        "question": "Q1: What is the place of birth of George Lopez? 相似度：1\nQ2: What is the place of birth of George López? 相似度：0.8\nQ3: What is the TV show origin of George Lopez? 相似度：0\nQ4: What is the place of birth of George Lopez? 相似度：1"
+    },
+    {
+        "metaphor_id": 35,
+        "query": "where are samsung based",
+        "predictions": [
+            "( JOIN ( R [ location, mailing address, citytown ] ) ( JOIN ( R [ organization, organization, headquarters ] ) [ Samsung ] ) )",
+            "( JOIN ( R [ organization, organization, headquarters ] ) [ Samsung ] )",
+            "( JOIN ( R [ organization, organization founder, country of birth ] ) [ Lee Byung-chul ] )",
+            "(JOIN ( R [ base, intro, intro content, base ] ) [ Samsung ] )",
+            "( JOIN ( R [ location, mailing address, citytown ] ) ( JOIN ( R [ organization, organization, headquarters ] ) [ Samsung Electronics ] ) )"
+        ],
+        "gen_label": "( JOIN ( R [ location , mailing address , citytown ] ) ( JOIN ( R [ organization , organization , headquarters ] ) [ Samsung Group ] ) )",
+        "question": "Q2:相似度：{1}\nQ1:相似度：{0.8}\nQ5:相似度：{0.7}\nQ3:相似度：{0}\nQ4:相似度：{0}"
+    },
+    {
+        "metaphor_id": 36,
+        "query": "what did the islamic people believe in",
+        "predictions": [
+            "( JOIN ( R [ religion, religion, beliefs ] ) [ Islam ] )",
+            "( JOIN ( R [ people, religion, types of religion ] ) [ Islam ] )",
+            "( JOIN ( R [ religion, religion, practices ] ) [ Islam ] )",
+            "( JOIN ( R [ people, ethnicity, traditions ] ) [ Islamic people ] )",
+            "( JOIN ( R [ location, religion percentage, religion ] ) ( JOIN ( R [ location, statistical region, religions ] ) [ Islamic world ] ) )",
+            "(JOIN (R [] ) ( JOIN ( R [ people, religion, types of religion ] ) [ Islam ] ) )",
+            "( JOIN ( R [ people, ethnicity, religions ] ) [ Islamic people ] )",
+            "( JOIN ( R [ location, religion distribution, religion ] ) ( JOIN ( R [ location, location, religions ] ) [ Islam ] ) )",
+            "(JOIN (R [ religion, religion, gods and goddesses ] ) ( JOIN ( R [ religion, religion, following ] ) [ Islam ] ))"
+        ],
+        "gen_label": "( JOIN ( R [ religion , religion , beliefs ] ) [ Islam ] )",
+        "question": "输出：\nQ1:相似度：{1}\nQ2:相似度：{0.7}\nQ3:相似度：{0.6}\nQ4:相似度：{0.6}\nQ5:相似度：{0}\nQ6:相似度：{0.7}\nQ7:相似度：{0.7}\nQ8:相似度：{0}"
+    },
+    {
+        "metaphor_id": 37,
+        "query": "who will play mr gray in the film",
+        "predictions": [
+            "( JOIN ( R [ film, performance, actor ] ) ( AND ( JOIN [ film, performance, character ] [ Gray Matter ] ) ( JOIN ( R [ film, film, starring ] ) [ Gray Matter ] ) ) )",
+            "( JOIN ( R [ film, performance, actor ] ) ( JOIN ( R [ film, film character, portrayed in films ] ) [ Grayfist ] ) )",
+            "( JOIN ( R [ film, performance, actor ] ) ( AND ( JOIN [ film, performance, character ] [ Mr. Gray ] ) ( JOIN ( R [ film, film, starring ] ) [ The Grey ] ) ) )",
+            "(JOIN (R * movie * cast ) ( AND ( JOIN [ movie, film, character ] [ Mr. Gray ] ) ( JOIN ( R * movie * movie ) [ Mr. Gray ] ) ) )",
+            "( JOIN ( R [ films, performer role, performer ] ) ( AND ( JOIN [ films, performer role, film ] [ The Grey ] ) ( JOIN ( R [ films, film character, portrayed in films ] ) [ Alexander Selkirk ] ) ) )",
+            "( JOIN ( R [ film, performance, actor ] ) ( JOIN ( R [ film, film character, portrayed in films ] ) [ Gray Gilmour ] ) )",
+            "( JOIN ( R [ film, performance, actor ] ) ( JOIN ( R [ film, film character, portrayed in films ] ) [ Matris ] ) )",
+            "( JOIN ( R [ film, performance, actor ] ) ( AND ( JOIN [ film, performance, character ] [ Gray Matters ] ) ( JOIN ( R [ film, film, starring ] ) [ Gray Matters ] ) ) )",
+            "( JOIN ( R [ film, performance, actor ] ) ( JOIN ( R [ film, film character, portrayed in films ] ) [ Gray Morrow ] ) )",
+            "( JOIN ( R [ film, performance, actor ] ) ( JOIN ( R [ film, film character, portrayed in films ] ) [ Matilda ] ) )"
+        ],
+        "gen_label": "( JOIN ( R [ film , performance , actor ] ) ( JOIN ( R [ film , film character , portrayed in films ] ) [ Christian Grey ] ) )",
+        "question": "原问题：who will play mr gray in the film\n\n逻辑形式：\nL0:( JOIN ( R [ film, performance, actor ] ) ( AND ( JOIN [ film, performance, character ] [ Gray Matter ] ) ( JOIN ( R [ film, film, starring ] ) [ Gray Matter ] ) ) )\nL0:( JOIN ( R [ film, performance, actor ] ) ( JOIN ( R [ film, film character, portrayed in films ] ) [ Grayfist"
+    },
+    {
+        "metaphor_id": 38,
+        "query": "what did george orwell died of",
+        "predictions": [
+            "( JOIN ( R [ people, deceased person, cause of death ] ) [ George Orwell ] )",
+            "(JOIN (R [ people, dead person, cause of death ]) [George Orwell ])"
+        ],
+        "gen_label": "( JOIN ( R [ people , deceased person , cause of death ] ) [ George Orwell ] )",
+        "question": "L0: 相似度：{1}"
+    },
+    {
+        "metaphor_id": 39,
+        "query": "what country did adolf hitler control",
+        "predictions": [
+            "( JOIN ( R [ government, government position held, jurisdiction of office ] ) ( JOIN ( R [ government, politician, government positions held ] ) [ Adolf Hitler ] ) )",
+            "( AND ( JOIN [ base, schemastaging, non profit extra, non profit extra type ] [ Autocracy ] ) ( JOIN ( R [ government, government position held, office or position held ] ) ( JOIN ( R [ government, politician, government positions held ] ) [ Adolf Hitler ] ) ) )",
+            "( AND ( JOIN [ base, aareas, schema, administrative area, administrative area type ] [ Country ] ) ( JOIN ( R [ government, government position held, jurisdiction of office ] ) ( JOIN ( R [ government, politician, government positions held ] ) [ Adolf Hitler ] ) ) )",
+            "( AND ( JOIN [ base, schemastaging, non profit extra, non profit extra type ] [ Autocracy ] ) ( JOIN ( R [ government, government position held, jurisdiction of office ] ) ( JOIN ( R [ government, politician, government positions held ] ) [ Adolf Hitler ] ) ) )",
+            "( JOIN ( R [ people, person, nationality ] ) [ Adolf Hitler ] )",
+            "( JOIN ( R [ government, government position held, jurisdiction of office ] ) ( JOIN ( R [ government, political appointer, appointees ] ) [ Adolf Hitler ] ) )"
+        ],
+        "gen_label": "( JOIN ( R [ government , government position held , jurisdiction of office ] ) ( JOIN ( R [ government , politician , government positions held ] ) [ Adolf Hitler ] ) )",
+        "question": "L0: 相似度：{1}\nL1: 相似度：{0}\nL2: 相似度：{0}\nL3: 相似度：{0}\nL4: 相似度：{0}\nL5: 相似度：{0}\nL6: 相似度：{0}"
+    }
+]

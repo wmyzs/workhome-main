@@ -1,0 +1,3540 @@
+[
+    {
+        "label": "JOIN (R 国籍) (JOIN (R 作者) 醉翁亭记)",
+        "predict": [
+            "JOIN (R 所处时代) 醉翁亭记_（朝鲜王朝文学集）",
+            "JOIN (R 所处时代) 醉翁亭记_（苏轼创作古体诗）",
+            "JOIN (R 创作年代) 醉翁亭记_（苏轼创作的古体诗）",
+            "AND (JOIN 所处时代?y) (JOIN (R 作者) 醉翁亭记)",
+            "JOIN (R 所处时代) 醉翁亭记_（明朝李特制诗）",
+            "JOIN 所处时代?_（王维的诗篇之一）",
+            "AND (JOIN 所处时代?y) (JOIN (R 作者) 醉翁亭记_（儒家文学作品）)",
+            "JOIN (R 所处时代) 醉翁亭记_（американ作家苏轼的文章）",
+            "JOIN (R 创作年代) 醉翁亭记_（王维诗作）",
+            "AND (JOIN 所处朝代?y) (JOIN 主要作品_醉翁亭记)",
+            "AND (JOIN所处年代?y) (JOIN 中文名_醉翁亭记)",
+            "JOIN (R 所处时代) 醉翁亭记",
+            "JOIN (R 产生时间) 醉翁亭记",
+            "JOIN (R 创作者) 醉翁亭记"
+        ]
+    },
+    {
+        "label": "AND (JOIN 涉及疾病_重症急性呼吸综合征) (AND (JOIN 涉及疾病_严重急性呼吸综合征) (JOIN 类型_其他免疫学检查))",
+        "predict": [
+            "AND (JOIN 涉及疾病_重症急性呼吸综合征) (JOIN 涉及疾病_严重急性呼吸综合征)",
+            "AND (JOIN 涉 及疾 病_重症急性呼吸综合征) (JOIN 涉及疾病_严重急性呼吸综合征)",
+            "AND (JOIN 涉及疾病_重疾病) (JOIN 涉及疾病_严重急性呼吸综合征)",
+            "AND (JOIN 涉 及疾病_重疾病) (JOIN 涉及疾病_严重急性呼吸综合征)",
+            "AND (JOIN 涉及疾病_ 重病性急性呼吸综合征) (JOIN 涉及疾病_严重急性呼吸综合征)",
+            "AND (JOIN 涉及疾病_重症急性呼吸综合征) (JOIN 涉及疾病_serious_严重急性呼吸综合征)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 国籍_中华人民共和国) (JOIN (R 主演) 我是谁_（1998年成龙主演电影）)",
+        "predict": [
+            "AND (JOIN 主演 (JOIN 国籍_中华人民共和国)) (JOIN 中文名_我是谁)",
+            "JOIN 影片主演 (JOIN (R 主演) 我是谁_（2013年李安执导好莱坞影片）)",
+            "JOIN 外国名称_我是谁　JOIN (R 中文名) 我是谁",
+            "JOIN 地区_中华人民共和国",
+            "AND (JOIN 演出位置_主演) (AND (JOIN 制片地区_美国_（美利坚合众国）) (JOIN 中文名_我是谁))",
+            "AND (JOIN 主演 (AND (JOIN 国籍_中华人民共和国) (JOIN 出生地_北京_（中华人民共和国首都）))) (JOIN 中文名_我是谁)",
+            "AND (JOIN 演员 (JOIN 国籍_中华人民共和国)) (JOIN 中文名_我是谁)",
+            "JOIN 影片主演 (JOIN (R 主演) 我是谁_（2013年李安导演电影）)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 主要成就_合纵抗秦) (JOIN 师承 ?y)",
+        "predict": [
+            "AND (JOIN 学术成就_提出了_合纵抗秦) (JOIN 职业_弟子_（汉语词语）)",
+            "JOIN 弁言_合纵抗秦",
+            "AND (JOIN 学说_合纵抗秦) (JOIN 维度_弟子_（学生）)",
+            "AND (JOIN 主要成就_弟子提出的\"合纵抗秦\") (JOIN 职业_学生_（教育过程的对象）)",
+            "JOIN 弟子 (JOIN 主要成就_合纵抗秦)",
+            "JOIN 毕生成就_提出了_合纵抗秦",
+            "JOIN弟子 (JOIN (R 提出人) 合纵抗秦)",
+            "AND (JOIN 弁言_合纵抗秦) (JOIN 弁言_弟子_（据史记录，一个个小学科）)",
+            "JOIN Brother (JOIN 主要成就_提出了\"合纵抗秦\")",
+            "JOIN 哥弟_提出了_合纵抗秦",
+            "JOIN 子弟子 (JOIN 标签_汉代名将、古代名人)",
+            "AND (JOIN 学术成就_提出_合纵抗秦) (JOIN 职业_弟子_（弟子是师承关系的学生）)",
+            "AND (JOIN 学派主张_合纵抗秦) (JOIN 维度_弟子)",
+            "AND (JOIN 主要成就_弟子提出了\"合纵抗秦\") (JOIN 职业_学生_（教育过程的对象）)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 出版时间 ?y) (JOIN (R 代表作品) 理查德·道金斯)",
+        "predict": [
+            "JOIN (R 出版时间) (JOIN (R 代表作品) 理查德·道金斯_（英国演员、编剧和科学院家成员）)",
+            "JOIN (R 出版时间) (JOIN (R 代表作品) 理查德·道金斯_（英国科学院奖winner）)",
+            "AND (JOIN 出版时间?y) (JOIN (R 代表作品) 理查德·道金斯_（英国科学院奖winner）)",
+            "AND (JOIN xuất bản thời gian?y) (JOIN (R 代表作品) 理查德·道金斯_（英国科学院奖winner）)",
+            "JOIN (R 出版时间) (JOIN (R 代表作品) 理查德·道金斯_（英国生物学家、科学院家）)",
+            "AND (JOIN 出版时间?y) (JOIN (R 代表作品) 理查德·道金斯_（英国演员、编剧、导演）)",
+            "JOIN (R 出版时间) (JOIN (R 代表作品) 道金斯_（英国科学院奖金教授）)",
+            "JOIN (R 出版时间) (JOIN (R 代表作品) 理查德·道金斯_（英国演员、编剧和科学家）)",
+            "AND (JOIN 出版时间?y) (JOIN (R 代表作品) 理查德·道金斯_（英国科学院奖项获得者）)",
+            "AND (JOIN 出版时间?y) (JOIN (R 代表作品) 理查德·道金斯_（英国生物学家、科幻作家）)",
+            "JOIN (R 出版时间) (JOIN (R 代表作品) 理查德·道金斯_（英国科学院奖项获得者）)",
+            "JOIN (R 出版时间) (JOIN (R 代表作品) 道金斯_（英国科学院奖winner）)",
+            "JOIN (R 发布時間) (JOIN (R 代表作品) 道金斯_（英国作家、电视评论人）)",
+            "JOIN (R 发行日期) (JOIN (R 代表作品) 道金斯_（英国科研人士、作家）)",
+            "JOIN (R出版社年份) (JOIN (R 代表作品) 理查德·道金斯_（英國演员、作家）)"
+        ]
+    },
+    {
+        "label": "JOIN (R 国籍) (JOIN (R 作者) 百年孤独)",
+        "predict": [
+            "AND (JOIN 国籍?y) (JOIN (R 作者) 百年孤独)",
+            "AND (JOIN 國家_スペイン_（スペイン王国）) (JOIN (R 作者) 百年孤独_（加拿大作家马尔克斯著小说）)",
+            "AND (JOIN 國家_西班牙_（西班牙王国）) (JOIN (R 作者) 百年孤独)",
+            " AND ( JOIN nationality?y) (JOIN (R 作者) 百年孤独)",
+            "AND (JOIN 国籍?y) (JOIN (R -author_）) 百年孤独",
+            "AND (JOIN 国籍?y) (JOIN (R 作者) 百度阅读)",
+            "AND (JOIN 国别?y) (JOIN (R 作者)百年孤独)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 酒店品牌名称_戴斯大酒店) (JOIN 城市_焦作)",
+        "predict": [
+            "JOIN (R 景点名称) 戴斯大酒店（焦作旗舰店）",
+            "JOIN (R 酒店房间类型) 焦作戴斯大酒店",
+            "JOIN (R 酒店设施) 焦作戴斯大酒店",
+            "JOIN (R 地址) 焦作戴斯大酒店",
+            "JOIN (R 作用地区) 戴斯大酒店",
+            "JOIN (R 经营品牌) 焦作戴斯大酒店",
+            "JOIN (R 店址) 戴斯大酒店（焦作旗舰店）",
+            " JOIN (R 地址) 戴斯大酒店（焦作旗舰店）",
+            "JOIN (R 娱乐项目名称) 焦作戴斯大酒店",
+            "JOIN (R 类型) 焦作戴斯大酒店",
+            "JOIN (R 酒店地址) 戴斯大酒店（焦作旗舰店）",
+            "JOIN (R 是否有酒店) 戴斯大酒店（焦作旗舰店）",
+            " JOIN (R 建议酒店）焦作"
+        ]
+    },
+    {
+        "label": "AND (JOIN 去世时间 ?y) (JOIN 主要作品_三吏)",
+        "predict": [
+            "JOIN (R 逝世日期) (JOIN (R 作者) 三吏_（唐代王维创作诗作）)",
+            "JOIN (R 逝世日期) (JOIN (R 作者) 三吏_（唐朝诗人著作）)",
+            "JOIN (R 逝世日期) (JOIN (R 作者) 三吏_（中国古典诗作）)",
+            "AND (JOIN 逝世日期?y) (JOIN (R 作者) 三吏_（唐代诗人李白作作词曲的乐曲）)",
+            "JOIN (R 去逝时间) (JOIN (R 作者) 三吏_（唐代王维创作诗作）)",
+            "JOIN (R 逝世日期) (JOIN 主要作品_三吏)",
+            "JOIN (R 逝世日期) (JOIN (R 作者) 三吏)",
+            "AND (JOIN 逝世日期?y) (JOIN (R 作者) 三吏_（诗品）)",
+            "JOIN (R 逝世日期) (JOIN (R 作者) 三吏_（唐代李白作诗人）)",
+            "AND (JOIN 逝世日期?y) (JOIN (R 作者) 三吏_（唐代诗人李商诗作）)",
+            "AND (JOIN逢死年?y) (JOIN 主要作品_三吏)",
+            "JOIN (R逝世时间) (JOIN 主要作品_三吏)",
+            "JOIN (R 去 世时间) (JOIN 主要作品_三吏)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 出生日期 1941) (AND (JOIN 出生地_上海_（中华人民共和国直辖市）) (JOIN 毕业院校_中央戏剧学院))",
+        "predict": [
+            "AND (JOIN 出生地_上海_（中华人民共和国直辖市）) (AND (JOIN 出生日期 1941) (JOIN 毕业院校_中央戏剧学院))",
+            "AND (JOIN 出生地_上海_（中华人民共和国首都）) (AND (JOIN 出生日期 1941) (JOIN 毕业院校_中央戏剧学院))",
+            "AND (JOIN 外文名?y) (AND (JOIN 出生地_上海_（中华人民共和国直辖市）) (JOIN 出生日期 1941年)) (JOIN 毕业院校_中央戏剧学院)",
+            "AND (JOIN 出生地_上海_（华中地区首府）) (AND (JOIN 出生日期 1941) (JOIN 毕业院校_中央戏剧学院))",
+            "AND (JOIN 出生 地_ Shanghai_ (上海)） (AND (JOIN 出生日期 1941) (JOIN 毕业院校_中央戏剧学院))",
+            "AND (JOIN出生地_ 上海_（中国东方大城市、全国经济中心）) (AND (JOIN 出生日期 1941) (JOIN 毕业院校_中央戏剧学院))",
+            "AND ( JOIN 출생지_ 上海_（中華人民共和国直辖市）) (AND (JOIN 出生日期 1941) (JOIN 毕业院校_中央戏剧学院))",
+            "AND (JOIN 出生地_上海_（华东大城市）) (AND (JOIN 出生日期 1941) (JOIN 毕业院校_中央戏剧学院))",
+            "AND (JOIN出生地_上海_（中华人民共和国首都）) (AND (JOIN 出生日期 1941) (JOIN 毕业院校_中央戏剧学院))"
+        ]
+    },
+    {
+        "label": "AND (JOIN 所处时代 ?y) (JOIN (R 发明者) 算盘)",
+        "predict": [
+            "AND (JOIN 时代?y) (JOIN (R 发明人) 算盘)",
+            "AND (JOIN 所处时代?y) (JOIN (R 发明者) 算盘)",
+            "AND (JOIN 时代?y) (JOIN (R 发明者) 算盘)",
+            "AND (JOIN 主要成就_算盘) (JOIN 时代?y)",
+            "AND (JOIN 所处时代?y) (JOIN (R 发明人) 算盘)",
+            " AND (JOIN 主要成就_算盘的发明者) (JOIN 主要成就_时代未知)",
+            "AND (JOIN 社会地位?y) (JOIN (R 发明人) 算盘)",
+            "AND (JOIN 生活时代?y) (JOIN (R 发明人) 算盘)",
+            "AND (JOIN 时期?y) (JOIN (R 发明人) 算盘)",
+            "JOIN (R 发明者时代) (JOIN (R 发明者) 算盘_（计数设备）)",
+            " AND (JOIN 时期?y) (JOIN (R 发明人) 算盘)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 代表人物 ?y) (JOIN (R 信仰) 李世民_（唐太宗）)",
+        "predict": [
+            "AND (JOIN 代表人物?y) (JOIN (R 信仰) 李世民_（唐朝开国皇帝）)",
+            "AND (JOIN 代表人物?y) (JOIN (R思想流派) 李世民_（唐朝开国皇帝）)",
+            "AND (JOIN 代表人物?y) (JOIN (R 意义) 李世民_（唐朝开国皇帝）)",
+            "AND (JOIN 代表人物?y) (JOIN (R 思想流派) 李世民_（唐朝开国皇帝）)",
+            "AND (JOIN 主要代表人物?y) (JOIN 主要代表人物_李世民)，(JOIN 主要代表人物_李世民)",
+            "AND (JOIN 代表人物?y) (JOIN (R 信仰) 李世民_（唐朝皇帝）)",
+            "AND (JOIN 代表人物?y) (JOIN (R 意识流派) 李世民_（唐朝开国皇帝）)",
+            "AND (JOIN 代表人物?y) (JOIN (R 信仰) 李世民_（唐太清皇帝）)",
+            "AND (JOIN 表现者?y) (JOIN 主要思想 (JOIN (R 推崇者) 李世民_（唐朝开国皇帝）))",
+            "AND (JOIN 代表人物?y) (JOIN (R 意义) 李世民_（唐高祖）)"
+        ]
+    },
+    {
+        "label": "AND (JOIN (R 创立人) ?y) (JOIN (R 红颜知己) 王重阳_（金庸武侠小说中的人物）)",
+        "predict": [
+            "AND (JOIN 主要成就_门派创始人) (JOIN 主要成就_王重阳)",
+            "AND (JOIN 继承或创始人?y) (JOIN (R 红颜知己) 王重阳_（道教三清道祖）)",
+            "AND (JOIN 宗派?y) (JOIN (R 红颜知己) 王重阳_（大道公、大道祖师）)",
+            "AND (JOIN 主要成就_门派founder) (JOIN 关键词_红颜知己)",
+            "JOIN (R 支持) (JOIN (R 红颜知己) 王重阳_（大道公、大道祖师）)",
+            "AND (JOIN 终属国门派?y) (JOIN 别名_红颜知己，王重阳)",
+            "JOIN (R 经过发展) (JOIN (R 红颜知己) 王重阳_（大道公、太古之神）)",
+            "AND (JOIN 组织成份?y) (JOIN (R 红颜知己) 王重阳_（大道公、大道祖师）)",
+            "AND (JOIN 专业/成就_门派主子) (JOIN 职业_红颜知己_（文学概念）)",
+            "AND (JOIN 宗教Movement (JOIN 主要成就_开台寺) ) (JOIN 关键词_红颜知己)",
+            "AND (JOIN 弟子?y) (JOIN (R 红颜知己) 王重阳_（大道公、大道祖师）)",
+            "JOIN 主要成就_门派主持",
+            "AND (JOIN 内功法?y) (JOIN (R红颜知己) 王重阳_（大道公、大道祖师）)",
+            "JOIN 主要成就_门派主子"
+        ]
+    },
+    {
+        "label": "AND (JOIN 首席运营官 ?y) (JOIN 主要软件产品 Windows)",
+        "predict": [
+            "AND (JOIN 首席运营官?y) (JOIN 主要软件产品 Windows)",
+            "JOIN 首席运营官 (JOIN (R 主要软件产品) Windows)",
+            "AND (JOIN 首席运行官?y) (JOIN 主要软件产品 Windows)",
+            "AND (JOIN首席运營 官 (JOIN 主要软件产品 Windows)) (JOIN 公司类型_上市公司)",
+            "AND (JOIN 首席运营官?y) (JOIN 代表作品 Windows)",
+            "AND (JOIN 首席运营官?y) (JOIN 主要软件产品_Windows)",
+            "AND (JOIN 首席营运官?y) (JOIN 著名软件产品 Windows)",
+            "AND (JOIN 首席运营官?y) (JOIN 主要software产品 Windows)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 化学式 ?y) (JOIN (R 成分) 味精)",
+        "predict": [
+            "AND (JOIN 化学式?y) (JOIN (R 主要成分) 味精)",
+            "AND (JOIN 化学式?y) (JOIN (R 主要成份) 味精)",
+            "JOIN (R化学式) (JOIN (R 主要成分) 味精)",
+            "AND (JOIN chemical_formula?y) (JOIN (R 主要成分) 味精)",
+            "JOIN (R 化学式) (JOIN (R 主要成分) 味精)",
+            "AND (JOIN化学式?y) (JOIN (R 主要成分) 味精)",
+            "AND (JOIN chemical_formula?y) (JOIN (R 主要成份) 味精)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 星宿三宝 ?y) (JOIN (R 师父) 阿紫_（金庸武侠小说《天龙八部》人物）)",
+        "predict": [
+            "JOIN (R 法宝) (JOIN (R 师父) 阿紫_（小说《天龙八部》中人物）)",
+            "AND (JOIN 法宝?y) (JOIN (R 师父) 阿紫_（金庸小说《天龙八部》中人物）)",
+            "JOIN (R 法宝) (JOIN (R 师父) 阿紫_（金庸小说《天龙八部》中人物）)",
+            "JOIN 法宝 (JOIN (R 师父) 阿紫_（金庸小说《天龙八部》中的人物）)",
+            "JOIN 法宝 (JOIN (R 师父) 阿紫_（小说《天龙八部》中人物）)",
+            "JOIN (R Law) (JOIN (R 师父) 阿紫_（金庸小说《天龙八部》中人物）)",
+            "AND (JOIN 法宝?y) (JOIN (R 师父) 阿紫_（小说《天龙八部》中人物）)",
+            "AND (JOIN 法宝?y) (JOIN (R 师傅) 阿紫_（金庸小说《天龙八部》中人物）)",
+            "JOIN 法宝 (JOIN (R 师承) 阿紫_（金庸武侠小说《天龙八部》中人物）)",
+            "AND (JOIN法宝?y) (JOIN (R 师傅) 阿紫_（金庸小说《天龙八部》中人物）)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 歌曲原唱 ?y) (JOIN (R 片头曲) eva_（福音战士ACGN系列）)",
+        "predict": [
+            "JOIN (R 歌曲原唱) (JOIN (R 片头曲) eva_（福音战士ACGN系列）)",
+            "JOIN (R 歌曲原唱) (JOIN (R 片头曲) eva_（金庸小说中的机器人）)",
+            "JOIN (R song_by) (JOIN (R pie__1) eva_（福音战士ACGN系列的主角）)",
+            "JOIN (R 歌曲原唱) (JOIN (R 片头曲) eva_（第3部EVangelion原版）)",
+            "AND (JOIN歌曲原唱?y) (JOIN 相关作品_EVA_（新EVA_2009年日本TV动画）)",
+            "JOIN (R 歌曲原唱) EVA_（TV动画《进击之日》片头曲）",
+            "JOIN (R 歌曲原唱) (JOIN (R 片头曲) Evangerion_（新世纪Evangelion）)",
+            "JOIN (R 歌唱者) (JOIN (R 片头曲) eva_（TV动画《进击的阿司通》主题曲）)",
+            "JOIN (R 歌曲原唱) (JOIN (R片头曲) eva_（2009年动画系列）)",
+            "JOIN (R song_by) (JOIN (R片头曲) eva_（evangelion）)",
+            "JOIN (R 歌曲原唱) EVA_（EVA系列动画的片头曲）",
+            "JOIN (R 歌唱者) (JOIN (R 片头曲) eva_（2009年电视动画的片头曲）)",
+            "JOIN (R song_by) (JOIN (R pie__1) eva_（福音战士ACGN系列）)",
+            "JOIN (R 歌曲原唱) EVA_（《EVA》系列动画的片头曲）",
+            "JOIN (R 歌曲原唱) (JOIN (R 片头曲) EVА_（特写）)"
+        ]
+    },
+    {
+        "label": "AND (JOIN (R 作者) (JOIN 词牌名_水龙吟)) (JOIN (R 作者) 渔家傲·彭门道中早起)",
+        "predict": [
+            "AND (JOIN 别名_水龙吟) (JOIN 作者 (JOIN (R 作者) 彭门道中早起的))",
+            "AND (JOIN牌名_水龙吟) (JOIN (R 作者) 彭门道中早起)",
+            "AND (JOIN 牌名_水龙吟) (JOIN (R 作者) 彭门道)",
+            "AND (JOIN 谱名_水龙吟) (JOIN (R 作者) (JOIN (R 代表作品) 彭门道中早起))",
+            "AND (JOIN 词牌名_水龙吟) (JOIN (R 作者) 彭门道中早起)",
+            "AND (JOIN 首唱_水龙吟_（中国古代诗歌《渔家傲·彭门道中早起的》一句）) (JOIN 作者 (JOIN 代表作品_渔家傲·彭门道中早起的))",
+            "AND (JOIN 曲牌_水龙吟_（中国古代词曲）) (JOIN (R 作者) 彭门道)",
+            "AND (JOIN 字义_水龙吟为牌名的词) (JOIN 作者 (JOIN (R 作者) 彭门道中早起的))",
+            "AND (JOIN 专家 (JOIN 别名_水龙吟)) (JOIN 作者 (JOIN 别名_彭门道中早起))",
+            "AND (JOIN 别名_水龙吟) (JOIN 代表作品_渔家傲·彭门道中早起)",
+            "AND (JOIN 配词_水龙吟) (JOIN 作者 (JOIN (R 作者) 彭门道中早起的))",
+            "AND (JOIN 谱名_水龙吟) (JOIN (R 作者) (JOIN (R 作者) 渔家傲·彭门道中早起))",
+            "AND (JOIN 含义_水龙吟为牌名的词) (JOIN 作者_林延才)"
+        ]
+    },
+    {
+        "label": "JOIN 提出者 (JOIN (R 提出者) 坐标几何)",
+        "predict": [
+            "AND (JOIN 主张?y) (JOIN (R 提出者) 坐标几何)",
+            "AND (JOIN 主要成就 (JOIN (R 提出者) 坐标几何)) (JOIN 主要成就 (JOIN (R 提出者) 坐标几何))",
+            "JOIN (R 提出者) 坐标几何",
+            "AND (JOIN (R 提出者) 坐标几何) (JOIN (R 提出者) 坐标几何)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 出生日期 ?y) (JOIN (R 作者) 额尔古纳河右岸)",
+        "predict": [
+            "AND (JOIN 出生日期?y) (JOIN (R 作者) 额尔古纳河右岸)",
+            "AND (JOB额尔古纳河右岸) (JOIN 出生日期?y)",
+            "AND (JOIN出生日期?y) (JOIN 代表作品_额尔古纳河右岸)",
+            "AND (JOIN 出生日期?y) (JOIN (R 作者)额尔古纳河右岸)",
+            "AND (JOIN 出生日期?y) (JOIN (R 作者) 适合人群多样有趣的小说《额尔古纳河右岸》)",
+            "AND (JOIN出生 日期?y) (JOIN (R 作者)额尔古纳河右岸)",
+            "AND (JOIN 出生日期?y) (JOIN (R 作者) 额尔 古奈河右岸)",
+            "AND (JOIN出生地点?y) (JOIN (R.author) 颖之书)"
+        ]
+    },
+    {
+        "label": "JOIN (R 所处时代) (JOIN (R 作者) 行路难_（李白诗作）)",
+        "predict": [
+            "AND (JOIN 所处时代?y) (JOIN (R 作者) 行路难_（唐朝诗人创作的诗作）)",
+            "AND (JOIN 所处时代?y) (JOIN (R 作者) 行路难_（唐代王维的诗作）)",
+            "AND (JOIN 国籍?y) (JOIN (R 作者) 行路难_（唐朝诗人创作的诗作）)",
+            "JOIN 国籍 (JOIN (R 作者) 行路难_（唐朝诗人李白作诗曲）)",
+            "AND (JOIN 生活年份?y) (JOIN (R 作者) 行路难_（唐朝诗人创作的诗）)",
+            "AND (JOIN 主要作品_行路难_（唐代王维作古体诗）) (JOIN 所处时代?y)",
+            "AND (JOIN 所处时代?y) (JOIN (R 作者) 行路难_（王维作古体诗）)",
+            "AND (JOIN 职业_诗人_（汉语词语）) (JOIN 所处时代_古代)",
+            "AND (JOIN 所处时代?y) (JOIN (R 作者) 行路难_（唐朝诗人创作的诗）)",
+            "JOIN 所属时代?",
+            "AND (JOIN 所处时代?y) (JOIN (R 作者) 行路难_（王维创作诗一段）)",
+            "JOIN 所处时代?",
+            "AND (JOIN 所处时代?y) (JOIN (R 作者) 行路难_（唐代李白作古体诗）)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 运动项目_篮球_（球类运动）) (JOIN 别名_老北京，LBJ，詹皇，King James，小皇帝)",
+        "predict": [
+            "AND (JOIN 别名_小皇帝) (AND (JOIN 别名_詹皇) (AND (JOIN 别名_LBJ_（小布什尔·杰米·布什）) (JOIN 别名_老北京_（北京）)))",
+            "AND (JOIN 外文名 LBJ) (AND (JOIN 外文名 King James) (AND (JOIN 外文名 小皇帝_（米切尔五星将军）) (JOIN 外文名_老北京)))",
+            "AND (JOIN 别名_小皇帝) (AND (JOIN 别名_詹皇) (AND (JOIN 别名_LBJ_（小名为Lyndon Basington的男运动员）) (JOIN 别名_老北京_（北京发家成功人士）)))",
+            "JOIN (R 中文全名) (AND (JOIN 绰号_小皇帝) (AND (JOIN 绰号_詹皇) (AND (JOIN 绰号_LBJ) (JOIN 绰号_老北京，King James))))",
+            "AND (JOIN 别名_小皇帝，King James，詹皇，LBJ，老北京) (JOIN 运动项目_篮球_（球类运动）)",
+            "AND (JOIN 别名_小皇帝) (AND (JOIN 别名_詹皇) (AND (JOIN 别名_LBJ_（小列宁：霍比特和詹姆斯·詹姆斯的简称）) (JOIN 别名_老北京)))",
+            "JOIN (R 中文全名) (AND (JOIN 职业_篮球_（球类）) (JOIN 绰号_小皇帝, King James, LBJ, 老北京))",
+            "AND (JOIN 外文名 LBJ) (AND (JOIN 外文名 King James) (AND (JOIN 外文名 小皇帝_（迈克尔·乔丹）) (JOIN 外文名_老北京)))",
+            "AND (JOIN 别名_小皇帝、詹皇、LBJ、老北京) (JOIN 运动项目_篮球_（球类运动）)",
+            "AND (JOIN 中文名_詹皇，King James，小皇帝) (AND (JOIN 别名_老北京，LBJ) (JOIN 国籍_美国_（美利坚合众国）))",
+            "AND (JOIN 别名_小皇帝) (AND (JOIN 别名_詹皇) (AND (JOIN 别名_LBJ_（小勒布詹姆斯大四年级）) (JOIN 别名_老北京_（北方老北京式菜）)))",
+            "AND (JOIN 外文名 LBJ) (AND (JOIN 外文名 King James) (AND (JOIN 外文名 小皇帝_（Michael Jordan）) (JOIN 外文名_老北京_（haywoodjfenwick）)))",
+            "AND (JOIN 其他名号_小皇帝、詹皇、LBJ、老北京) (JOIN 主要运动项目_篮球_（球类运动）)",
+            "AND (JOIN 别名_小皇帝，King James，詹皇，LBJ，老北京) (JOIN 场地_篮球_（运动项目）)",
+            "AND (JOIN 别名_的小皇子，詹皇，LBJ，老北京) (JOIN 运动项目_篮球_（球类运动）)"
+        ]
+    },
+    {
+        "label": "JOIN (R 二进制) 49_（数字）",
+        "predict": [
+            "JOIN (R 二进制表示) 49",
+            "AND (JOIN 数字二进制表示?y) (JOIN 数字 49)",
+            "JOIN (R 二进制) 49",
+            "JOIN (R 二制表示) 49",
+            "JOIN (R二进制表示) 49",
+            "JOIN (R 二进位表示) 49",
+            "JOIN (R、二进制表示) 49",
+            "JOIN (R二進位表示) 49"
+        ]
+    },
+    {
+        "label": "AND (JOIN 最早发现地点_湖北省武汉市) (JOIN 引发病毒 (JOIN 外文名 ?z))",
+        "predict": [
+            "AND (JOIN 外文名?y) (JOIN 中文名_武汉市肺炎)",
+            "JOIN (R 英文名称) (JOIN 意义_引发武汉市肺炎爆发的病毒)",
+            "JOIN (R 英文名称) (JOIN97逸城_武汉市肺炎爆发的病毒)",
+            "JOIN (R 英文名称) (JOIN 标签_武汉市肺炎)",
+            "AND (JOIN 外文名?y) (JOIN 标签_武汉市肺炎)",
+            "JOIN (R 英文名称) (JOIN 主要传播途径_武汉市肺炎爆发)",
+            "JOIN (R 英文名称) (JOIN 属性引发武汉市肺炎爆发的)",
+            "AND (JOIN 外 文名?y) (JOIN (R 引发病毒) 武汉市肺炎)",
+            "AND (JOIN 外文名?y) (JOIN 同义词_武汉市肺炎)",
+            "AND (JOIN 外国语?y) (JOIN (R 引发病毒) 武汉市肺炎)"
+        ]
+    },
+    {
+        "label": "JOIN (R 外文名) (JOIN 中文名_巴勃罗·鲁伊斯·毕加索)",
+        "predict": [
+            "JOIN (R 外文名) 巴勃罗·鲁伊斯·毕加索",
+            "AND (JOIN 别名?y) (JOIN 中文名_巴勃罗·鲁伊斯·毕加索)",
+            "JOIN (R 外文名) 约翰·韦德·毕加索_（巴勃罗·鲁伊斯·毕加索）",
+            "JOIN (R Outside the Country Name) 巴勃罗·鲁伊斯·毕加索_（西班牙画家）",
+            "JOIN (R 外文名) 罗伊斯·毕加索_（巴勃罗·鲁伊斯·毕加索）",
+            "AND (JOIN 别名?y) (JOIN 外文名_巴勃罗·鲁伊斯·毕加索)",
+            "JOIN (R 外文名) 毕加索_（巴勃罗·鲁伊斯·毕加索）",
+            "JOIN (R外文名) 约翰·罗杰斯·毕加索",
+            "JOIN (R 外文名) 巴勃尔·鲁伊斯·毕加索",
+            "JOIN (R 外文名) 巴勃罗·魯易斯·毕加索"
+        ]
+    },
+    {
+        "label": "JOIN (R 作者) (JOIN (R 登场作品) 史强_（科幻小说《三体》系列中的人物）)",
+        "predict": [
+            "AND (JOIN 作者?y) (JOIN (R 作者) 史强_（华语科幻小说人物）)",
+            "JOIN 作者 (JOIN (R 作者) 史强_（山风、京东的科幻小说）)",
+            "JOIN 作者 (JOIN (R 作者) 史强_（中国大陆小说《史强》中的人物）) (JOIN 类型_科学幻想)",
+            "AND (JOIN 作者?y) (JOIN (R 作者) 史强_（中国大陆小说《武侠名著》角色）)",
+            "AND (JOIN 作者?y) (JOIN (R 作者) (JOIN 主要人物_史强_（小说人物）))",
+            "JOIN 作者 (JOIN (R 作者) 史强_（山风的故事人物）) (JOIN 类型_科幻小说)",
+            "JOIN 作品_史强_（陈忠实作品）",
+            "JOIN 作者 (JOIN (R 作者) Hist) (JOIN 主要人物_史强_（中国内地歌手）)",
+            "AND (JOIN 作者?y) (JOIN (R 登场作品) 史强_（汉语词语）)",
+            "AND (JOIN 作者?y) (JOIN (R 作者) 史强_（王蒙的小说人物）)",
+            "AND (JOIN 作者?y) (JOIN (R 登场作品) 史强_（华语科幻小说人武侠的新世纪《史强》中的人物）)",
+            "JOIN 作者 (JOIN (R 作者) 史强_（中国科幻小说人物）)",
+            "AND (JOIN 作者 (JOIN (R 作者)?z)) (JOIN 主要人物_史强_（小说人物）)",
+            "AND (JOIN 作者?y) (JOIN (R 作者) (JOIN 主要人物_史强))",
+            "AND (JOIN 作者?y) (JOIN (R 作者) Hist强)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 队内职务_门面担当) (JOIN 所属组合_少女时代_（韩国女子演唱团体）)",
+        "predict": [
+            "JOIN (R 男主演) 少女时代_（2013年李善杰执导美国电视剧）",
+            "JOIN (R 女子团队门面) 少女时代",
+            "JOIN (R 主要成长阶段) 少女时代_（TV剧）",
+            "JOIN 主要作品_少女时代_（门面担当）",
+            "AND (JOIN 成员 JOIN (R 代表) 少女时代-门面担当) (JOIN 类别_节目_（电视程序）)",
+            "JOIN (R 男主演) 少女时代_（2013年朴裕焕执导美国HTB电视台制作电视剧）",
+            "JOIN 主要成就_少女时代门面担当",
+            "JOIN 登场作品 (JOIN 实体 (JOIN 职业_门面担当)) (JOIN 中文名_少女时代)",
+            "AND (JOIN 成员 (JOIN 现任成员?z)) (JOIN 别名_少女时代)",
+            "AND (JOIN 组合名称 (JOIN 组合成员?z)) (JOIN 别名_少女时代)",
+            "JOIN 流行团体 (JOIN 中文名_少女时代) (JOIN 成员角色_门面担当)",
+            "JOIN 主要角色_少女时代_（电视剧）",
+            "JOIN (R 主要成员) 少女时代_（TV剧）",
+            "JOIN 主要作品_少女时代_（TV剧）"
+        ]
+    },
+    {
+        "label": "JOIN 股东_中国建银投资有限责任公司",
+        "predict": [
+            "JOIN (R 上市公司) 中国建银投资有限责任公司",
+            " JOIN 股东 (JOIN (R 上市公司) 中国建银投资有限责任公司)",
+            "JOIN (R 下午股票) 中国建银投资有限责任公司",
+            "JOIN (R 上市 公司) 建银投资有限责任公司",
+            "JOIN (R上 市 公司) 建银投资有限责任公司",
+            "JOIN (R 上市公司) 中国建银投资有限责任会社",
+            "JOIN (R 上市公司)中国建银投资有限责任公司"
+        ]
+    },
+    {
+        "label": "AND (JOIN 首播电视台 ?y) (AND (JOIN 编剧_隅泽克之) (JOIN 导演_伊达勇登))",
+        "predict": [
+            "JOIN (R 首播电视台) (AND (JOIN 导演_伊达勇登) (JOIN 编剧_隅泽克之))",
+            "JOIN (R 首播电视台) (AND (JOIN 导演_隅泽克之) (JOIN 导演_伊达勇登))",
+            "JOIN (R 首播时间) (AND (JOIN 导演_隅泽克之) (JOIN 导演_伊达勇登))",
+            "JOIN (R 首播时间) (AND (JOIN 编剧_隅泽克之) (JOIN 导演_伊达勇登))",
+            "JOIN (R 首播电视台) (AND (JOIN 导演_隅泽克之) (AND (JOIN 编剧_隅泽克之) (JOIN 导演_伊达勇登)))",
+            "AND (JOIN首映时间?y) (AND (JOIN 编剧_隅泽克之) (JOIN 导演_伊达勇登))",
+            "JOIN (R 首映电视台) (AND (JOIN 编剧_隅泽克之) (JOIN 导演_伊达勇登))",
+            "JOIN (R 首播電視网) (AND (JOIN 编剧_隅泽克之) (JOIN 导演_伊达勇登))",
+            "JOIN (R首播电视台) (AND (JOIN 导演_隅泽克之) (JOIN 导演_伊达勇登))",
+            "AND (JOINFirst broadcast time?y) (AND (JOIN 编剧_隅泽克之) (JOIN 导演_伊达勇登))",
+            "JOIN (R 首放送電視網) (AND (JOIN 编剧_隅泽克之) (JOIN 导演_伊达勇登))"
+        ]
+    },
+    {
+        "label": "AND (JOIN 配音 ?y) (JOIN 外文名 ピカチュウ（日文）)",
+        "predict": [
+            "JOIN (R 配音) (JOIN 外文名 Pichu)",
+            "JOIN (R 配音) (JOIN 外文名 Picachu)",
+            "AND (JOIN 拍音?y) (JOIN 中文名_ピカチュウ)",
+            "JOIN (R 发声人) (JOIN 外文名 Pichu)",
+            "JOIN (R 拍音) (JOIN 外文名 Pikachuu（日文）)",
+            "AND (JOIN 提供语音?y) (JOIN 中文名_ピカチュウ)",
+            "JOIN (R 配音) (JOIN 外文名 Pikachū)",
+            "JOIN (R配音) (JOIN 外文名 Pikachuu（日文）)",
+            "JOIN (R 译者) ピカチュウ（日文）",
+            "JOIN (R配音) ピカチュウ（日文）",
+            "JOIN (R 发声人) (JOIN 外文名 Picachu)",
+            "JOIN (R 采音) (JOIN 外文名 Pichu)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 分类_汤类) (AND (JOIN 主要食材_南瓜_（南瓜葫芦科植物）) (JOIN 主要食材_椰汁))",
+        "predict": [
+            "AND (JOIN 主要食材_南瓜_（葫芦科植物）) (JOIN 主要食材_椰汁)",
+            "AND (JOIN principal_材料_南瓜_（黄绿色草本植物）) (JOIN principal_材料_椰汁_（汁液）)",
+            "AND (JOIN الرئيس 汤_（饮品）) (AND (JOIN 主要食材_南瓜_（葫芦科植物）) (JOIN 主要食材_椰汁))",
+            "AND (JOIN principales_配料_椰汁_（汁液）) (JOIN principales_配料_南瓜_（葫芦科植物）)",
+            "AND (JOIN 主要食材_南瓜_（黄绿色果类植物，种子有油）) (JOIN 主要食材_椰汁_（ 椰子汁）)",
+            "AND (JOIN 主要食材_南瓜_（黄绿色果蔬）) (JOIN 主要食材_椰汁_（椰子汁）)",
+            "AND (JOINprincipal成分_南瓜_（黄瓜属植物）) (JOIN principal成分_椰汁)",
+            "AND (JOIN الرئيسي_椰汁_（成分）) (JOIN الرئيسي_南瓜_（葫芦科植物）)",
+            "AND (JOIN Hauptzutaten_南瓜_（黄绿色果蔬，属葫芦科）) (JOIN Hauptzutat_椰汁)",
+            "AND (JOIN 主要食材_南瓜_（瓜科南瓜属植物）) (JOIN 主要食材_椰汁)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 国籍_中华人民共和国) (AND (JOIN 外文名 Robin) (AND (JOIN 毕业院校_纽约州立大学布法罗分校) (JOIN 毕业院校_北京大学)))",
+        "predict": [
+            "AND (JOIN 毕业院校_纽约州立大学布法罗分校) (AND (JOIN 毕业院校_北京大学) (JOIN 中文名 Robin))",
+            "AND (JOIN 毕业院校_纽约州立大学布法罗分校) (AND (JOIN 毕业院校_北京大学) (JOIN 中文名_Robin))",
+            "AND (JOIN Moor人_Robin (JOIN 毕业院校_纽约州立大学布法罗分校)) (JOIN 毕业院校_北京大学)",
+            "AND (JOIN Moore 1) (AND (JOIN 毕业院校_纽约州立大学布法罗分校) (JOIN 毕业院校_北京大学))",
+            "AND (JOIN Moorhouse_罗宾·摩霍尔斯_（北京大学与纽约州立大学布法罗分校毕业）) (JOIN 中文名 Robin)",
+            "AND (JOIN 毕业院校_纽 YORK_州立大学布法罗分校) (AND (JOIN 毕业院校_北京大学) (JOIN 中文名 Robin))",
+            "AND (JOIN 毕业院线_布法罗_（纽约州立大学）) (AND (JOIN 毕业院线_北京大学) (JOIN 中文名_Robin))",
+            "AND (JOIN 毕業校院_纽 York_state_立大学-布法罗分校) (AND (JOIN 毕业院校_北京大学) (JOIN 中文名 Robin))",
+            "AND (JOIN 毕业院校_纽约州立大学布法罗分校) (AND (JOIN 毕业院校_北京大学) (JOIN 别名 Robin))",
+            "AND (JOIN 毕业院校_纽约州立大学布法洛分校) (AND (JOIN 毕业院校_北京大学) (JOIN 中文名_Robin))",
+            "AND (JOIN 毕业院校_纽욕州立大学布法洛分校) (AND (JOIN 毕业院校_北京大学) (JOIN 中文名_ Robin))"
+        ]
+    },
+    {
+        "label": "AND (JOIN 馆藏地点 ?y) (AND (JOIN 出土地点_陕西省) (JOIN 所属年代_西汉))",
+        "predict": [
+            "AND (JOIN 现任保存地点?y) (AND (JOIN 历史时期_西汉) (JOIN 发现地点_陕西))",
+            "AND (JOIN 所属地区_陕西省) (JOIN 文物类别_西汉文物)",
+            "AND (JOIN 现保存地点?y) (AND (JOIN 历史时期_西汉) (JOIN 发现地点_陕西))",
+            "AND (JOIN 所属地区_陕西) (JOIN 现任保存地点 (JOIN 类别_文物))",
+            "AND (JOIN 所属地区_陕西省) (AND (JOIN 类型_文物) (JOIN 历史时期_西汉))",
+            "AND (JOIN 现址?y) (AND (JOIN 类型_文物) (JOIN 地理位置_陕西))",
+            "AND (JOIN 展示机构?y) (AND (JOIN 类型_西汉文物) (JOIN 地理位置_陕西))",
+            "AND (JOIN 展示馆名称?y) (AND (JOIN 现任机构 (JOIN 基本类型_博物馆)) (JOIN 发现年代_西汉))",
+            "AND (JOIN 所属地区_陕西_（中国省级行政区）) (JOIN 现存地点 (JOIN 类型_文物))",
+            "AND (JOIN present_library?y) (AND (JOIN 类型_文物) (JOIN 歙时期_西汉文明))",
+            "AND (JOIN 保管机构?y) (AND (JOIN 历史期次_西汉) (JOIN 发现地点_陕西))",
+            "AND (JOIN 存放地点?y) (AND (JOIN 历史时期_西汉) (JOIN 地理位置_陕西))",
+            "AND (JOIN 发现地点_陕西) (AND (JOIN 类别_文物) (JOIN 成立时间_西汉))",
+            "AND (JOIN 存放地点?y) (AND (JOIN 历史时代_西汉) (JOIN 地理位置_陕西省))"
+        ]
+    },
+    {
+        "label": "AND (JOIN (R 编剧) ?y) (JOIN (R 导演) 指环王_（英美2001-2003年彼得·杰克逊执导系列电影）)",
+        "predict": [
+            "JOIN (R 代表作品) (AND (JOIN 导演 (JOIN (R 导演) 指环王_（英美2001-2003年彼得·杰克逊执导系列电影）)) (JOIN 编剧 (JOIN (R 编剧) 指环王_（英美2001-2003年彼得·杰克逊执导系列电影）)))",
+            "AND (JOIN 编剧?y) (AND (JOIN 导演?y) (JOIN 中文名_指环王))",
+            "JOIN (R 代表作品) (AND (JOIN 导演 (JOIN (R 编剧) 指环王_（英美2001-2003年彼得·杰克逊执导系列电影）)) (JOIN 导演_指环王_（英美2001-2003年彼得·杰克逊执导系列电影）))",
+            "JOIN (R 代表作品) (AND (JOIN (R 导演) 指环王_（英美2001-2003年彼得·杰克逊执导系列电影）) (JOIN (R 编剧) 指环王_（英美2001-2003年彼得·杰克逊执导系列电影）))",
+            "JOIN (R 导演) (JOIN (R 编剧) 指环王_（英美2001-2003年彼得·杰克逊执导系列电影）)",
+            "JOIN (R 作品) (AND (JOIN 导演 (JOIN (R 编剧) 指环王_（英美2001-2003年彼得·杰克逊执导系列电影）)) (JOIN 导演_指环王_（英美2001-2003年彼得·杰克逊执导系列电影）))",
+            "JOIN (R 导演编剧) 指环王_（英美2001-2003年彼得·杰克逊执导系列电影）",
+            "JOIN (R 作品) (AND (JOIN 编剧?z) (JOIN 导演?z))",
+            "JOIN (R 导演_罗杰·克莱格·史密斯) (AND (JOIN 编剧_罗杰·克莱格·史密斯) (JOIN 导演_罗杰·克莱格·史密斯))",
+            "AND (JOIN 编剧?y) (AND (JOIN 导演?y) (JOIN 标签_指环王_（英美2001-2003年彼得·杰克逊执导系列电影）))"
+        ]
+    },
+    {
+        "label": "JOIN (R 代表诗人) 唐诗_（唐朝诗歌通称）",
+        "predict": [
+            "JOIN 职业_诗人_（汉语词语）",
+            "AND (JOIN 职业_诗人_（汉语词语）) (JOIN 生活年份 710)",
+            "AND (JOIN 职业_诗人_（汉语词语）) (JOIN 所处时代_唐朝_（中国历史朝代）)",
+            "JOIN 经典代表作品_唐歌_（唐朝诗歌）",
+            "JOIN 宗教信仰_太平实录",
+            "JOIN 军团_唐朝诗人",
+            "AND (JOIN 职业_诗人_（汉语词语）) (JOIN 国籍_唐朝_（中国历史朝代）)",
+            "AND (JOIN 所处时代_唐朝_（中国历史朝代）) (JOIN 职业_诗人_（汉语词语）)",
+            "AND (JOIN 职业_诗人_（汉语言文学词语）) (JOIN 所处时代_唐朝_（中国历史朝代）)",
+            "AND (JOIN 职业_诗人_（汉语词语）) (JOIN 生活年份 61801～90001)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 医学专科_呼吸科) (AND (JOIN 传染性_否) (JOIN 临床症状 ?y))",
+        "predict": [
+            "AND (JOIN 是否传染性_无传染性) (JOIN 科室_呼吸科)",
+            "AND (JOIN 同病入选) (JOIN 是否传染性_无传染性)",
+            "AND (JOIN传染性_无传染性) (JOIN 科室_呼吸科)",
+            "AND (JOIN 相关症状 (JOIN 科室_呼吸科)) (JOIN 是否无传染性_true)",
+            "AND (JOIN 同病入选) (JOIN 治疗科室_呼吸科)",
+            "AND (JOIN 毕业院校_呼吸科) (JOIN 毕业院校_无传染性)",
+            "AND (JOIN 同义词_无传染性) (JOIN 科室_呼吸科)",
+            "AND (JOIN 涉及症状 (JOIN 科室_呼吸科)) (JOIN 是否无传染性_YES)",
+            "AND (JOIN transmit性_无传染性) (JOIN 科室_呼吸科)",
+            "AND (JOIN truyền染性_无传染性) (JOIN 科室_呼吸科)",
+            "AND (JOIN 转诊原因_无传染性) (JOIN 科室_呼吸科)",
+            "AND (JOIN 性性状_无传染性) (JOIN 科室_呼吸科)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 建议游玩时长 1-2天) (JOIN 城市_綦江县)",
+        "predict": [
+            "AND (JOIN 建议游玩时长_一天以上) (JOIN 城市_綦江县)",
+            "AND (JOIN 建议游玩时长_一天-三天) (JOIN (R 景点类别) 綦江县)",
+            "AND (JOIN 建议时长_一天以上) (JOIN 城市_綦江县)",
+            "AND (JOIN 建立时间?y) (AND (JOIN 类型_景点) (JOIN 是否推荐游一天以上_是)) (JOIN 城市_綦江县)",
+            "AND (JOIN 景点推荐剩余时间_一天以上) (JOIN 城市_綦江县)",
+            "AND (JOIN 建议游玩时长_一个以上天) (JOIN (R 景点) 綦江县)",
+            "AND (JOIN 类型_景点) (AND (JOIN 建议时长_一天以上) (JOIN 城市_綦江县))",
+            "AND (JOIN 建议游玩时长_一天-三天) (JOIN (R景点类别) 綦江县)",
+            "AND (JOIN 景点推荐时间 > 1日) (JOIN 城市_綦江县)",
+            "AND (JOIN 适宜游玩时长_一天以上) (JOIN 城市_綦江县)",
+            "AND (JOIN 建议游玩时长_一个以上） (JOIN 城市_綦江县)",
+            "AND (JOIN 建议停留时间_一天以上) (JOIN 城市_綦江县)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 所属洲 ?y) (JOIN (R 拍摄地点) 指环王_（英美2001-2003年彼得·杰克逊执导系列电影）)",
+        "predict": [
+            "AND (JOIN 所属洲?y) (JOIN (R 拍摄地点) 指环王_（英美2001-2003年彼得·杰克逊执导系列电影）)",
+            "AND (JOIN 所处大洲?y) (JOIN (R 拍摄地点) 指环王_（英美2001-2003年彼得·杰克逊执导系列电影）)",
+            "AND (JOIN 所属地理区?y) (JOIN (R 拍摄地点) 指环王_（英美2001-2003年彼得·杰克逊执导系列电影）)",
+            " AND (JOIN 拍摄地点 (JOIN 大洲?z)) (JOIN 中文名_指环王)",
+            "AND (JOIN所处大洲?y) (JOIN (R 拍摄地点) 指环王_（英美2001-2003年彼得·杰克逊执导系列电影）)",
+            "AND (JOIN 所属洲?y) (JOIN (R 片场) 指环王_（英美2001-2003年彼得·杰克逊执导系列电影）)",
+            "AND (JOIN 所属地区?y) (JOIN (R拍摄地点) 指环王_（英美2001-2003年彼得·杰克逊执导系列电影）)",
+            "AND (JOIN所屬地區?y) (JOIN 中文名_指环王)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 酒店星级 2) (JOIN 周围景观_拉瓜迪亚机场)",
+        "predict": [
+            "AND (JOIN 酒店等级_两星级) (JOIN (R 实体名称) (JOIN (R 附近) 拉瓜迪亚机场))",
+            "AND (JOIN 类型_酒店) (AND (JOIN 酒店等级_两星级) (JOIN (R 实体名称) (JOIN (R 附近) 拉瓜迪亚机场)))",
+            "AND (JOIN 类型_酒店) (AND (JOIN 类型_两星级酒店) (JOIN (R 实体名称) (JOIN (R 附近) 拉瓜迪亚机场)))",
+            "AND ( JOIN酒店等级 2星) (JOIN (R 实体名称) (JOIN (R 附近) 拉瓜迪亚机场))",
+            "AND (JOIN 类型_城市酒店) (AND (JOIN 城市_拉瓜迪亚机场) (JOIN 星级 2))",
+            "AND (JOIN 酒店等级_两星级) (JOIN (R 类型) 拉瓜迪亚机场)",
+            "AND (JOIN 类型_酒店) (AND (JOIN 星级 2) (JOIN (R 实体名称) (JOIN (R 附近) 拉瓜迪亚机场)))",
+            "AND ( JOIN ホテル星级 2) (JOIN (R 推荐酒店) 拉瓜迪亚机场)",
+            "AND (JOIN 酒店等级_两星级) (JOIN (R 经营对象) 拉瓜迪亚机场)",
+            "AND (JOIN 酒店等级_两星级) (JOIN (R 意思 translit) 拉瓜迪亚机场)",
+            "AND (JOIN 酒店等级_二星级) (JOIN (R 酒店) 拉瓜迪亚机场)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 国籍_中华人民共和国) (AND (JOIN 运动项目_足球) (JOIN 球衣号码 22))",
+        "predict": [
+            "AND (JOIN 运动项目_足球) (JOIN 球衣号码 22)",
+            "JOIN 足球运动员_球衣号码 22",
+            "JOIN 球衣号码 22",
+            "AND (JOIN 适任运动项目_足球) (JOIN 球衣号码 22)",
+            "AND (JOIN 游戏类别_足球) (JOIN 球衣号码 22)",
+            "AND (JOIN 竞技名称_足球）(JOIN球衣号码 22)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 出生地 ?y) (JOIN 师傅_牛得草)",
+        "predict": [
+            "JOIN (R 出生地) (JOIN (R 师傅) 牛得草)",
+            "AND (JOIN 出生地?y) (JOIN (R 主要师傅) 牛得草)",
+            "JOIN (R 出生地) (JOIN (R Teacher) 牛得草)",
+            "JOIN (R 出生 地) (JOIN (R 教主) 牛得草)",
+            "JOIN (R出生地) (JOIN (R师傅) 牛得草)",
+            "JOIN (R 出生地) (JOIN (R 办事人) 牛得草)",
+            "JOIN (R 出生 地) (JOIN (R Teacher) 牛得草)",
+            "JOIN (R出 生日期） ( JOIN (R 師父) 牛得草)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 丈夫 (JOIN 职业 ?z)) (JOIN 中文名_刘涛)",
+        "predict": [
+            "AND (JOIN 职业?y) (JOIN 丈夫_刘涛_（中国内地男演员）)",
+            "AND (JOIN 职业?y) (JOIN (R 丈夫) 刘涛_（中国内地男演员）)",
+            "JOIN (R 职业) (JOIN (R 丈夫) 刘涛_（中国内地演员）)",
+            "JOIN (R 配偶职业) (JOIN (R 配偶) 刘涛_（中国内地男演员）)",
+            "JOIN (R 职业) (JOIN (R 丈夫) 刘涛_（中国内地男演员）)",
+            "JOIN (R 丈夫职业) (JOIN (R 配偶) 刘涛_（中国内地男演员）)",
+            "AND (JOIN 职業?y) (JOIN (R 配偶) 刘涛_（中国内地男演员）)",
+            "JOIN (R 丈夫职业) (JOIN (R 配偶) 刘涛_（中国内地歌手、演员）)"
+        ]
+    },
+    {
+        "label": "AND (JOIN (R 国籍) (JOIN 所属团队 (JOIN (R 所属团队) 蝙蝠侠_（美国DC漫画旗下超级英雄）))) (JOIN (R 国籍) 蝙蝠侠_（美国DC漫画旗下超级英雄）)",
+        "predict": [
+            "AND (JOIN 国籍_美国_（美利坚合众国）) (JOIN 所属团队 (JOIN (R 所属团队) 蝙蝠侠_（美国DC漫画旗下超级英雄）))",
+            "AND (JOIN 共同国家_美国_（美利坚合众国）) (JOIN 所属团队 (JOIN (R 所属团队) 蝙蝠侠_（美国DC漫画旗下超级英雄）))",
+            "AND (JOIN 出生地_ (JOIN (R 出生地) 蝙蝠侠_（美国DC漫画旗下超级英雄）)) (JOIN (R 所属团队) 蝙蝠侠_（美国DC漫画旗下超级英雄）)",
+            "AND (JOIN 国籍_美国_（美利坚合众国）) (JOIN (R 成员) 蝙蝠侠_（美国DC漫画旗下超级英雄）)",
+            "AND (JOIN 共同身份_蝙蝠侠) (JOIN 国籍?y)",
+            "AND (JOIN 国籍_美国_（美利坚合众国）) (JOIN (R 所属团队) 蝙蝠侠_（美国DC漫画旗下超级英雄）)",
+            "AND ( JOIN 国籍_ США_（美国）) (JOIN (R 成员) 蝙蝠侠_（美国DC漫画旗下超级英雄）)",
+            "AND (JOIN 国籍_ 美国_（美利坚合眾国家）) (JOIN 所属团队 (JOIN (R 所属团队) 蝙蝠侠_（美国DC漫画标志性人物）))"
+        ]
+    },
+    {
+        "label": "AND (JOIN 现任主教练 ?y) (JOIN (R 所属运动队) 里奥·梅西_（阿根廷足球运动员）)",
+        "predict": [
+            "JOIN (R 主教练) (JOIN (R 所属运动队) 里奥·梅西_（阿根廷足球运动员）)",
+            "JOIN (R 现任主教练) (JOIN (R 所属运动队) 里奥·梅西_（阿根廷足球运动员）)",
+            "JOIN (R 主教练) (JOIN 主要球员_梅西_（巴西足球运动员）)",
+            "AND (JOIN chủ nhiệm hiện tại?y) (JOIN (R 所属运动队) 里奥·梅西_（阿根廷足球运动员）)",
+            "JOIN (R 主教练) (JOIN 主要球员_梅西_（小罗伯托·梅西·塔尔多斯）)",
+            "JOIN (R 现任主教练) (JOIN 主要球员_梅西_（巴西足球运动员）)",
+            "JOIN (R 主教練) (JOIN (R 所属运动队) 利昂内尔·梅西_（阿根廷足球运动员）)",
+            "AND (JOIN 主教练?y) (JOIN (R 所属运动队) 里奥·梅西_（阿根廷足球运动员）)",
+            "JOIN (R 主教練) (JOIN (R 所属运动队) 莱昂纳多·梅西_（阿根廷足球运动员）)",
+            "JOIN (R 主教练) (JOIN 主要运动项目_足球)"
+        ]
+    },
+    {
+        "label": "JOIN (R 初次登场) (AND (JOIN 生日 11-11) (JOIN 登场作品_海贼王_（尾田荣一郎创作的漫画作品）))",
+        "predict": [
+            "AND (JOIN 登场话数?y) (JOIN 出生日期 11-11)",
+            "AND (JOIN 登场语句_哪一话) (JOIN 出生日期 11-11)",
+            "JOIN (R 登场地点) (JOIN 出生日期 11-11)",
+            "AND (JOIN 出生日期 11月11号) (JOIN 登场作品 (JOIN 地点_哪一话))",
+            "AND (JOIN 配合物 (JOIN 登场章节?z)) (JOIN 出生日期 11-11)",
+            "JOIN (R 配合物) (JOIN 登场话数 11) (JOIN 出生日期 11-11)",
+            "JOIN (R 登场章节) (JOIN 出生日期 11-11)",
+            "AND (JOIN 出生日期 11-11) (JOIN 登场作品 (JOIN 自动生成))",
+            "AND (JOIN登场篇章?y) (JOIN 出生日期 1990-11-11)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 别称 ?y) (JOIN (R 作者) 聊斋志异_（蒲松龄著文言短篇小说集《聊斋志异》）)",
+        "predict": [
+            "AND (JOIN 别名?y) (JOIN (R 作者) 聊斋志异_（蒲松龄著文言短篇小说集《聊斋志异》）)",
+            "JOIN (R 别称) (JOIN (R 作者) 聊斋志异_（蒲松龄著文言短篇小说集《聊斋志异》）)",
+            "JOIN (R 别称) (JOIN 代表作品_聊斋志异_（蒲松龄著文言短篇小说集）)",
+            "AND (JOIN 任名_被人们称为什么) (JOIN (R 作者) 聊斋志异_（蒲松龄著文言短篇小说集《聊斋志异》）)",
+            "AND (JOIN 任名_《聊斋志异》) (JOIN 任名?y)",
+            "AND (JOIN 别名?y) (JOIN (R 作者) 聊斋志异_（蒲松龄著文言短篇小说集）)",
+            "JOIN (R 译名) 列北《聊斋志异》作者",
+            "JOIN (R 别称) (JOIN 代表作品_聊斋志异_（蒲松龄著文言短篇小说集《聊斋志异》）)",
+            "AND (JOIN 尊号?y) (JOIN (R 作者) 聊斋志异_（蒲松龄著文言短篇小说集《聊斋志异》）)",
+            "AND (JOIN 绰号?y) (JOIN (R 作者) 聊斋志异_（蒲松龄著文言短篇小说集《聊斋志异》）)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 主席 ?y) (JOIN (R 所属运动队) 克里斯蒂亚诺·罗纳尔多_（葡萄牙足球运动员）)",
+        "predict": [
+            "AND (JOIN 主席?y) (JOIN (R 所属运动队) 克里斯蒂亚诺·罗纳尔多_（葡萄牙足球运动员）)",
+            "JOIN 主席? (JOIN (R 所属运动队) 克里斯蒂亚诺·罗纳尔多_（葡萄牙足球运动员）)",
+            "JOIN (R主-chair) (JOIN 所属运动队 (JOIN (R 所属运动队) 克里斯蒂亚诺·罗纳尔多_（葡萄牙足球运动员）))",
+            "JOIN (R 主席) (JOIN 共同主席_克里斯蒂亚诺·罗纳尔多)",
+            "AND (JOIN主席?y) (JOIN 所属运动队 (JOIN 所属运动队 (JOIN 主要运动员_克里斯蒂亚诺·罗纳尔多)))",
+            "AND (JOIN 主席?y) (JOIN (R 参赛队) 克里斯蒂亚诺·罗纳尔多_（葡萄牙足球运动员）)",
+            "AND (JOIN 主席?y) (JOIN (R 所属运动队) クリスティアノ・ロナウド_（波特奥利亚足球运动员）)",
+            "AND (JOIN 主席?y) (JOIN (R 所属运动队) クリスティアノ・ロナウド_（波特奥利亚体育俱乐部球员）)",
+            "AND (JOIN 主席?y) (JOIN (R 所属運動隊) 克里斯蒂亚諾·羅納爾道)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 人物原型 ?y) (JOIN (R 父亲) 贾环)",
+        "predict": [
+            "JOIN (R 人物原型) (JOIN (R 父亲) 贾环_（小说《红楼梦》人物）)",
+            "AND (JOIN 人物原型?y) (JOIN (R 人物原型) 贾环_（小说《红楼梦》人物）)",
+            "JOIN (R 去处) (JOIN (R 原型) 贾环_（小说《红楼梦》人物）)",
+            "JOIN (R人物原型) (JOIN (R 父亲) 贾环_（小说《红楼梦》人物）)",
+            "JOIN (R人物原型) (JOIN (R 人物原型) 贾环)",
+            "AND (JOIN 人物原型?y) (JOIN (R 原型) 贾环_（小说《红楼梦》人物）)",
+            "JOIN (R 人物原型) (JOIN (R 妻子) 贾环)",
+            "AND (JOIN 原型?y) (JOIN (R 人物原型) 贾环_（小说《红楼梦》人物）)",
+            "JOIN (R 去处) (JOIN (R 人物原型) 贾环)",
+            "AND (JOIN 人物原型?y) (JOIN (R 人物原型) 贾环)",
+            "JOIN (R 物语原型) (JOIN (R 父亲) 贾环_（中国古典文学小说《红楼梦》人物）)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 种类 ?y) (JOIN 别称_非典)",
+        "predict": [
+            "JOIN (R 类型) (JOIN 别称_非典)",
+            "JOIN (R种类) 被称为“非典”的病毒",
+            "JOIN (R种类) (JOIN 别称_非典)",
+            "JOIN (R 种类) (JOIN 别称_非典)",
+            "JOIN (R種類) (JOIN 又称_非典)",
+            "JOIN (R種類) (JOIN 君主称谓_非典)",
+            "JOIN (R 类型) (JOIN 别稱_非典)",
+            "JOIN (R 类型) 非典"
+        ]
+    },
+    {
+        "label": "AND (JOIN 代表作品 ?y) (JOIN (R 提出者) 超人主义)",
+        "predict": [
+            "AND (JOIN 代表作品?y) (JOIN (R 提出人) 超人主义)",
+            "JOIN 代表作品?z 超人主义",
+            "JOIN 代表作品 (JOIN (R 提出人) 超人主义)",
+            "JOIN 代表作品?y (JOIN (R 提出人) 超人主义)",
+            "JOIN 代表作品?z Superman主义",
+            "AND (JOIN 代表作品?y) (JOIN (R提出人) 超人主义)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 代表作品 ?y) (JOIN 丈夫_钱钟书)",
+        "predict": [
+            "AND (JOIN 代表作品?y) (JOIN (R 配偶) 钱钟书)",
+            "JOIN (R 代表作品) (JOIN (R 配偶) 钱钟书)",
+            "AND (JOIN 代表作品?y) (JOIN (R 妻子) 钱钟书)",
+            "AND (JOIN (R 代表作品)?y) (JOIN (R 配偶) 钱钟书)"
+        ]
+    },
+    {
+        "label": "JOIN (R 主要分布) (JOIN (R 特指) 洋毛子)",
+        "predict": [
+            "JOIN (R 出生地) 洋毛子_（俄国人对中国人的谑称）",
+            "JOIN 别名_洋毛子、欧洲人、外国人、外人、外道、天外直、天外直、超级洋毛子、洋毛子、小洋毛子、大洋毛子\n\nJOIN (R 出生地) (JOIN 别名_洋毛子、欧洲人、外国人、外人、外道、天外直、天外直、超级洋毛子、洋毛子、小洋毛子、大洋毛子)",
+            "JOIN (R 籍贯) 洋毛子_（俄国人对中国人的谑称）",
+            "REL洋毛子_（俄国人）",
+            "JOIN (R 出生地) 洋毛子_（俄国人对中国人的暱称）",
+            "REL 洋毛子",
+            "JOIN (R 出生地) 活拉·洋毛子",
+            "JOIN (R 籍贯) 洋毛子_（俄国人对中国人的谑语）",
+            "JOIN (R 分别出生地) 洋毛子_（俄国彼得大帝）",
+            "JOIN (R 出生地) 洋毛子_（俄罗斯彼得大帝）",
+            "JOIN (R 籍贯) 活亚微（洋毛子）",
+            "JOIN (R 生活情景) 洋毛子",
+            "JOIN (R 出生地) 活亚蒙",
+            "JOIN (R 出生地) 洋毛子_（俄国人对中国的人称）"
+        ]
+    },
+    {
+        "label": "AND (JOIN 经纪公司 ?y) (JOIN 别名_本山大叔)",
+        "predict": [
+            "JOIN (R 经纪公司) (JOIN 别名_本山大叔、老头子、下山英雄)",
+            "JOIN (R 经纪公司) (JOIN 别名_本山大叔、老头子)",
+            "JOIN (R 经纪公司) (JOIN 别名_本山大叔、老舎弟)",
+            "AND (JOIN经紀会社 (JOIN 别名_本山大叔、老头子)) (JOIN 别名_本山大叔、老头子)",
+            "JOIN (R 經紀公司) (JOIN 别名_本山大叔、老头子、下山英雄)",
+            "AND (JOIN经紀会社?y) (JOIN 别名_本山大叔)",
+            "JOIN (R 经纪公司) (JOIN 别名_本山大叔、老头子、下雨bear)",
+            "JOIN (R 经纪公司) (JOIN 别名_本山大叔、老頭子)",
+            "JOIN (R 经纪公司) (JOIN 别名_本山大叔、山大叔)",
+            "JOIN (R 经纪公司) (JOIN 创业者_本山大叔)",
+            "JOIN (R 经纪公司) (JOIN 别名_本山大叔、老舟)",
+            "JOIN (R 经纪公司) (JOIN 创作人_本山大叔)",
+            "JOIN (R 经紀公司) (JOIN 别名_本山大叔，)",
+            "JOIN (R经紀会社) (JOIN 别名_本山大叔)",
+            "JOIN (R 经纪 company) (JOIN 别名_本山大叔、 老板大叔)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 火车站 ?y) (JOIN 中文名称_南京)",
+        "predict": [
+            "JOIN (R 火车站) 南京_（中国东部城市）",
+            "JOIN (R 火车站) 南京_（中华人民共和国江苏省省会）",
+            "JOIN (R 火车站) 宁波_（浙江省省会）",
+            "JOIN (R 铁路车站) 南京_（中国东部城市）",
+            "JOIN (R 火车站) 南京都_（原南京都市）",
+            "JOIN (R 铁路车站) 南京_（中华人民共和国江苏省首府）",
+            "JOIN 类型_铁路车站",
+            "JOIN (R 铁路汽车客运站) 南京_（中国东部城市）",
+            "JOIN (R 火车站) 南京_（中华人民共和国江苏省首府）",
+            "JOIN (R火车站) 南京都_（南京、京都两个城市的简称）",
+            "JOIN (R火车站) 宁津",
+            "JOIN (R 火车站) 郎中"
+        ]
+    },
+    {
+        "label": "JOIN (R 出生地) (JOIN 外文名 Maggie Cheung)",
+        "predict": [
+            "JOIN (R 出生地) Maggie Cheung",
+            "JOIN (R 出生地) Maggi Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生地) Maggie Cheung)JOIN (R 出生",
+            "JOIN (R 出生地) Maggie Cheung]",
+            "JOIN (R 出生地) Maggi Cheung]join (R 出生地) Maggi Cheung",
+            "JOIN (R 出生地) MAGGIE CHEUNG_（华人女演员）",
+            "JOIN (R 出生地) 马格丽特·切нг_（香港演员、导演）",
+            "JOIN (R 出生 地) 麦格丽特·张成_（香港演员、导演）"
+        ]
+    },
+    {
+        "label": "AND (JOIN 人口 ?a) (JOIN (R 出生地) 蝙蝠侠_（美国DC漫画旗下超级英雄）)",
+        "predict": [
+            "JOIN (R 人口) (JOIN (R 出生地) 蝙蝠侠_（美国DC漫画旗下超级英雄）)",
+            "JOIN (R 人口) (JOIN (R 出生地)蝙蝠侠_（美国DC漫画旗下超级英雄）)",
+            " JOIN (R 民数目) (JOIN (R 出生地) 蝙蝠侠_（美国DC漫画旗下超级英雄）)",
+            " JOIN (R 人口) (JOIN (R Out of birthplace) 蝙蝠侠_（美国DC漫画旗下超级英雄）)",
+            "JOIN (R 人口) (join (R 出生地) 蝙蝠侠_（美国DC漫画旗下超级英雄）)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 民族 ?y) (JOIN 代表作品_骆驼祥子_（国家大剧院原创歌剧）)",
+        "predict": [
+            "AND (JOIN 民族?y) (JOIN (R 作者) 骆驼祥子_（毛泽东创作长篇小说）)",
+            "AND (JOIN 民族?y) (JOIN (R 作者) 骆驼祥子_（任延伸作的长篇小说）)",
+            "AND (JOIN 民 tộc (JOIN (R 作者) 骆驼祥子_（任建峰著长篇小说）)) (JOIN 代表作品_骆驼祥子_（任建锋著长篇小说）)",
+            "AND (JOIN 民族?y) (JOIN (R 作者) 骆驼祥子_（茅原忠夫的长篇小说）)",
+            "JOIN (R 民族) (JOIN (R 作者) 骆驼祥子_（任延伸写长篇小说，1986年胡乐平编定）)",
+            "AND (JOIN民族?y) (JOIN (R 作者) 骆驼祥子_（毛泽东创作长篇小说）)",
+            "JOIN (R 民族) (JOIN (R 作者) 骆驼祥子_（茅原益松作长篇小说）)",
+            "AND (JOIN民族?y) (JOIN (R 作者) 骆驼祥子_（茅原みつ治著长篇小说）)",
+            "AND (JOIN 民族?y) (JOIN (R 作者) 骆驼祥子_（老舍著长篇小说）)",
+            "JOIN (R 民족) (JOIN (R 作者) 骆驼祥子_（任建峰著长篇小说）)",
+            "AND (JOIN 民族?y) (JOIN (R 作者) 鸡鸣斋)",
+            "AND (JOIN 民族?y) (JOIN (R 作者)骆驼祥子_（任延伸写长篇小说）)",
+            "AND (JOIN 民族?y) (JOIN (R 作者) 鸡胜子_（中国20世纪下半世纪的都市长篇小说）)",
+            "AND (JOIN 民族?y) (JOIN (R 作者) 骆驼祥子_（穆时明创作长篇小说）)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 儿子 ?y) (JOIN (R 师父) 郭麒麟)",
+        "predict": [
+            "JOIN (R 儿子) (JOIN (R 师父) 郭麒麟)",
+            "AND (JOIN 儿子?y) (JOIN (R 师父) 郭麒麟)",
+            "JOIN 儿子 (JOIN (R 师父) 郭麒麟)",
+            "AND (JOIN 父亲_郭麒麟) (JOIN 儿子?y)",
+            "AND (JOIN 子女?y) (JOIN (R 师父) 郭麒麟)",
+            "JOIN 子女_郭麒麟"
+        ]
+    },
+    {
+        "label": "AND (JOIN ?y 杨紫琼) (JOIN ?y 章子怡)",
+        "predict": [
+            "AND (JOIN 主演_章子怡) (JOIN 主演_杨紫琼)",
+            "JOIN 主演_章子怡、杨紫琼",
+            "AND (JOIN 主演_杨紫琼_（中国香港女演员）) (JOIN 主演_章子怡)",
+            "AND (JOIN 主要演员_章子怡) (JOIN 主要演员_杨紫琼)",
+            "AND (JOIN 主 演_章子怡) (JOIN 主 演_杨紫琼_（中国香港女演员）)",
+            "AND (JOIN 主演_章子怡) (JOIN 主演_杨紫 琴)",
+            "AND (JOIN主 演_章子怡) (JOIN主 演_杨紫 琴)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 涉及症状_咳嗽) (AND (JOIN 涉及症状_淋巴结肿大) (JOIN 类型_白细胞检查))",
+        "predict": [
+            "AND (JOIN 涉及症状_咳嗽) (JOIN 涉及症状_淋巴结肿大)",
+            "AND (JOIN 包含症状_咳嗽) (JOIN 包含症状_淋巴结肿大)",
+            "AND (JOIN 所对症_咳嗽) (JOIN 所对症_淋巴结肿大)",
+            "AND (JOIN 参与症状_咳嗽) (JOIN 参与症状_淋巴结肿大)",
+            "AND (JOIN 包括症状_咳嗽) (JOIN 包括症状_淋巴结肿大)",
+            "AND (JOIN 涉及症状_咳嗽) (JOIN 涉及症状_淋巴 结 肿 大)",
+            "AND (JOIN 涉及症状_ 咳嗽) (JOIN 涉及症状_淋巴结肿大)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 政治体制 ?y) (AND (JOIN 主要宗教_道教) (JOIN 主要宗教_佛教))",
+        "predict": [
+            "AND (JOIN 政治体制?y) (AND (JOIN 主要宗教_道教_（中国道教）) (JOIN 主要宗教_佛教_（佛教教义）))",
+            "AND (JOIN 政治体制?y) (AND (JOIN 主要宗教_道教_（中国道教）) (JOIN 主要宗教_佛教_（儒佛合修的宗教）))",
+            "AND (JOIN 政治体制?y) (AND (JOIN 主要宗教_道教_（道教概述）) (JOIN 主要宗教_佛教_（佛教概述）))",
+            "AND (JOIN 政治体制?y) (AND (JOIN 主要宗教_道教_（中国传统宗教）) (JOIN 主要宗教_佛教_（世界大众宗教之一）))",
+            "AND (JOIN政治体制?y) (AND (JOIN 主要宗教_佛教_（佛教系列）) (JOIN 主要宗教_道教_（中国古代道教）))",
+            "AND (JOIN 政治体制?y) (AND (JOIN 主要宗教_道教_（道教为主要宗教的时期）) (JOIN 主要宗教_佛教_（佛教为主要宗教的时期）))",
+            "AND (JOIN 政治体制?y) (AND (JOIN 主要宗教_佛教_（佛教学说）) (JOIN 主要宗教_道教_（中国古代道教）))",
+            "AND (JOIN politiket?y) (AND (JOIN 主要宗教_佛教_（佛教系列文章）) (JOIN 主要宗教_道教_（中国古代道教）))",
+            "AND (JOIN 政治体制?y) (AND (JOIN 主要 religion_佛教_（佛教宗派）) (JOIN 主要 religion_道教_（中国原生宗教）))",
+            "AND (JOIN政治体制?y) (AND (JOIN 主要宗教_佛教_（佛教学说）) (JOIN 主要宗教_道教_（中国道教）))",
+            "AND (JOIN 政治体制?y) (AND (JOIN 主要religious_道教_（中国传统宗教）) (JOIN 主要religious_佛教))",
+            "AND (JOIN 政治体制?y) (AND (JOIN 主要 religions_道教_（中国传统宗教）) (JOIN 主要 religions_佛教_（世界四大宗教之一）))",
+            "AND (JOIN 政治体制?y) (AND (JOIN 主要 religon_道教) (JOIN 主要 religon_佛教))",
+            "AND (JOIN 政治体制?y) (AND (JOIN 文化_道教) (JOIN 文化_佛教))",
+            "AND (JOIN 政治体制?y) (AND (JOIN 道教盛行?y) (JOIN 佛教盛行?y))"
+        ]
+    },
+    {
+        "label": "AND (JOIN 机场 ?y) (JOIN 市花、市树_月季_（蔷薇科植物之一）)",
+        "predict": [
+            "AND (JOIN 艺术名称_月季花) (JOIN 机场?y)",
+            "AND (JOIN 艾尔_月季花) (JOIN 机场?y)",
+            "AND (JOIN 空港_（航空场）) (JOIN 市花_月季花)",
+            "AND (JOIN机场?y) (JOIN 市花_月季花)",
+            "AND (JOIN_Aircraft_Port (JOIN 机场名称?z)) (JOIN 市花_月季花)",
+            "AND (JOIN 空港_（机场短语）) (JOIN 市花_月季花)",
+            "AND (JOIN 市花_月季花_（四重叶、十重叶）) (JOIN 机场_（飞机机场）)",
+            "AND (JOIN 景点(汉字名称包含字目) ) (JOIN 机场 (JOIN 汉字名称_月季花))",
+            "AND (JOIN 空港_机场) (JOIN 市花_月季花)",
+            "AND (JOYFLM 月季花) (JOIN 机场?y)",
+            "AND (JOIN 艺术地位_地位为市花的城市) (JOIN 机场?y)",
+            "AND (JOIN 亚细亚_月季花) (JOIN 机场?y)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 儿子 ?y) (JOIN 主要奖项 2008年北京奥运会体操全能金牌)",
+        "predict": [
+            "JOIN (R 儿子) (JOIN 主要奖项_体操全能金牌)",
+            "AND (JOIN 儿子?y) (JOIN 主要奖项_体操全能金牌)",
+            "JOIN 儿子 (JOIN (R 主要奖项) (JOIN (R 主要奖项) 2008年北京奥运会体操全能金牌))",
+            "AND (JOIN 子女?y) (JOIN 主要奖项_体操全能金牌)",
+            "JOIN 儿子 (JOIN (R 创始成就) (JOIN 主要奖项_体操全能金牌))JOIN (R 主要奖项) 北京奥运会_（21号运动会）",
+            "JOIN 儿子 (JOIN (R 主要成就) (JOIN 主要运动项目_体操全能))",
+            "AND (JOIN 子女?y) (JOIN 主要成就_北京奥运会体操全能金牌)"
+        ]
+    },
+    {
+        "label": "JOIN (R 外文名称) (AND (JOIN 发行时间 1985-03-07) (AND (JOIN 填词_迈克尔·杰克逊) (JOIN 谱曲_迈克尔·杰克逊)))",
+        "predict": [
+            "JOIN (R 英文名称) (AND (JOIN 填词?z) (AND (JOIN 编曲?z) (JOIN 发行时间 1985-03-07)))",
+            "AND (JOIN 外文名?y) (AND (JOIN 发行时间 1985-03-07) (JOIN 编曲_迈克尔·杰克逊))",
+            "JOIN (R 英文名称) (AND (JOIN 发行时间 1985-03-07) (JOIN 编曲_迈克尔·杰克逊))",
+            "JOIN (R 英文名称) (AND (JOIN 填词?) (AND (JOIN 编曲_迈克尔·杰克逊) (JOIN 发行时间 1985-03-07)))",
+            "JOIN (R 英语名称) (AND (JOIN 填词?z) (AND (JOIN 编曲?z) (JOIN 发行时间 1985-03-07)))",
+            "AND (JOIN 外文歌名?y) (AND (JOIN 发行时间 1985-03-07) (JOIN 填词_迈克尔·杰克逊))",
+            "JOIN (R 英文名称) (AND (JOIN 创作时间 1985-03-07) (JOIN (R 编曲填词) 迈克尔·杰克逊))",
+            "AND (JOIN 外文名?y) (AND (JOIN 发行时间 1985-03-07) (JOIN 填词_迈克尔·杰克逊))",
+            "JOIN (R 英文名称) (AND (JOIN 发行时间 1985-03-07) (JOIN 填词_迈克尔·杰克逊))",
+            "AND (JOIN 外 文名?p) (AND (JOIN 发行时间 1985-03-07) (JOIN 编曲_迈克尔·杰克逊))",
+            "AND (JOIN 外 文名?p) (AND (JOIN 发行时间 1985-03-07) (JOIN 填词_迈克尔·杰克逊))"
+        ]
+    },
+    {
+        "label": "AND (JOIN 门派 ?y) (JOIN 其他名称_无名老僧_灰衣僧)",
+        "predict": [
+            "JOIN (R 门派) 灰衣僧_（金庸小说《天龙八部》中人物）",
+            "JOIN (R 门派) 灰衣僧_（金庸小说《天龙八部》中的角色）",
+            "JOIN (R 所属门派) 灰衣僧_（金庸小说《天龙八部》中人物）",
+            "JOIN (R 门派) 齐心_（金庸小说《天龙八部》中人物）",
+            "JOIN (R 所属门派) 灰衣僧_（金庸小说《天龙八部》中的角色）",
+            "JOIN (R 门派) 灰衣僧_（金庸小说《天龙八部》人物）",
+            "JOIN (R 门派) 齐慈灰衣僧_（金庸小说《天龙八部》中人物）",
+            "JOIN (R 门派) 银雀_（金庸小说《天龙八部》中人物）",
+            "JOIN (R 门派) 霜风道人_（《天龙八部》中灰衣僧）",
+            "JOIN (R 门派) 灰衣僧_（金庸作品《天龙八部》中人物）"
+        ]
+    },
+    {
+        "label": "JOIN (R 信仰) (JOIN 代表作品_蒙娜丽莎_（列奥纳多·达·芬奇画作）)",
+        "predict": [
+            "AND (JOIN 宗教?y) (JOIN (R 作者) 蒙娜丽莎_（列奥纳多·达·芬奇画作）)",
+            "AND (JOIN 信仰?y) (JOIN (R 作者) 蒙娜丽莎_（列奥纳多·达·芬奇画作）)",
+            "AND (JOIN 兄弟 作者_列奥纳多·达·芬奇) (JOIN 皈依?y)",
+            "AND (JOIN 相关宗教?y) (JOIN (R 作者) 蒙娜丽莎_（列奥纳多·达·芬奇画作）)",
+            "AND (JOIN皈依?y) (JOIN (R 作者) 蒙娜丽莎_（列奥纳多·达·芬奇画作）)",
+            "AND (JOIN 教派?y) (JOIN (R 作者) 蒙娜丽莎_（列奥纳多·达·芬奇画作）)",
+            "AND (JOIN皈依?y) (JOIN (R 作者) 蒙娜丽莎_（莱昂纳多·达·芬奇画作）)",
+            "AND (JOIN 宗教?y) (JOIN (R 作者) 莫奈_（法国艺术家）)",
+            "AND (JOIN 教派?y) (JOIN (R 作者) 蒙娜丽莎_（莱昂哈德·达·维尼奇画作）)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 作者 ?y) (JOIN (R 登场作品) 李寻欢_（古龙武侠小说《多情剑客无情剑》中主人公）)",
+        "predict": [
+            "AND (JOIN 作者?y) (JOIN (R 出处) 李寻欢)",
+            "JOIN (R 主要作品) (JOIN (R 作者) 李寻欢)",
+            "JOIN 作者 (JOIN (R 作者)?y) (JOIN (R 出处) 李寻欢)",
+            "JOIN (R 出处) 李寻欢",
+            "JOIN 主要作品 (JOIN (R 作者) 李寻欢)",
+            "JOIN 作者 (JOIN (R 作者) 李寻欢)",
+            "AND (JOIN 作品_主将_（1990年朱自清著小说）) (JOIN 作者_李寻欢)",
+            "JOIN 主要作品_李寻欢",
+            "AND (JOIN 作品_主角冠军_李寻欢) (JOIN 作者?y)",
+            "AND (JOIN 作者?y) (JOIN (R 登场作品) 李寻欢_（金庸小说《鹿鼎记》中人物）)",
+            "AND (JOIN 作者?y) (JOIN (R 出自) 李寻欢)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 主要成就 ?y) (JOIN (R 创始人) 腾讯)",
+        "predict": [
+            "AND (JOIN 主要成就?y) (JOIN (R 创始人) 腾讯)",
+            "JOIN (R主要成就) (JOIN (R 创始人) 腾讯)",
+            "JOIN (R 主要成就) (JOIN (R 创始人) 腾讯)",
+            "AND (JOIN 主要成just ) (JOIN (R 创始人) 腾讯)",
+            "AND (JOIN 主要成就?y) (JOIN (R 创始人)腾讯)",
+            "AND (JOIN 主要 成果?y) (JOIN (R 创办者) 腿腾)"
+        ]
+    },
+    {
+        "label": "AND (JOIN (R 妻子) 张翠山) (JOIN (R 居住人) 冰火岛)",
+        "predict": [
+            "AND (JOIN 子女_子女) (JOIN 知识_在冰火岛遇见张翠山)",
+            "AND (JOIN (R 父亲)?y) (AND (JOIN 地点_冰火岛) (JOIN (R 认识) 张翠山_（中国古代武侠小说《射雕英雄传》人物）))",
+            "AND (JOIN 所处地点_冰火岛_（武侠小说《射雕英雄传》中的人间圣地）) (JOIN (R 父亲) 张翠山_（小说《射雕英雄传》人物）)",
+            "AND (JOIN 子女_子女_（自然数）) (JOIN 知识_在冰火岛遇到的人)",
+            "JOIN 儿子 (JOIN (R 人物身份) 张翠山_（中国古代武侠小说《射雕英雄传》人物）) (JOIN (R 知名人物) 冰火岛)",
+            "AND (JOIN 所得儿子?y) (AND (JOIN 所处位置_冰火岛) (JOIN 知道人_张翠山_（中国武侠小说《射雕英雄传》人物）))",
+            "AND (JOIN 妻子?y) (AND (JOIN 所处地点_冰火岛_（金庸小说《射雕英雄传》中的人间岛）) (JOIN 儿子_张三江_（金庸小说《射雕英雄传》中的人物）))",
+            "AND (JOIN 子女_子女_（自然生育结果）) (AND (JOIN 现状 (JOIN 地点_冰火岛)) (JOIN 相关人物_张翠山))",
+            "JOIN 儿子 (JOIN (R 人物概述) 张翠山_（中国武侠小说《射雕英雄传》人物）) (JOIN (R 知名作品) 冰火岛)",
+            "AND (JOIN 父亲_张翠山_（中国古代武侠小说《射雕英雄传》人物）) (JOIN 出生地_冰火岛_（小说《射雕英雄传》地点）)",
+            "AND (JOIN 子女_儿子) (JOIN 所处位置_冰火岛)",
+            "JOIN 儿子 (JOIN (R 父亲) 张翠山_（中国古代武侠小说《射雕英雄传》人物）) (JOIN (R 认识) 冰火岛_（小说《射雕英雄传》地點）)",
+            "AND (JOIN 子女_小二姐_（小说《射雕英雄传》人物）) (JOIN 现状 (JOIN 地点_冰火岛))",
+            "AND (JOIN (R 父亲)?y) (AND (JOIN 地点_冰火岛) (JOIN (R 知道人) 张翠山))"
+        ]
+    },
+    {
+        "label": "JOIN 主要成就 facebook粉丝全球第一",
+        "predict": [
+            "JOIN (R 粉丝数量) Facebook用户",
+            "AND (JOIN 粉丝数_全球粉丝数量) (JOIN 在线服务公司_facebook)",
+            "AND (JOIN 粉丝数量_-facebook全球粉丝最多的人) (JOIN 主要成就_首位入选最强理智之王的男友)",
+            "JOIN 粉丝数_全球粉丝数量最多",
+            "JOIN (R 最多粉丝) Facebook",
+            "JOIN (R 最少跟随者) Facebook_（面书公司）",
+            "JOIN 弹出速度 0 减速-factor (JOIN 社交网站:facebook)",
+            "AND (JOIN 粉丝数_全球粉丝数最多) (JOIN 在线社交平台_facebook_（面书）)",
+            "AND (JOIN 粉丝数量 (JOIN (R 粉丝数量) facebook)) (JOIN 主要成就_被facebook收购)",
+            "JOIN 粉丝数_全球粉丝最多",
+            "JOIN 所持-facebook最多粉丝",
+            "JOIN 粉丝数量_facebook全球粉丝数量最多的人",
+            "AND (JOIN粉丝数量 (JOIN 网站 Facebook)) (JOIN 性别_男)",
+            "AND (JOIN 粉丝数量 (JOIN (R 粉丝数量) Facebook)) (JOIN 职业 (JOIN (R 职业) Facebook))",
+            "AND (JOIN 粉丝数_全球粉丝数量) (JOIN 网络公司_-facebook)"
+        ]
+    },
+    {
+        "label": "JOIN 别名 zhenya（昵称）、小普、冰王子、普皇、冰上沙皇",
+        "predict": [
+            "JOIN 别名_冰上沙皇",
+            "JOIN 字别称_ 冰上沙皇\nJOIN 运动项目_速度滑冰 JOIN (R 运动项目) 冰上沙皇",
+            "JOIN 荣誉别称_冰上沙皇\nJOIN 运动项目_冰球_（冰上运动）",
+            "JOIN 意义_冰上沙皇",
+            "JOIN 主要荣誉_冰上沙皇",
+            " JOIN 主要奖项_冰上沙皇",
+            "JOIN 字别称_冰上沙皇"
+        ]
+    },
+    {
+        "label": "AND (JOIN 类别_公立大学) (JOIN (R 名校) 纽约_（美国第一大城市）)",
+        "predict": [
+            "JOIN (R 公立大学) 纽约_（美国最大的城市）",
+            "AND (JOIN 类别_公立大学) (JOIN 所属地区_纽约_（美国第一大城市）)",
+            "JOIN (R 公立大学) 纽约_（美国第一大城市）",
+            "AND (JOIN 所属地区_纽约_（美国第一个州 capita）) (JOIN 类别_公立大学)",
+            "AND (JOIN 所属地区_纽 YORK市) (JOIN 类别_公立大学)",
+            "JOIN (R 公立大学) 纽约_（美国最大的市）",
+            "AND (JOIN 类别_公立大学) (JOIN 所属地区_纽约_（美国最大的州之一）)",
+            "JOIN (R 公立大学) 纽约_（美国最大的市县）",
+            "JOIN (R 公立大学) 纽约_（美国最大的城区性市政府）",
+            "JOIN (R 公立大学) 纽约_（美國最高法院首席justice）"
+        ]
+    },
+    {
+        "label": "AND (JOIN (R 作者) 理想国_（理想国）) (JOIN 主张 ?y)",
+        "predict": [
+            "JOIN (R 主张) (JOIN (R 作者) 理想国_（普鲁塔克《理想国》）)",
+            "JOIN (R 主张) (JOIN 代表作品_理想国_（蒙泰尼尔《乌托邦》）)",
+            "JOIN (R 主张) (JOIN (R 作者) 理想国_（플로特инов斯·普托克的小说）)",
+            "AND (JOIN 主要思想?y) (JOIN (R 作者) 理想国_（普鲁塔克的著作）)",
+            "AND (JOIN 主张?y) (JOIN 代表作品_理想国（UTOPIA）)",
+            "JOIN (R 主张) (JOIN (R 作者) 理想国_（普洛提诺的人类理想国著作）)",
+            "AND (JOIN Main成就_《理想国》(普拉特恩·阿克塞尔森作品)) (JOIN 主张?y)",
+            "AND (JOIN 主要思想?y) (JOIN (R 作者) 理想国_（蒙泰尔创作长篇散文小说）)",
+            "AND (JOIN 主张?y) (JOIN 代表作品_理想国（utopia）)",
+            "AND (JOIN 主要思想?y) (JOIN (R 作者) 理想国_（普洛提诺的人类理想国著作）)",
+            "JOIN (R 主張) (JOIN (R 作者) 理想国_（ Plato创作长篇散文著作）)",
+            "JOIN (R 主张) (JOIN 代表作品_理想国_（蒙田著作）)",
+            "JOIN (R 主張) (JOIN (R 作者) 理想国_（プラトンの著作）)",
+            "JOIN (R 主張) (JOIN (R 作者) 理想国_（พล็อต小说由雅典老商人普林尼亚著）)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 外文名 ?y) (JOIN (R 主要角色) 守望先锋_（2016年暴雪娱乐发行的团队射击游戏）)",
+        "predict": [
+            "JOIN (R 外国名字) (JOIN 登场作品_守望先锋_（2016年暴雪娱乐发行的团队射击游戏）)",
+            "AND (JOIN 外文名?y) (JOIN (R 英文名称) 守望先锋_（2016年暴雪娱乐发行的团队射击游戏）)",
+            "JOIN (R 外文名) (JOIN 登场作品_守望先锋_（2016年暴雪娱乐发行的团队射击游戏）)",
+            "JOIN (R 外国名字) (JOIN游戏_守望先锋_（2016年暴雪娱乐发行的团队射击游戏）)",
+            "JOIN (R foreign_name) (JOIN 登场作品_守望先锋_（2016年金山奇点公司制作的电子运动游戏）)",
+            "JOIN (R foreign_name_角色名称) (JOIN 游戏_守望先锋_（2016年暴雪娱乐发行的团队射击游戏）)",
+            "JOIN (R 外国名字) (JOIN 登场作品_守望先锋_（2016年jinsoo执导的电影）)",
+            "AND (JOIN Foreign Name?y) (JOIN (R 外文名) 守望先锋)",
+            "AND (JOIN 国际名称?y) (JOIN (R 中文名) 守望先锋_（2016年布克哈特公司开发的团队射击游戏）)",
+            "JOIN (R 外国名称) (JOIN 游戏_守望先锋_（2016年布克哈德尔·卡尔森开发的团队射击游戏）)",
+            "AND (JOIN 国际名称?y) (JOIN (R 内部角色) 守望先锋_（2016年重视网作战类电子游戏）)",
+            "AND (JOIN 外文名?y) (JOIN (R 外文名) 守望先锋)",
+            "JOIN (R 外国名字) (JOIN游戏_守望先锋)"
+        ]
+    },
+    {
+        "label": "JOIN (R 所属运动队) (AND (JOIN 运动项目_足球) (JOIN 主要奖项 2015 欧冠金靴))",
+        "predict": [
+            "JOIN (R 所属运动队) (JOIN 主要奖项 2015 欧冠金靴)",
+            "JOIN (R 运动员运动俱乐部) (JOIN 主要奖项 2015 欧冠金靴)",
+            "JOIN (R 效力球队) (JOIN 主要奖项 2015 欧冠金靴)",
+            "AND (JOIN 效力.club (JOIN (R 主要球队) (JOIN 生日 1994年05月17日))) (JOIN 主要奖项 2015 欧冠金靴)",
+            "JOIN (R effector) (JOIN 主要奖项 2015 欧冠金靴)",
+            "AND (JOIN 代表作品 2015欧冠金靴) (JOIN 所属运动队?y)",
+            "JOIN (R EFF ective年份) (AND (JOIN 主要奖项 2015 欧冠金靴) (JOIN 运动项目_足球))",
+            "JOIN (R_eff力队) (JOIN 主要奖项 2015 欧冠金靴)",
+            "AND (JOIN 运动项目_足球) (JOIN 主要奖项 2015 欧冠金靴)",
+            "JOIN (R效力球队) (JOIN 主要奖项 2015 欧冠金靴)",
+            "JOIN (R效力俱乐部) (JOIN 主要奖项 2015 欧冠金靴)",
+            "JOIN (R 运动项目） (AND (JOIN 成就 2015 欧冠金靴) (JOIN 所属运动队?y))",
+            "AND (JOIN 球队?y) (JOIN 主要奖项 2015 欧冠金靴)",
+            "JOIN (R 所属运动队) (JOIN 主要奖项 2015欧冠金靴)"
+        ]
+    },
+    {
+        "label": "JOIN (R 建议游玩时长) (AND (JOIN 景点的等级A 5A) (AND (JOIN 类型_景点) (JOIN 城市_九寨沟县)))",
+        "predict": [
+            "JOIN (R 建议游玩时长) (AND (JOIN 景点的等级A 5A) (JOIN 城市_九寨沟县))",
+            "JOIN (R 建议游玩时长) (AND (JOIN 景点名称_九寨沟县) (JOIN 景点的等级A))",
+            "JOIN (R 建 议游玩时长) (AND (JOIN 景点的等级A 5A) (JOIN 城市_九寨沟县))",
+            "JOIN (R 建议游玩时长) (AND (JOIN 景点的等级 A) (JOIN 城市_九寨沟县))",
+            "JOIN (R 建议游玩时长) (AND (JOIN 建议游玩时长?y) (JOIN 景点类别_九寨沟县旗舰景点))",
+            "JOIN (R 建议游玩时长) (AND (JOIN 建议游玩时长?z) (JOIN 地理位置_九寨沟县))",
+            "JOIN (R建言) 九寨沟县",
+            "JOIN (R 建议游-play时间) 九寨沟县",
+            "JOIN (R 建议游玩时长) (AND (JOIN 景点名称_九寨沟县) (JOIN 领域类别_景点))",
+            "JOIN (R 建议游玩时长) (AND (JOIN 建议游玩时长?y) (JOIN 景点类别_自然景点))",
+            " JOIN (R建議遊玩時長) (AND (JOIN 景点排名lobal一等第 5) (JOIN 地理位置_九寨沟县))"
+        ]
+    },
+    {
+        "label": "JOIN (R 融资金额) (AND (JOIN 融资时间_最近一次) (JOIN (R 融资) 蚂蚁金服))",
+        "predict": [
+            "JOIN (R 最近一融资额) 蚂蚁金服",
+            "JOIN (R 最近一轮融资量) 蚂蚁金服",
+            "JOIN (R 最近融资) 蚂蚁金服",
+            "JOIN (R 融资额) 蚂蚁金服",
+            "JOIN (R融资额) 蚂蚁金服",
+            "JOIN (R 最近一轮融资金额) 蚂蚁金服",
+            "JOIN (R 最 recent融资额) 蚂蚁金服",
+            "JOIN (R 兄弟公司最新融资额) 蚂蚁金服（蚂蚁在线）",
+            "join (R最近融资量) 蚂蚁金服",
+            "JOIN (R 刚刚融资量) 蚂蚁金服",
+            "JOIN (R 拍摄前公司价值) 蚂蚁金服"
+        ]
+    },
+    {
+        "label": "AND (JOIN 作者 ?y) (JOIN 作品名称_哈利·波特)",
+        "predict": [
+            "JOIN (R 作者) 哈利·波特_（英格兰武士式魔术学校系列小说的主角）",
+            "JOIN (R 作者) 哈利·波特_（英美作家J·K·罗琳创作的魔法小说系列）",
+            "JOIN (R 作者) 哈利·波特_（英式小说）",
+            "JOIN (R 作者) 海外哈利·波特系列动画 2014-08-01在美国、英国等国broadcast了一个以成人为目标的.animate系列，包含了原著中的所有故事（共7部）JOIN (R 作者) 哈利·波特加入原著物品)",
+            "JOIN (R 作者) 哈利·波特_（英格兰魔法学校系列著作）",
+            "JOIN (R 作者) 哈利·波特_（英国作家J·K·罗威尔创作小说系列）",
+            "JOIN (R 作者) 哈利·波特_（英美著名小说《哈利·波特》系列的主角）",
+            "JOIN (R.author_english) 哈利·波特_（英格兰武士式魔术学校系列著作）",
+            "JOIN (R 作者) 哈利·ポッター_（英美作家J·K·罗琳创作的魔术学校系列小说） J·K·罗琳",
+            "JOIN (R 作者)哈利·波特_（英格兰武士式魔术学校系列小说的主角）",
+            "JOIN (R 作者) 哈利·波特_（英国作家J·K·罗琳创作小说系列）",
+            "JOIN (R 作者) 哈利·波特_（英國作家J·K·罗琳创作的魔术事务所系列主角）",
+            "JOIN (R 作者) 哈 利 · 波特_（英美小说《哈利·波特》中魔法学校）",
+            "JOIN (R 作者) 霍格沃茨魔法学校"
+        ]
+    },
+    {
+        "label": "AND (JOIN 信仰 ?y) (JOIN (R 现任校长) 北京大学)",
+        "predict": [
+            "AND (JOIN 信仰?y) (JOIN (R 现任校长) 北京大学)",
+            "JOIN (R_faith) (JOIN (R 现任校长) 北京大学)",
+            "AND (JOIN 信仰?y) (JOIN (R 現任 校長) Beijing 大学)",
+            "AND (JOIN 信仰?y) (JOIN (R 现任校长) 北京大學)",
+            "AND (JOIN信仰?y) (JOIN (R 現 任 校長)北京大學)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 所属地区_南昌_（江西省省会）) (AND (JOIN 现任校长 ?y) (JOIN 校庆日 05-4))",
+        "predict": [
+            "AND (JOIN 所属地区_南昌_（江西省省会）) (AND (JOIN 现任校长?y) (JOIN 校庆日 05-4))",
+            "AND (JOIN 校庆日 05-4) (AND (JOIN 现任校长?y) (JOIN 所属地区_南昌_（江西省省会）))",
+            "AND (JOIN 现任校长?y) (AND (JOIN 校庆日 05-4) (JOIN (R 高等学府) 南昌))",
+            "AND (JOIN 校庆日 05-4) (AND (JOIN 现任校长?y) (JOIN 地理位置_南昌_（江西省省会）))",
+            "AND (JOBDUTY 现任校长) (AND (JOIN 校庆日 05-4) (JOIN 城市_南昌))",
+            "AND (JOIN 校庆日 05-4) (AND (JOIN 现任校长?y) (JOIN (R 地方大学) 南昌))",
+            "AND (JOIN 现任校长?y) (AND (JOIN 校庆日 05-4) (JOIN (R 主要大学) 南昌))"
+        ]
+    },
+    {
+        "label": "JOIN (R 生理机能) (JOIN 标签_新型冠状病毒（SARS-CoV-2）)",
+        "predict": [
+            "JOIN (R 生理机能) 新型冠状病毒",
+            "JOIN (R 生命周期) 新型冠状病毒",
+            " JOIN (R 性质) 新型冠状病毒"
+        ]
+    },
+    {
+        "label": "AND (JOIN (R 例子) 助燃剂) (JOIN (R 组成) 火柴头)",
+        "predict": [
+            "AND (JOIN 类别_助燃剂) (JOIN (R 成份) 火柴头_（有纸火柴头）)",
+            "AND (JOIN 化学物质 (JOIN 类别_助燃剂)) (JOIN (R 成分) 火柴头_（液体火柴头的简称）)",
+            "AND (JOIN 成份 (JOIN 类型_助燃剂)) (JOIN 中文名_火柴头)",
+            "AND (JOIN 类型_助燃剂) (JOIN (R 成分) 火柴头_（无燃料的火柴头）)",
+            "AND (JOIN 化学物质 (JOIN 助燃剂)) (JOIN (R 成分) 火柴头_（液体火柴头的成分）)",
+            "AND (JOIN 化学物质 (JOIN 类型_助燃剂)) (JOIN (R 成份) 火柴头_（油类）)",
+            "AND (JOIN 成分 (JOIN 助燃剂?z)) (JOIN 中文名_火柴头)",
+            "AND (JOIN 类别_助燃剂) (JOIN (R 成份) 火柴头_（油类）)",
+            "AND (JOIN 化学物质属性_助燃剂) (JOIN (R 成份) 火柴头_（无烟粉火柴头）)",
+            "AND (JOIN 类型_助燃剂) (JOIN (R 成分) 火柴头_（有纸火柴头）)",
+            "AND (JOIN 类别_助燃剂) (JOIN (R 成份) 火柴头_（无烟粉火柴头）)",
+            "AND (JOIN 类型_助燃剂) (JOIN (R 成份) 火柴头_（有火柴头我们叫纸 airplane的飞机）)",
+            "AND (JOIN 性质_助燃剂) (JOIN (R 成分) 火柴头)"
+        ]
+    },
+    {
+        "label": "JOIN (R 官职) (JOIN 代表作品_史记)",
+        "predict": [
+            "AND (JOIN 官职?y) (JOIN (R 作者) 史记_（司马迁著作）)",
+            "AND (JOIN 官职?y) (JOIN (R 作者) 史记_（中国古代历史文学著作）)",
+            "AND (JOIN 官职?y) (JOIN (R 作者) 史记_（孙武著作）)",
+            "JOIN 夫妻_史记作者_（司马迁）",
+            "AND (JOIN 官职?y) (JOIN (R 作者) 史记_（司马提要的历史文集）)",
+            "JOIN (R 官職) 史记（史记作者作成的著作）",
+            "AND (JOIN 任官?\n) (JOIN (R 作者) 史记_（苏秦创作历史著作）)",
+            "AND (JOIN 任官) (JOIN (R 作者) 史记)",
+            "AND (JOIN 官职?y) (JOIN (R 作者) 史记)",
+            "AND (JOIN 官职?y) (JOIN (R 作者)史记_（司马迁著录史事记事书）)",
+            "AND (JOIN 官职?y) (JOIN (R 作者) 史记_（苏秦创制作家作者）)",
+            "AND (JOIN 官职?y) (JOIN (R 作者) 史记_（中国古代历史文书）)",
+            "AND (JOIN官位?y) (JOIN (R 作者)史记_（数代传承、发展的历史著作）)",
+            "AND (JOIN 官职?y) (JOIN (R 作者)史记_（司马迁著作）)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 出生日期 ?y) (JOIN (R 女儿) 冯小刚)",
+        "predict": [
+            "JOIN (R 出生日期) (JOIN 父亲_冯小刚)",
+            "AND (JOIN 出生日期?y) (JOIN 父亲_冯小刚)",
+            "AND (JOIN 出生日期?y) (JOIN (R 女儿) 冯小刚)",
+            "JOIN (R 生日) (JOIN (R 女儿) 冯小刚)",
+            "JOIN (R 출생일) (JOIN father_冯小刚)",
+            "AND (JOIN出生日期?y) (JOIN (R 女儿) 冯小刚)",
+            "AND (JOIN出生日期?y) (JOIN 父亲_冯小刚)",
+            "JOIN (R 出生 日期) (JOIN 父亲_冯小刚)"
+        ]
+    },
+    {
+        "label": "AND (JOIN (R 相关著作) 物理_（物理学）) (JOIN (R 代表作品) (JOIN (R 提出者) 重力))",
+        "predict": [
+            "AND (JOIN 代表作品?y) (JOIN (R 发现者) 重力)",
+            "JOIN (R 代表成就) (JOIN (R 发现者) 重力)",
+            "AND (JOIN (R 代表作品) 物理_（物理学）) (JOIN (R 发表人) 重力_（自然现象）)",
+            "AND (JOIN 代表成就?y) (JOIN (R 发现者) 重力)",
+            "AND (JOIN 代表作品?y) (JOIN (R 发明者) 重力)",
+            "AND (JOIN 代表作品?y) (JOIN (R 发表作品) 发现重力)",
+            "AND (JOIN (R 代表作品) 物理_（物理学）) (JOIN (R 发现者) 重力_（自然现象）)",
+            "JOIN (R 代表作) (JOIN (R 发现者) 重力)",
+            "JOIN (R 代表成就) (JOIN (R 发明) 重力)",
+            "AND (JOIN (R 代表作品) 物理_（物理学）) (JOIN (R 发表人) 重力_（自然科学概念）)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 总部地点 ?y) (JOIN (R 发行公司) 真假ID)",
+        "predict": [
+            "JOIN (R 总部地点) (JOIN (R 发行者) 真假ID)",
+            "JOIN (R 总部地点) (JOIN (R 发行机构) 真假ID)",
+            "JOIN (R 总部地址) (JOIN (R 发行方) 真假ID)",
+            "JOIN (R 发行公司总部) 真假ID",
+            "JOIN (R 总部地址) (JOIN (R 发行公司) true或假ID)",
+            "JOIN (R总部地址) (JOIN (R 创立者) 真假ID)",
+            "JOIN (R 总부所在地) (JOIN (R 发行者) 真假ID)",
+            "JOIN (R总部地址) (JOIN (R发行公司) 真假ID)",
+            "JOIN (R 总部地点) (JOIN (R 发行机构) trueorfalse)",
+            "JOIN (R总部城市) (JOIN (R 创办公司) 真假ID)",
+            "JOIN (R總部位置) (JOIN (R 釋行机构) 真假ID)",
+            "JOIN (R 总部位置) (JOIN (R 发行方) 真假ID)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 所属科目_检验科) (AND (JOIN 涉及疾病_前庭大腺癌) (JOIN 涉及疾病_赖特综合征性巩膜炎))",
+        "predict": [
+            "AND (JOIN 涉及疾病_前庭大腺癌) (JOIN 涉及疾病_赖特综合征性巩膜炎)",
+            "AND (JOIN 涉 及 disease_前庭大腺癌) (JOIN 涉及 disease_赖特综合征性巩膜炎)",
+            "AND (JOIN 现在称呼_前庭大腺癌) (JOIN 现在称呼_赖特综合征性巩膜炎)",
+            "AND (JOIN 涩症症状_ 前庭大 腹 疗 癌) (JOIN 涉及疾病_赖特综合征性巩膜炎)",
+            "AND (JOIN 涉及疾病_前庭大腺癌) (JOIN 涉及疾病_赖特复合征性巩膜炎)",
+            "AND (JOIN 涉及疾病_前庭大 腹 癌) (JOIN 涉及疾病_頼 特 综合征性巩膜炎)",
+            "AND (JOIN 涉及疾病_前庭大腺 癌) (JOIN 涉及疾病_赖特综合征性 巩膜 炎)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 毕业院校 ?y) (JOIN 主要成就_北京大学第十四届十佳教师)",
+        "predict": [
+            "AND (JOIN 毕业院校?y) (JOIN (R 主要毕业院校) 北京大学第十四届十佳教师)",
+            "AND (JOIN 毕业院校?y) (JOIN (R 荣誉) 北京大学)",
+            "AND (JOIN 毕业院校?y) (JOIN (R 授予者) 北京大学第十四届十佳教师)",
+            "JOIN (R 毕业院校) (JOIN (R 荣誉) 北京大学)",
+            "JOIN (R 自己学校) (JOIN (R 毕业院校) 北京大学第十四届十佳教师)",
+            "AND (JOIN 母校_北京大学) (JOIN 属性 14届十佳教师)",
+            "AND (JOIN 升学机构?y) (JOIN (R 主要毕业院校) 北京大学第十四届十佳教师)",
+            "JOIN (R 毕业院校) (JOIN (R 主要成就) 北京大学)",
+            "JOIN (R 自身机构) 北京大学第十四届十佳教师"
+        ]
+    },
+    {
+        "label": "AND (JOIN 配音 (JOIN 星座 ?z)) (JOIN 中文名_初音未来)",
+        "predict": [
+            "JOIN (R 星座) (JOIN 配音_初音未来)",
+            "AND (JOIN 星座?y) (JOIN 代表人物_初音未来)",
+            "AND (JOIN 星座?y) (JOIN 配音_初音未来)",
+            "AND (JOIN 星座?y) (JOIN 代表声_初音未来)",
+            "AND (JOIN Stars?y) (JOIN (R 配音) 初音未来)",
+            "AND (JOIN StarSign?y) (JOIN 配音_初音未来)",
+            "JOIN (R星座) (JOIN 卡牌_初音未来)"
+        ]
+    },
+    {
+        "label": "JOIN (R 主要成就) (JOIN (R 现任校长) 斯坦福大学)",
+        "predict": [
+            "AND (JOIN 主要成就?y) (JOIN (R 现任校长) 斯坦福大学)",
+            "AND (JOIN 主要成就?y) (JOIN (R 现任校长) 史塔福大学)",
+            "AND (JOIN 所持要职位_校长) (JOIN 主要成就?y)",
+            "AND (JOIN主 要成就 what) (JOIN (R 现任校长) 斯坦福大学)",
+            "AND (JOIN 主要荣誉 what) (JOIN (R 现任校长) 斯坦福大学)",
+            "AND (JOIN 主要成就?y) (JOIN (R 现任校长) 史塔福大学_（美国加利福尼亚州斯坦福大学）)",
+            "AND (JOIN 主要成就?y) (JOIN (R 现任校长) 史丹佛大学)",
+            "AND (JOIN 主要奖项?y) (JOIN (R 现任校长) 斯坦福大学)",
+            "AND (JOIN 所获奖项?y) (JOIN (R 校长) 斯坦福大学)",
+            "AND (JOIN 主要荣誉?y) (JOIN (R 现任校长) 斯坦фор德大学)",
+            "AND (JOIN 主要奖项?y) (JOIN (R 現任 校長) 史丹佛大學)",
+            "AND (JOIN 主要成就?y) (JOIN (R 现任校长)斯坦福大学)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 父亲 (JOIN 身高 ?z)) (JOIN 中文名_刘翔)",
+        "predict": [
+            "JOIN (R 身高) (JOIN (R 父亲) 刘翔_（中国短途运动会金牌奥运会女运动员）)",
+            "JOIN (R 身高) (JOIN (R 父亲) 刘翔_（中国速球技世界冠军、奥运冠军）)",
+            "JOIN (R 身高) (JOIN (R 父亲) 刘翔_（中国四十多个国际运动项目奥林匹克游戏事业的运动员）)",
+            "JOIN (R 父亲身高) 刘翔_（中国短途速度运动员）",
+            "JOIN (R父亲身高) 刘翔_（中国短途运动会金牌运动员）",
+            "JOIN (R 父亲身高) 刘翔_（中国田径运动员）",
+            "JOIN (R 身高) (JOIN (R 父亲) 刘翔_（中国短途速度运动员）)",
+            "JOIN (R 身高) (JOIN (R 父亲) 刘翔_（中国田径运动员）)",
+            "JOIN (R父亲身高) 刘翔_（中国短距离栏杆运动员）",
+            "JOIN (R 父亲身高) 刘翔_（中国短板泳运动员）",
+            "JOIN (R 身高) (JOIN (R 父亲) 刘翔_（中国运动员）)",
+            "JOIN (R 身高) (JOIN (R 父亲) 刘翔_（中国速泳运动员）)",
+            " JOIN (R身高) (JOIN (R 父亲) 刘翔_（经多次毒品检查被判刑中国短跑运动员）)",
+            " JOIN (R 身高) (JOIN (R 父親) 劉翔_（中国短途速度运动员）)",
+            "JOIN (R 身高) (JOIN (R 父亲) 刘翔_（商业运动员）)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 开发商_宇峻奥汀科技股份有限公司) (AND (JOIN 内容主题_战争_（矛盾斗争表现的最高形式与暴力手段）) (AND (JOIN 内容主题_魔幻) (JOIN 发行日期 1995)))",
+        "predict": [
+            "AND (JOIN 游戏类型_战争_（词语解释）) (AND (JOIN 游戏类型_魔幻_（词语解释）) (AND (JOIN 发行时间 1995) (JOIN 开发公司_宇峻奥汀科技股份有限公司)))",
+            "AND (JOIN 开发商_宇峻奥汀科技股份有限公司) (AND (JOIN 主要类型_战争_（词语解释）) (JOIN 主要类型_魔幻))",
+            "AND (JOIN游戏类型_战争_（词语解释）) (AND (JOIN 类型_魔幻_（词语解释）) (AND (JOIN 开发商_宇峻奥汀科技股份有限公司) (JOIN 发行时间 1995)))",
+            "AND (JOIN 游戏类型_战争_（军事对外文化交流 corporation）) (AND (JOIN 游戏类型_魔幻_（虚构类别）) (JOIN 发行时间 1995))",
+            "AND (JOIN 游戏类型_战争_（词语解释）) (AND (JOIN 游戏类型_魔幻_（词语解释）) (AND (JOIN 发行时间 1995) (JOIN 开发商_宇峻奥汀科技股份有限公司)))",
+            "AND (JOIN 游戏题材_战争_（军事对手的战斗）) (AND (JOIN 游戏题材_魔幻世界) (JOIN 发行时间 1995))",
+            "AND (JOIN 关键字_战争_（军事行动）) (AND (JOIN 关键字_魔幻_（指文学体裁）) (AND (JOIN 发行时间 1995) (JOIN 开发商_宇峻奥汀科技股份有限公司)))",
+            "AND (JOIN 开发商_宇峻奥汀科技股份有限公司) (AND (JOIN 主要类型_战争_（词语概念）) (JOIN 主要类型_魔幻))",
+            "AND (JOIN 游戏类型_战争_（词语解释）) (AND (JOIN 游戏类型_魔幻_（词语解释）) (JOIN 发行时间 1995))",
+            "AND (JOIN 类型_战争_（词语解释）) (AND (JOIN 类型_魔幻_（词语解释）) (AND (JOIN 发行时间 1995) (JOIN 开发商_宇峻奥汀科技股份有限公司)))",
+            "AND (JOIN 게임성型_战争_（词语解释）) (AND (JOIN 게임성型_魔幻_（词语解释）) (AND (JOIN 发行时间 1995) (JOIN 开发公司_宇峻奥汀科技股份有限公司)))",
+            "AND (join 游戏类型_战争_（词语解释）) (AND (JOIN 游戏类型_魔幻_（词语解释）) (JOIN 发行时间 1995))",
+            "AND (JOIN游戏类型_战争_（词语解释）) (AND (JOIN 游戏类型_魔幻) (AND (JOIN 发行时间 1995) (JOIN 开发公司_宇峻奥汀科技股份有限公司)))",
+            "AND (JOIN 开发公司_宇峻奥汀科技股份有限公司) (AND (JOIN 主要类型_战争_（词语解释）) (JOIN 主要类型_魔幻))",
+            "AND (JOIN 游戏类型_战争_（汉语词语）) (AND (JOIN 游戏类型_魔幻) (JOIN 发行时间 1995))"
+        ]
+    },
+    {
+        "label": "AND (JOIN 教练 ?y) (AND (JOIN 前妻_葛天) (JOIN 运动项目 110米栏))",
+        "predict": [
+            "AND (JOIN 教练?y) (AND (JOIN 主要成就_成为110米栏世界冠军) (JOIN 前妻_葛天_（中国长跑运动员、女演员）))",
+            "AND (JOIN 教练?y) (AND (JOIN 主要成就_提起110米栏世界冠军) (JOIN 前妻_葛天_（中国长跑运动员）))",
+            "AND (JOIN 技术指南_教练_（运动教练）) (JOIN 主要成就_110米栏世界冠军)",
+            "AND (JOIN 教练?y) (AND (JOIN 主要成就_成为110米栏世界冠军) (JOIN 前妻_葛天_（中国长跑运动员）))",
+            "AND (JOIN 技术指南_葛天_110米栏世界冠军) (JOIN 教练 (JOIN 主要成就_获世界冠军))",
+            "AND (JOIN 教练?y) (AND (JOIN 主要成就_提起奥运金牌) (JOIN 前妻_葛天_（中国女运动员）))",
+            "AND (JOIN 师傅?y) (AND (JOIN 主要成就_提起奥运金牌) (JOIN 前妻_葛天_（中国女演员）))",
+            "AND (JOIN 编制_特权) (AND (JOIN 教练_?) (JOIN 主要成就_获110米栏世界冠军))",
+            "AND (JOIN教材 (JOIN 主要成就 110米栏世界冠军)) (JOIN 配偶_葛天)",
+            "JOIN 教练 (JOIN (R 教练) (JOIN 配偶_葛天))",
+            "AND (JOIN 教练?y) (AND (JOIN 主要成就_获得110米栏世界冠军) (JOIN 前妻_葛天))",
+            "AND (JOIN 教练?y) (AND (JOIN 主要奖项_110米栏世界冠军) (JOIN 前妻_葛天))",
+            "AND (JOIN 教练?y) (AND (JOIN 主要成就_成为110米栏世界冠军) (JOIN 前妻_葛天_（中国四川大学硕士研究生）))",
+            "AND (JOIN 教官?y) (AND (JOIN 重要事件_葛天前妻) (JOIN 主要成就_110米栏世界冠军))",
+            "AND (JOIN 教练?y) (AND (JOIN 主要成就_获得110米栏世界冠军) (JOIN 配偶_葛天_（中国四川大学毕业生）))"
+        ]
+    },
+    {
+        "label": "AND (JOIN 沿岸重要城市 ?y) (JOIN 中文名_长江)",
+        "predict": [
+            "AND (JOIN 地理位置?y) (JOIN (R 沿岸城市) 长江_（最长河流）)",
+            "AND (JOIN 类别_城市) (JOIN (R 沿岸城市) 长江_（最长河流）)",
+            "AND (JOIN 类别_城市) (JOIN (R 绝对高度) 长江)",
+            "JOIN (R 项目) (JOIN (R 沿岸城市) 长江_（最长的河流）)",
+            "JOIN (R 重要城市) 长江_（最长河流）",
+            "AND (JOIN 类别_城市_（城市区位地理概念）) (JOIN (R 沿岸城市) 长江_（最长的河流）)",
+            "AND (JOIN 类别_城市) (JOIN (R 沿岸城市) 长江_（最长的河流）)",
+            "AND (JOIN 地理位置?y) (JOIN (R 附近城市) 长江)",
+            "AND (JOIN 实体名称?y) (JOIN (R 沿岸城市) 长江_（最长的河流）)",
+            "AND (JOIN 地理位置_长江) (JOIN 类别_重要城市)",
+            "AND (JOIN 主要城市?y) (JOIN (R 绝对高度) 长江)",
+            "AND (JOIN 城市名称?y) (JOIN (R 沿岸城市) 长江_（中国最长河流）)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 气候类型 ?y) (JOIN 中文名称_颐和园)",
+        "predict": [
+            "JOIN (R 气候类型) 颐和园",
+            "JOIN (R气候类型) 颐和园",
+            "JOIN (R氣候类型) 颐和园",
+            "JOIN (R 气候型别) 颐和园",
+            "JOIN (R気候) 颐和园",
+            "JOIN (R 気象条件) 颐和园"
+        ]
+    },
+    {
+        "label": "JOIN (R 学科级数) (JOIN 常见疾病_产后抑郁症)",
+        "predict": [
+            "AND (JOIN 学科水平?y) (JOIN (R 所属学科) 产后抑郁症)",
+            "AND (JOIN 学科级别?y) (JOIN (R 所属学科) 产后抑郁症)",
+            "JOIN (R 类别) 产后抑郁症",
+            "JOIN (R 属于学科类别) 产后抑郁症",
+            "AND (JOIN 科室级别?y) (JOIN (R 所属学科) 产后抑郁症)",
+            "AND (JOIN 职业等级?y) (JOIN (R 所属学科) 产后抑郁症)",
+            "JOIN (R 学科类别) 产后抑郁症",
+            "AND (JOIN 学科等级?y) (JOIN (R 所属学科) 产后抑郁症)",
+            "AND (JOIN 科学等级?y) (JOIN (R 所属学科) 产后抑郁症)",
+            "JOIN (R 分类) 产后抑郁症"
+        ]
+    },
+    {
+        "label": "JOIN (R 传人) 郭襄",
+        "predict": [
+            "AND (JOIN 宗派 (JOIN 弟子?z)) (JOIN 创始人_郭襄_（金庸武侠小说《射雕英雄传》人物）)",
+            "AND (JOIN 后人 (JOIN 别名_郭襄)) (JOIN 创始人_郭襄)",
+            "JOIN 后人 (JOIN (R 修行者) 郭襄_（金庸小说《鹿鼎记》人物）)",
+            "AND (JOIN 主要成就_门派弟子) (JOIN 主要成就_郭襄建立的门派)",
+            "AND (JOIN 后人 (JOIN 绝学)) (JOIN 创始人_郭襄_（金庸小说《倚天屠龙记》中人物）)",
+            "AND (JOIN 主要弟子?y) (JOIN 主要成就_郭襄建立的门派)",
+            "JOIN 后人 (JOIN (R 沒有弟子) 郭襄_（金庸武侠小说《鹿鼎记》人物）)",
+            "JOIN door_disciple?y",
+            "JOIN 门派后人",
+            "AND (JOIN 弟子?y) (JOIN 主要成就_郭襄建立的门派)",
+            "AND (JOIN 后人?y) (JOIN 创始人_郭襄_（金庸武侠小说《射雕英雄传》人物）)",
+            "AND (JOIN 宗派 (JOIN 弟子?z)) (JOIN 创始人_郭襄_（金庸小说《倚天屠龙记》中人物）)",
+            "JOIN 弟子?z 郭襄",
+            "JOIN DoorDisciple?y",
+            "JOIN门派后人"
+        ]
+    },
+    {
+        "label": "AND (JOIN (R 别称) ?y) (JOIN 地位_战国四大名将之首)",
+        "predict": [
+            "JOIN (R 别名) (JOIN 地位_战国四大名将之首)",
+            "AND (JOIN 别名?y) (JOIN (R 主要成就) 战国四大名将)",
+            "JOIN (R 字号) (JOIN (R 首位) 战国四大名将)",
+            "AND (JOIN 其他名号?y) (JOIN 主要成就_战国四大名将之首)",
+            "AND (JOIN 其他名称?y) (JOIN 主要成就_战国四大名将之首)",
+            "JOIN (R 别名) (JOIN 地位_战国四大名将首位)",
+            "JOIN (R 号称) (JOIN 地位_战国四大名将首位)",
+            "AND (JOIN 别名?y) (JOIN (R 主要成员) 战国四大名将)",
+            "JOIN (R 字号) (JOIN (R 首次) 战国四大名将)",
+            "AND (JOIN 外号?y) (JOIN (R 主要成就) 战国四大名将)",
+            "JOIN (R 部首) 战国四大名将",
+            "JOIN (R 号称) (JOIN 主要成就_战国四大名将之首)",
+            "JOIN (R 字样) (JOIN (R 首位) 战国四大名将)"
+        ]
+    },
+    {
+        "label": "JOIN (R 天然同位素) (JOIN 分子量 2)",
+        "predict": [
+            "AND (JOIN 天然同位素?y) (JOIN 分子量 2)",
+            "JOIN (R 客观数据) (AND (JOIN 分子量 2) (JOIN (R 天然同位素) 气体))",
+            "AND (JOIN 涉及同位素?y) (AND (JOIN 分子量 2) (JOIN 性质_气体))",
+            "AND (JOIN 性质_天然同位素) (JOIN 分子量 2)",
+            "JOIN (R 存在形式) 天然同位素",
+            "AND (JOIN 标签_天然同位素) (JOIN 分子量 2)",
+            "AND (JOIN 天然同位素?p) (JOIN 分子量 2)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 人物原型 ?y) (JOIN (R 父亲) 贾环)",
+        "predict": [
+            "JOIN (R 人物原型) (JOIN (R 父亲) 贾环_（小说《红楼梦》人物）)",
+            "AND (JOIN 人物原型?y) (JOIN (R 人物原型) 贾环_（小说《红楼梦》人物）)",
+            "JOIN (R 去处) (JOIN (R 原型) 贾环_（小说《红楼梦》人物）)",
+            "JOIN (R人物原型) (JOIN (R 父亲) 贾环_（小说《红楼梦》人物）)",
+            "JOIN (R人物原型) (JOIN (R 人物原型) 贾环)",
+            "AND (JOIN 人物原型?y) (JOIN (R 原型) 贾环_（小说《红楼梦》人物）)",
+            "JOIN (R 人物原型) (JOIN (R 妻子) 贾环)",
+            "AND (JOIN 原型?y) (JOIN (R 人物原型) 贾环_（小说《红楼梦》人物）)",
+            "JOIN (R 去处) (JOIN (R 人物原型) 贾环)",
+            "AND (JOIN 人物原型?y) (JOIN (R 人物原型) 贾环)",
+            "JOIN (R 物语原型) (JOIN (R 父亲) 贾环_（中国古典文学小说《红楼梦》人物）)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 作者 (JOIN 国籍 ?z)) (JOIN 连载杂志 (JOIN 主办单位_小学馆_（日本综合出版企业）))",
+        "predict": [
+            "AND (JOIN 出生地?y) (AND (JOIN 职业_杂志投稿者) (JOIN 创办人_小学馆))",
+            "JOIN (R 国籍) (JOIN (R 作者) (JOIN 发布机构_小学馆))",
+            "AND (JOIN 出生地?y) (AND (JOIN 职业_杂志投稿) (JOIN 出版社_小学馆))",
+            "AND (JOIN 地区?y) (AND (JOIN 出版社_小学馆) (JOIN 发布类型_杂志))",
+            "AND (JOIN 出生地?y) (AND (JOIN 出生地?y) (JOIN 发行公司_小学馆))",
+            "JOIN 地区 (JOIN (R 出生地) (JOIN 国籍?z)) (JOIN (R 作者) (JOIN 出版社_小学馆))",
+            "JOIN (R 国籍) (JOIN (R 作者) (JOIN 发行公司_小学馆))",
+            "AND (JOIN 出生地?y) (AND (JOIN 职业_投稿) (JOIN 出版社_小学馆))",
+            "AND (JOIN 地区?y) (AND (JOIN 出版公司_小学馆) (JOIN 发布策略_投稿并发表))",
+            "AND (JOIN 原属国?y) (JOIN 代表作品_小学馆旗下的杂志投稿并发表)",
+            "AND (JOIN 出生地?y) (JOIN (R 作者) (JOIN 发行公司_小学馆))",
+            "AND (JOIN 内部分类_杂志作者) (AND (JOIN 发行地区_日本_（日本国）) (JOIN 发行公司_小学馆))",
+            "JOIN (R 国籍) (JOIN (R 作者) (JOIN 出版社_小学馆))",
+            "JOIN (R 国籍) (JOIN (R 作者) (JOIN 发布方_小学馆))",
+            "JOIN (R 国籍) (JOIN (R 作者) (JOIN 中文名_小学校区))"
+        ]
+    },
+    {
+        "label": "AND (JOIN 主要作品 ?y) (JOIN 配偶_赵明诚)",
+        "predict": [
+            "AND (JOIN 主要作品?y) (JOIN (R 配偶) 赵明诚)",
+            "JOIN (R 代表作品) (JOIN (R 配偶) 赵明诚)",
+            "JOIN (R 代表人物作品) (JOIN (R 配偶) 赵明诚)",
+            "AND (JOIN主要作品?y) (JOIN (R 配偶) 赵明诚)",
+            "AND (JOIN 主要作品?y) (JOIN (R配偶)赵明诚)"
+        ]
+    },
+    {
+        "label": "JOIN 主要贡献_世界最大非政府",
+        "predict": [
+            "AND (JOIN 类别_非政府机构) (JOIN 大小_世界上最大)",
+            "AND (JOIN 主要职责?y) (AND (JOIN 类别_非政府_（非政府机构）) (JOIN 类别_世界最大))",
+            "AND (JOIN 主要成就_世界上最大的非政府) (JOIN 类别_非政府机构)",
+            "AND (JOIN 主要功能_非政府_（非政府机构）) (JOIN 主要类型_世界上最大的非政府)",
+            "AND (JOIN 主要职责?y) (AND (JOIN 类型_非政府_（非政府机构）) (JOIN 类型_世界最大))",
+            "AND (JOIN 类别_非政府机构) (JOIN 最大成员数量?y)",
+            "AND (JOIN 起源?y) (AND (JOIN 类别_非政府机构) (JOIN 最大成员数?z))",
+            "AND (JOIN 任职机构名称?y) (AND (JOIN 类别_非政府机构) (JOIN 类别_世界最大))",
+            "AND (JOIN 兰德_非政府) (JOIN 主要成就_世界上最大的非政府)",
+            "AND (JOIN 性质_非政府) (JOIN.SIZE_最大)",
+            "AND (JOIN 类别_非政府机构) (JOIN 最大成员数?y)",
+            "AND (JOIN 类别_非政府组织) (JOIN 大小_最大)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 政治体制 ?y) (JOIN 政治制度_门阀政治)",
+        "predict": [
+            "AND (JOIN 政体?y) (JOIN 政治制度_门阀政治)",
+            "AND (JOIN 政治制度_门阀政治) (JOIN 所属时代_中国历史)",
+            "AND (JOIN 政体?y) (JOIN 主要政治制度_门阀政治)",
+            "AND (JOIN 政治制度_门阀政治) (JOIN 所属历史时期_中国历史)",
+            "AND (JOIN 政治制度_门阀政治) (JOIN 历史时期?y)",
+            "AND (JOIN Political system_门阀政治) (JOIN History_中国历史)",
+            "AND (JOIN 政治制度_门阀政治) (JOIN 政治制度_主体政体)",
+            "AND (JOIN Political system?y) (JOIN (R 政治制度) 中国历史时期)",
+            "AND (JOIN 政治制度_门阀政治) (JOIN 所属时期_中国)",
+            "AND (JOIN政体?y) (JOIN 政治制度_门阀政治)"
+        ]
+    },
+    {
+        "label": "JOIN (R 国家) (JOIN 产品_波音737_MAX_8飞机)",
+        "predict": [
+            "JOIN (R 股价) (JOIN (R 影响) 多个国家宣布禁飞波音737 MAX 8飞机)",
+            "JOIN (R 股票数据) (JOIN (R 影响) 多个国家宣布禁飞波音737 MAX 8飞机)",
+            "AND (JOIN 影响的国家) (JOIN (R Stock market) 多个国家宣布禁飞波音737 MAX 8飞机)",
+            "JOIN 经济资料 (JOIN (R 股价) (JOIN 国籍_美国))",
+            "AND (JOIN 影响国家股价?y) (JOIN (R 影响) 波音737 MAX 8)",
+            "AND (JOIN 国际机场_波音737_MAX_8) (JOIN 股票名称_中签)",
+            "JOIN 股票_全球航空公司的飞机产品",
+            "JOIN 影响的国家",
+            "AND (JOIN Stock市场?y) (JOIN (R 影响) 多个国家宣布禁飞波音737 MAX 8飞机)",
+            "AND (JOIN 国际航空公司) (JOIN 股票名称_多个国家宣布禁飞波音737 MAX 8飞机)",
+            "JOIN 外国股票"
+        ]
+    },
+    {
+        "label": "JOIN (R 所处时代) (JOIN (R 作者) 春日行)",
+        "predict": [
+            "AND (JOIN 所处时代?y) (JOIN (R 作者) 春日行_（汉代诗人创作的诗）)",
+            "AND (JOIN 主要作品_春日行_（唐代马三木作诗）) (JOIN 所处时代?y)",
+            "AND (JOIN 所处时代?y) (JOIN 主要作品_春日行_（唐代李白诗作）)",
+            "AND (JOIN 生活年份?y) (JOIN (R 作者) 春日行_（汉代诗人创作的诗）)",
+            "JOIN 主要作品_春日行_（诗词）",
+            "AND (JOIN 国籍?y) (JOIN (R 作者) 春日行_（汉代诗人创作的诗）)",
+            "AND (JOIN 主要作品_春日行_（唐代李白诗作）) (JOIN 所处时代?y)",
+            "JOIN 主要成就_著作包括《春日行》等",
+            "AND (JOIN 职业_诗人_（汉语词语）) (JOIN 所处时代_春日行_（王维诗作）)",
+            "AND (JOIN 所处时代?y) (JOIN (R 作者) 春日行_（唐代李白作古体诗）)",
+            "AND (JOIN 生活年限?y) (JOIN (R 作者) 春日行_（汉代诗人创作的诗）)",
+            "AND (JOIN 所处时代?y) (JOIN 主要作品_春日行_（汉诗）)",
+            "JOIN 所处时代?"
+        ]
+    },
+    {
+        "label": "AND (JOIN 逝世日期 ?y) (JOIN (R 父亲) 孔子_（儒家学派创始人）)",
+        "predict": [
+            "JOIN (R 逝世日期) (JOIN (R 父亲) 孔子_（儒家学派创始人）)",
+            "JOIN (R 去世时间) (JOIN (R 父亲) 孔子_（儒家学派创始人）)",
+            "AND (JOIN 逝 世时间?y) (JOIN (R 父亲) 孔子_（儒家学派创始人）)",
+            "AND (JOIN 死亡時間?y) (JOIN (R 父亲) 孔子_（儒家学派创始人）)",
+            "JOIN (R 逝世日期) (JOIN (R 父亲)孔子_（儒家学派创始人）)",
+            "JOIN (R 逝世日期) (JOIN (R 父亲) 孔子_（中国古代思想家、教育家）)",
+            " JOIN (R 逝 世时间) (JOIN (R 岳父) 孔子_（古代中国著名思想家、教育家）)",
+            "JOIN (R 去世时间) (JOIN (R 爸爸)孔子_（儒家学派创始人）)",
+            " JOIN (R 去世时间) (JOIN (R爸爸) 孔子_（儒家学派创始人）)",
+            " JOIN (R 逝 世时间) (JOIN (R爸爸) 孔子_（儒家学派创始人）)",
+            "JOIN (R 去世时间) (JOIN (R 岳父) 孔子_（春秋时期的思想家、教育家）)"
+        ]
+    },
+    {
+        "label": "JOIN (R 市盈率) 大华股份",
+        "predict": [
+            "JOIN (R 市盈率) (JOIN 主要成就_国内最大的安防企业)",
+            "JOIN (R 市盈率) (JOIN 主要业务_安防业务)",
+            "JOIN (R 市盈率) (JOIN 最佳排名_国内最大的安防企业)",
+            "JOIN (R 市盈率) (JOIN 主要指标 2019年三月12日)",
+            "AND (JOIN市 盘盈率?y) (JOIN 主要成就_国内最大的安防企业)",
+            "JOIN (R 市盈率) (JOIN 最后更新时间 2019-03-12)",
+            "JOIN (R city_ratio) (JOIN 主要业务_安防业务)",
+            "AND (JOIN 市 盘胜率?y) (JOIN (R 内地排名) 内地安防企业)",
+            "JOIN (R市盂价) (AND (JOIN 最高市场价值 2019年) (JOIN 主营业务_安防业务))",
+            "JOIN (R 市盈率) (JOIN 涉及日期 2019-03-12)",
+            "JOIN (R 市盈率) (JOIN 最高排名 1)",
+            "JOIN (R市盈率) (JOIN 组织类型_安防公司)",
+            "JOIN (R 市盈rate) (JOIN 定义_国内最大的安防企业)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 出生地 ?y) (JOIN 本名_庄周)",
+        "predict": [
+            "JOIN (R 出生地) 庄周_（东方想像的古代名著作者）",
+            "AND (JOIN 庄周出生地?y) (JOIN 中文名_庄周)",
+            "JOIN (R 出生地) 庄周_（东方思肃学家）",
+            "AND (JOIN 出生地?y) (JOIN 本名_庄周)",
+            "JOIN (R 出生地) 庄周_（东晋时期道家学者、作家）",
+            "JOIN (R 出生地) 庄周_（东周明王、思想家）",
+            "JOIN (R 出生地) 宋朝名人_庄周",
+            "JOIN (R 出生地) 庄周_（唐朝作家）",
+            "JOIN (R 出生地)庄周_（东晋身说事录中的猫王）",
+            "JOIN (R 出生地) 庄周_（东方文化圈人物）",
+            "AND (JOIN 典故出生地?y) (JOIN 中文名_庄周)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 毕业院校 (JOIN 类别 ?z)) (JOIN 中文名_邓小平)",
+        "predict": [
+            "AND (JOIN 类别?y) (JOIN (R 毕业院校) 邓小平_（中国改革开局的重要领导人）)",
+            "AND (JOIN 所属地区类别?y) (JOIN (R 毕业院校) 邓小平_（中国改革开局的重要领导人）)",
+            "AND (JOIN 类别?y) (JOIN (R 毕业院校) 邓小平_（无产阶级革命家）)",
+            "AND (JOIN 所属地区?y) (JOIN (R 毕业院校) 邓小平_（无产阶级革命家）)",
+            "AND (JOIN 大学类别?y) (JOIN (R 毕业院校) 邓小平_（中国改革开局的重要领导人）)",
+            "JOIN (R классификация_（Академия наук Китая）) (JOIN (R 毕业院校) 邓小平_（中国改革开局的重要领导人）)",
+            "JOIN (R 类别) (JOIN (R 毕业院校) 邓小平_（中国改革开局的重要领导人）)",
+            "AND (JOIN 所属类型?y) (JOIN (R 毕业院校) 邓小平_（中国改革开局的重要领导人）)",
+            "AND (JOIN 学校类别?y) (JOIN (R 毕业院校) 邓小平_（无产阶级革命家）)",
+            "JOIN (R 类别) (JOIN (R 毕业院校) 邓小平_（中国改革开创者）)",
+            "AND (JOIN 类别?y) (JOIN (R 毕业院校) 邓小平_（中国近代领导人）)",
+            "AND (JOIN 类别?y) (JOIN (R 毕业院校) 邓小平_（中国共产党主席）)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 出生地 ?y) (JOIN (R 作者) 西游记_（中国古典长篇小说）)",
+        "predict": [
+            "AND (JOIN 出生地?y) (JOIN (R 作者) 西游记_（中国古典长篇小说）)",
+            "AND (JOIN 出生地?y) (JOIN (R 作者) 西游记_（郑渊洁著童话版《西游记》）)",
+            "AND (JOIN 出生地?y) (JOIN (R 作者) 西游记_（古典长篇旅行冒险小说）)",
+            "AND (JOIN 出生地?y) (JOIN (R 作者) 西游记_（王实甫改编长篇小说）)",
+            "AND (JOIN 出生地?y) (JOIN (R 作者) 西游记_（著名古典长篇小说）)",
+            "AND (JOIN 出生地?y) (JOIN (R 作者) 西游记_（郑景生著小说）)",
+            "AND (JOIN 出生地?y) (JOIN (R 作者) 西游记_（中国古代名著）)",
+            "AND (JOIN 出生地?y) (JOIN (R 作者) 西游记_（王维恩执笔小说）)",
+            "AND (JOIN 出生地?y) (JOIN (R 作者)西 游记_（中国古典长篇小说）)",
+            "AND (JOIN 出生地点?y) (JOIN (R.author) 西游記_（ klassik、代表作品：西游记（古典名著））)",
+            "AND (JOIN 출생지?y) (JOIN (R 作家)西遊記_（中国古代小说《西游记》的原名）)",
+            "AND (JOIN 出生地?y) (JOIN (R 作者)西游記_（中国古典长篇小说）)",
+            "AND (JOIN 出生地点?y) (JOIN (R 作者) 西游记_（儒家著作）)"
+        ]
+    },
+    {
+        "label": "JOIN (R 期货交易所) (JOIN (R 别称) 上海)",
+        "predict": [
+            "AND (JOIN 类别_期货交易所) (JOIN 位置_上海_（中华人民共和国直辖市）)",
+            "JOIN (R 期货交易所) 上海",
+            "JOIN (R 期货交易所) 沈阳_（辽宁省省会）",
+            "AND (JOIN 类别_期货交易所) (JOIN 地点_上海_（中华人民共和国直辖市）)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 武器 ?y) (JOIN 中文名_谢逊)",
+        "predict": [
+            "JOIN (R 兵器) 谢逊_（金庸小说《狮王记》中人物）",
+            "JOIN (R 兵器) 谢逊_（金狮王）",
+            "AND (JOIN 血型?y) (AND (JOIN 别名_狮王谢逊) (JOIN 兵器?y))",
+            "JOIN (R 兵器) 谢逊_（金庸小说《狮王记》中的人物）",
+            "JOIN (R 兵器) 谢逊_（中国古代小说《射雕英雄传》中的人物）",
+            "JOIN (R兵器) 谢逊_（金庸小说《狮王记》中人物）",
+            "AND (JOIN 兄弟 younger_谢逊_（武侠小说《射雕英雄传》人物）) (JOIN 兄弟_狮王_（武侠小说《射雕英雄传》人物）)",
+            "JOIN (R 兵器) 謝逊_（金庸小说《狮王记》中人物）",
+            "JOIN (R 兄弟有进步的兵器) 谢逊",
+            "JOIN (R兵器) 谢逊_（金狮王）",
+            "JOIN (R 兵器) 谢逊_（中国古代小说《射雕英雄传》中人物）",
+            "JOIN (R 兵器) 谢逊_（金庸小说中的角色）",
+            "JOIN (R 兵器) 狮王谢逊"
+        ]
+    },
+    {
+        "label": "AND (JOIN 中文名 ?y) (JOIN (R 作者) 天龙八部_（金庸创作小说）)",
+        "predict": [
+            "AND (JOIN 原名?y) (JOIN 代表作品_天龙八部_（金庸创作小说）)",
+            "JOIN (R 原名) (JOIN 代表作品_天龙八部_（金庸创作小说）)",
+            "JOIN (ROriginal name) (JOIN (R作者) 天龙八部_（金庸创作小说）)",
+            "AND (JOIN原名?y) (JOIN代表作品_天龙八部_（金庸创作小说）)",
+            "AND (JOIN Original Name?y) (JOIN (R 作者) 天龙八部_（金庸创作小说）)",
+            "AND (JOIN 原名?y) (JOIN 代表作品_天龙八部_（金庸創作小说》)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 拼音 ?y) (JOIN 中文名_未来)",
+        "predict": [
+            "JOIN (R 拼音) 未来",
+            "AND (JOIN 拼音?y) (JOIN 意义_未来（关于未来的词语）)",
+            "JOIN (R拼音) 未来",
+            "AND (JOIN 音义 future) (JOIN拼音?y)",
+            "AND (JOIN 拼音?y) (JOIN 意义_未来（关于未来词）)",
+            "AND (JOIN 音码?y) (JOIN (R拼音) 未来)",
+            "JOIN 音义 (JOIN (R 音义) 未来)",
+            "AND (JOIN 音写形式?y) (JOIN 意义_未来_（将来）)",
+            "AND (JOIN 拼音?y) (JOIN 解释_未来_（指未来时代或未来的Things）)",
+            "JOIN 拼音_未来",
+            "AND (JOIN 音拼?y) (JOIN 中文名_未来)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 师傅 ?y) (AND (JOIN 毕业院校_中央戏剧学院) (JOIN (R 作者) 女神和女汉子_（2015央视春晚小品节目）))",
+        "predict": [
+            "AND (JOIN 师傅?y) (AND (JOIN 出生地_中央戏剧学院) (JOIN 代表作品_女神和女汉子))",
+            "AND (JOIN 导师_？) (AND (JOIN 出生地_北京_（中华人民共和国首都）) (JOIN 代表作品_女神和女汉子))",
+            "AND (JOIN 师承 (JOIN 毕业院校_中央戏剧学院)) (JOIN 代表作品_女神和女汉子)",
+            "AND (JOIN 功业_出生_（出生地）) (AND (JOIN 主要成就_中央戏剧学院毕业生) (JOIN 主要成就_出演女神和女汉子))",
+            "AND (JOIN 导师_?) (AND (JOIN 出生地_北京_（中华人民共和国首都）) (JOIN 代表作品_女神和女汉子))",
+            "AND (JOIN 导师_（根據文化内涵、文化成就）) (AND (JOIN 出生地_北京_（中华人民共和国首都）) (JOIN 代表作品_女神和女汉子))",
+            "AND (JOIN 教师?y) (AND (JOIN 出生地_中央戏剧学院) (JOIN 代表作品_女神和女汉子))",
+            "AND (JOIN 师父?y) (AND (JOIN 出生地_中央戏剧学院) (JOIN 中文名_小平))",
+            "AND (JOIN 师傅?y) (AND (JOIN 出生地_中央戏剧学院) (JOIN 中文名_小品))",
+            "AND (JOIN 功业_出身_中央戏剧学院) (JOIN 师傅?z)",
+            "JOIN (R 学师) (AND (JOIN 出生地_中央戏剧学院) (JOIN 代表作品_女神和女汉子))",
+            "AND (JOIN 导演 (JOIN (R 导演) 女神和女汉子)) (JOIN 出生地_中央戏剧学院)",
+            "AND (JOIN 师傅?y) (AND (JOIN 出生地_中央戏剧学院) (JOIN 主要作品_女神和女汉子))"
+        ]
+    },
+    {
+        "label": "AND (JOIN 职业 ?y) (JOIN 代表作品_实践理性批判)",
+        "predict": [
+            "AND (JOIN 职业?y) (JOIN 代表作品_实践理性批判)",
+            "AND (JOIN 职业?y) (JOIN (R 作者) 实践理性批判)",
+            "AND (JOIN 所处地位_从事专业) (JOIN (R 作者) 实践理性批判)",
+            "AND (JOIN职业?y) (JOIN 代表作品_实践理性批判)",
+            "AND (JOIN 职業?y) (JOIN (R 作者) 实践理性批判)"
+        ]
+    },
+    {
+        "label": "AND (JOIN (R 别称) ?y) (JOIN 地位_战国四大名将之首)",
+        "predict": [
+            "JOIN (R 别名) (JOIN 地位_战国四大名将之首)",
+            "AND (JOIN 别名?y) (JOIN (R 主要成就) 战国四大名将)",
+            "JOIN (R 字号) (JOIN (R 首位) 战国四大名将)",
+            "AND (JOIN 其他名号?y) (JOIN 主要成就_战国四大名将之首)",
+            "AND (JOIN 其他名称?y) (JOIN 主要成就_战国四大名将之首)",
+            "JOIN (R 别名) (JOIN 地位_战国四大名将首位)",
+            "JOIN (R 号称) (JOIN 地位_战国四大名将首位)",
+            "AND (JOIN 别名?y) (JOIN (R 主要成员) 战国四大名将)",
+            "JOIN (R 字号) (JOIN (R 首次) 战国四大名将)",
+            "AND (JOIN 外号?y) (JOIN (R 主要成就) 战国四大名将)",
+            "JOIN (R 部首) 战国四大名将",
+            "JOIN (R 号称) (JOIN 主要成就_战国四大名将之首)",
+            "JOIN (R 字样) (JOIN (R 首位) 战国四大名将)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 产生时间 ?y) (JOIN 中文名_数据库)",
+        "predict": [
+            "JOIN (R 起源) 数据库",
+            "JOIN (R 发明日期) 数据库",
+            "JOIN (R 出现时间) 数据库",
+            " JOIN (R 创造时间) 数据库_（存储、组织和处理数据的架构）",
+            "JOIN (R 创建时间) 数据库",
+            "JOIN (R 起始时间) 数据库",
+            "JOIN (R 开始时间) 数据库",
+            " JOIN (R 具体时间) 数据库的出现",
+            "JOIN (R 出现时间) 库房技术"
+        ]
+    },
+    {
+        "label": "AND (JOIN 气候条件 ?y) (JOIN (R 分布) 亚马纳人)",
+        "predict": [
+            "AND (JOIN 气候条件?y) (JOIN (R 分布区域) 亚马纳人)",
+            "JOIN (R 气候条件) (JOIN (R 主要分布区域) 亚马纳人)",
+            "AND (JOIN 海洋_大西洋_（世界大西洋）) (JOIN (R 气候条件) (JOIN (R 主要分布区域) 亚马纳人))",
+            "JOIN (R气候类型) (JOIN (R 主要分布区域) 亚马纳人)",
+            "JOIN (R 気象條件) (JOIN (R 主要分布区) 亚马纳人)",
+            "AND (JOIN 气候条件?y) (JOIN (R 主要分布区域) 亚马纳人)",
+            "JOIN (R氣候類型) (JOIN (R 主要分布区) 亚马纳人)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 最大城市 ?y) (JOIN (R 国籍) 彼得雷拉)",
+        "predict": [
+            "JOIN (R 最大城市) (JOIN (R 祖国) 彼得雷拉)",
+            "JOIN (R 最大城市) (JOIN (R祖国) 彼得雷拉)",
+            "AND (JOIN 大城市 (JOIN 国家_彼得雷拉)) (JOIN 主要城市?y)",
+            "JOIN (R最大城市) (JOIN (R 国籍) 彼得雷拉)",
+            "JOIN (R 最大城市) (JOIN (R祖国) 彼得雷拉_（美国棒球运动员）)",
+            "AND (JOIN 大城市 (JOIN 国籍_彼得雷拉)) (JOIN 主要城市_彼得雷拉)",
+            "AND (JOIN Biggest_city?y) (JOIN (R 国籍) 彼得雷拉_（美国基地的航空器）)",
+            "JOIN (R最大城市) (JOIN (R 国籍) 彼得雷拉_（美国基地的歌手）)",`
+            "JOIN (R 最大城市) (JOIN (R 国籍) 彼得雷拉)",
+            "JOIN (R 最大城市) (JOIN (R祖国) 彼得雷拉_（美国基地的指挥官）)",
+            "JOIN (R 最大的城市) (JOIN (R 国籍)彼得雷拉_（美国篮球运动员）)",
+            "JOIN (R 最大城市) (JOIN (R 国籍)、彼得雷拉)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 信仰 ?y) (JOIN 别名_习大大)",
+        "predict": [
+            "AND (JOIN 信仰?y) (JOIN 别名_习大大)",
+            "JOIN (R 信仰) (JOIN 别名_习大大)",
+            "JOIN (R信仰) (JOIN 别名_习大大)",
+            "AND (JOIN 信仰?y) (JOIN 别名_习大大的)",
+            "AND (JOIN 信仰?y) (JOIN 别名_hab 大 大)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 是否有停车场_有停车场) (AND (JOIN 类型_酒店) (JOIN (R 实体名称) (AND (LE 距离值 5) (JOIN (R 附近) 北海公园))))",
+        "predict": [
+            "AND (JOIN 类型_酒店) (AND (JOIN 是否有停车场_有停车场) (JOIN (R 实体名称) (AND (JOIN 距离值 5) (JOIN (R 附近) 北海公园))))",
+            "AND (JOIN 实体属性种类_酒店) (AND (JOIN 是否有停车场_有停车场) (JOIN (R 实体名称) (AND (JOIN 距离值 5) (JOIN (R 附近) 北海公园))))",
+            "AND ( JOIN 有车位?y) (JOIN (R 实体名称) (AND (JOIN 距离值 5) (JOIN (R 附近) 北海公园)))",
+            "AND (JOIN 实体名称_北海公园) (JOIN (R 类型) (JOIN 附近 (JOIN 类型_有停车场的酒店)))",
+            "AND (JOIN 提供便捷设施_停车场) (JOIN (R 实体名称) (AND (JOIN 距离值 5) (JOIN (R 附近) 北海公园)))",
+            "AND (JOIN 类型_酒店) (JOIN 是否有停车场_有停车场) (JOIN (R 实体名称) (AND (JOIN 距离值 5) (JOIN (R 附近) 北海公园)))",
+            "AND (JOIN 类型_酒店) (AND (JOIN 是否有停车场_有停车场) (JOIN (R 实体名称) (AND (JOIN 附近_北海公园) (JOIN 距离值 5)))",
+            "AND (JOIN 类型_โรงแรม) (JOIN 是否有停车场_有停车场) (JOIN (R 实体名称) (AND (JOIN 距离值 5) (JOIN (R 附近) 北海公园)))",
+            "AND (JOIN 类型_酒店) (AND (JOIN 是否有停车场_有车停车场) (JOIN (R 实体名称) (AND (JOIN 距离值 5) (JOIN (R 附近) 北海公园))))",
+            "AND (JOIN 类型_酒店) (AND (JOIN 是否有停车场_有停车场) (JOIN (R 实体名称) (AND (JOIN 地理位置 (AND (JOIN 距离值 5) (JOIN 类型_公园)))))"
+        ]
+    },
+    {
+        "label": "JOIN (R 妻子) (JOIN 别名_黑曼巴)",
+        "predict": [
+            "AND (JOIN 妻子?y) (JOIN 别名_黑曼巴)",
+            "AND (JOIN 妻子?y) (JOIN 别名_黑曼巴、天下武林无匹的哈黑曼巴)",
+            " AND ( JOIN 职业_黑曼巴_（雅诗兰登美容产品）) (JOIN 职业_黑曼巴_（雅诗兰德美容产品）)",
+            "AND (JOIN 配偶?y) (JOIN 别名_黑曼巴、天下公主、下官之女)",
+            "AND (JOIN 职业_黑曼巴_（老虎王BlackMamba的运动项目）) (JOIN 妻子?y)",
+            "AND (JOIN 妻子?y) (JOIN 别名_黑曼巴、铁曼巴)",
+            "AND (JOIN 配偶?y) (JOIN 别名_黑曼巴)",
+            "AND (JOIN 妹妹?z) (JOIN 妻子 (JOIN 别名_黑曼巴，蓝奇曼巴))",
+            "AND (JOIN 妻子?y) (JOIN 别名_黑曼巴、强man巴)",
+            "AND (JOIN 妻子?y) (JOIN 其他名称_黑曼巴)",
+            "AND (JOIN 妻子?y) (JOIN 外文名_黑曼巴)",
+            "AND (JOIN 妻子?y) (JOIN 别名_黑曼巴、天下老公)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 别名 ?y) (AND (JOIN 行政区类别_首都_（汉语词语）) (JOIN 所属地区_捷克))",
+        "predict": [
+            "AND (JOIN 美誉?y) (JOIN (R 首都) 捷克)",
+            "JOIN (R 美誉) (JOIN (R 首都) 捷克)",
+            "JOIN (R Beauty) (JOIN (R 首都) 捷克)",
+            "JOIN (RBeauty) (JOIN (R 首都) 捷克)",
+            "AND (JOIN美誉?y) (JOIN (R 首都) 捷克)",
+            "AND (JOIN美誉?y) (JOIN (R 首都)捷克共和国)",
+            "AND (JOIN beauties?y) (JOIN (R 首都)捷克共和国)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 国际组织 ?y) (JOIN (R 出生地) 舒伯特)",
+        "predict": [
+            "AND (JOIN 国籍组织?y) (JOIN (R 出生地) 舒伯特)",
+            "JOIN 国籍组织 (JOIN (R 国籍) (JOIN (R 出生地) 舒伯特))",
+            "AND (JOIN 国籍organization) (JOIN (R 出生地) 舒伯特)",
+            "AND (JOIN 国籍组织?y) (JOIN (R 出生城市) 舒伯特)",
+            "AND (JOIN Nation_organizations?y) (JOIN (R 出生地) 舒伯特)",
+            "AND (JOIN 國家組織?y) (JOIN (R 出生地)舒伯特)",
+            "AND (JOIN Nation_organisation?y) (JOIN (R 出生地) 舒伯特)"
+        ]
+    },
+    {
+        "label": "AND (JOIN (R 出生地) (JOIN 所属团队 (JOIN (R 所属团队) 蝙蝠侠_（美国DC漫画旗下超级英雄）))) (JOIN (R 出生地) 蝙蝠侠_（美国DC漫画旗下超级英雄）)",
+        "predict": [
+            "AND (JOIN 出生地_ 哈尔姆·罗德斯_（美国无限极体验者）) (JOIN 所属团队 (JOIN (R 所属团队) 蝙蝠侠_（美国DC漫画旗下超级英雄）))",
+            "AND (JOIN 出生地_DET罗什_（美国城市）) (JOIN (R 登场作品) 蝙蝠侠_（美国DC漫画旗下超级英雄）)",
+            "AND (JOIN 出生地_华盛顿_（美国首都）) (JOIN (R 登场作品) 蝙蝠侠_（美国DC漫画旗下超级英雄）)",
+            "AND (JOIN 创作团队 (JOIN 城市 (JOIN (R 创作人) 蝙蝠侠_（美国DC漫画旗下超级英雄）))) (JOIN (R 出生地) 蝙蝠侠_（美国DC漫画旗下超级英雄）)",
+            "AND (JOIN 出生地_ 加利福尼亚_（美国州）) (JOIN 所属团队 (JOIN (R 所属团队) 蝙蝠侠_（美国DC漫画旗下超级英雄）))",
+            "AND (JOIN 出生城市 (JOIN (R 出生地) 蝙蝠侠_（美国DC漫画旗下超级英雄）)) (JOIN (R 成员) 蝙蝠侠_（美国DC漫画旗下超级英雄）)",
+            "AND (JOIN 出生地_哥特엄河) (JOIN 所属团队 (JOIN (R 所属团队) 蝙蝠侠_（美国DC漫画旗下超级英雄）))",
+            "AND (JOIN 出生地_ Gotham_（美国动漫、电影《蝙蝠侠》中的人物）) (JOIN (R 成员) 蝙蝠侠_（美国DC漫画旗下超级英雄）)",
+            "AND (JOIN 城市_底特律_（美国米奇根州的州都）) (JOIN (R 成员) 蝙蝠侠_（美国DC漫画旗下超级英雄）)",
+            "AND (JOIN 出生地_ 美国大城市) (JOIN (R 所属团队) 蝙蝠侠_（美国DC漫画旗下超级英雄）)",
+            "AND (JOIN 创作团队 (JOIN 所属城市 (JOIN (R 所属城市) 蝙蝠侠_（美国DC漫画旗下超级英雄）))) (JOIN (R 所属城市) 蝙蝠侠_（美国DC漫画旗下超级英雄）)",
+            "AND (JOIN 城市_华盛顿_（美国首都）) (JOIN (R 成员) 蝙蝠侠_（美国DC漫画旗下超级英雄）)",
+            "AND ( JOIN 城市_（美国）) (JOIN (R 成员) 蝙蝠侠_（美国DC漫画旗下超级英雄）)",
+            "AND (JOIN 出生城市 (JOIN (R 出生地) 蝙蝠侠_（美国DC漫画旗下超级英雄）)) (JOIN (R 所属团队) 蝙蝠侠_（美国DC漫画旗下超级英雄）)",
+            "AND (JOIN出生城市_哥特安姆城) (JOIN (R 所属英雄队伍) 蝙蝠侠_（美国DC漫画旗下超级英雄）)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 妻子 ?y) (JOIN 别名_小哥)",
+        "predict": [
+            "AND (JOIN 妻子?y) (JOIN 别名_小哥)",
+            "AND (JOIN 配偶?y) (JOIN 别名_小哥)",
+            "JOIN (R妻子) (JOIN 别名_小哥，)",
+            "JOIN (R 妻子) (JOIN 别名_小哥，)",
+            "AND (JOIN妻子?y) (JOIN 别名_小哥)",
+            "AND (JOIN 妻子?y) (JOIN 别名_小哥，小子)",
+            "AND (JOIN 妻子?y) (JOIN 别名_小哥、)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 中文名 ?name) (AND (JOIN 主要奖项_奥斯卡最佳动画长片奖) (JOIN 导演_宫崎骏))",
+        "predict": [
+            "AND (JOIN 主要奖项_奥斯卡最佳动画长片奖) (JOIN (R 导演) 宫崎骏)",
+            "AND (JOIN 主要成就_奥斯卡最佳动画长片奖) (JOIN (R 导演) 宫崎骏_（日本动画导演）)",
+            "AND (JOIN 主要奖项_奥斯卡最佳动画长片奖) (JOIN (R 导演) 宝美物语_（日本宫崎骏创作的动画物语）)",
+            "AND (JOIN 主要成就_奥斯卡奖) (JOIN (R 导演) 宫崎骏_（日本著名动画导演）)",
+            "JOIN 荣誉_奥斯卡最佳动画长片奖",
+            "AND (JOIN 主要获奖情况_奥斯卡最佳动画长片奖) (JOIN (R 导演) 宫崎骏_（日本动画导演）)",
+            "JOIN (R 主要奖项) (JOIN (R 导演) 宝石保管所_（日本2003年上映动画电影）)",
+            "AND (JOIN 主要成就_奥斯卡奖) (JOIN (R 导演) 宝美物语_（日本宫崎骏创作的动画物语）)",
+            "AND (JOIN 主要成就_奥斯卡最佳动画长片奖) (JOIN (R 导演) 宫崎骏)",
+            "AND (JOIN 主要成就_美国奥斯卡奖) (JOIN (R 导演) (JOIN 主要成就_著名动画导演))",
+            "AND (JOIN 主要奖项_奥斯卡最佳动画长片奖) (JOIN (R 代表作品) 宫崎骏_（日本著名动画导演）)",
+            "AND (JOIN 主要奖项  奥斯卡最佳动画长片奖) (JOIN (R 导演) (JOIN (R 代表作品) 宫崎骏))",
+            "AND (JOIN 主要成就_奥斯卡奖) (JOIN (R 导演) 宫崎骏)",
+            "AND (JOIN 主要奖项  奥斯卡最佳动画长片奖) (JOIN (R 导演) (JOIN (R 导演) 宝美物语))"
+        ]
+    },
+    {
+        "label": "AND (JOIN 老校名 ?y) (AND (JOIN (R 毕业院校) 艾伦·麦席森·图灵) (JOIN 所属联盟_常春藤联盟))",
+        "predict": [
+            "AND (JOIN 老校名?y) (JOIN 毕业院校_艾伦·图灵)",
+            "JOIN (R 老名) (JOIN (R 毕业院校) 艾伦·图灵)",
+            "AND (JOIN 校名 (JOIN 老校名?z)) (JOIN 毕业院校_艾伦·图灵)",
+            "JOIN (R 老校名) (JOIN 毕业院校_艾伦·图灵)",
+            "AND (JOIN Old_name?y) (JOIN (R 毕业院校) 艾伦·图灵)",
+            "AND (JOIN 校友_艾伦_（人物）) (AND (JOIN 老校名?y) (JOIN 联盟名称_常青藤大学联盟))",
+            "JOIN (R 旧名) (JOIN 毕业院校 (JOIN 主要成就_艾伦·图灵))",
+            "JOIN (R_old_name) (JOIN (R 毕业院校) 艾伦·图灵)",
+            "AND (JOINOld school name?y) (JOIN 共同名单_艾伦·图灵)",
+            "AND (JOIN 老校名?y) (JOIN 毕业院校_艾伦图灵)",
+            "AND (JOIN 学校名称 (JOIN 老校名?z)) (JOIN 毕业院校_艾伦·图灵)",
+            "JOIN (R_old名称) (JOIN (R 毕业院校) 艾伦·图灵)",
+            "JOIN (R 古名) (JOIN (R 毕业院校) 艾伦·图灵)"
+        ]
+    },
+    {
+        "label": "JOIN 政治体制_议会制君主立宪制",
+        "predict": [
+            "AND (JOIN 政治体制_议会制君主立宪制) (JOIN 政治体制?y)",
+            "AND (JOIN 制宪定型_议会制君主立宪制) (JOIN 制宪定型?y)",
+            "AND (JOIN 政治体制_议会制君主立宪制) (JOIN 政治体制_代表议会制)",
+            "AND (JOIN 立国制_议会制君主立宪制) (JOIN 立国制?y)",
+            "AND (JOIN 政体_议会制君主立宪制) (JOIN 政治体制_议会制君主立宪制)",
+            "AND (JOIN 国家类型_议会制君主立宪制) (JOIN 国家类型_монarken国)",
+            "AND (JOIN 政治体制_议会制君主立宪制) (JOIN 政治体制_议会制)",
+            "AND (JOIN 制宪政类型_议会制君主立宪制) (JOIN 制宪政类型?y)",
+            "AND (join 立法机构类型_议会制) (JOIN 政治体制_君主立宪制)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 类型_项目) (JOIN (R 娱乐项目名称) 赛里木湖风景名胜区)",
+        "predict": [
+            "JOIN (R 景点) 赛里木湖",
+            "JOIN (R 著名景点) 赛里木湖",
+            "JOIN (R 娱乐项目名称) 赛里木湖",
+            "JOIN (R景点名称) 赛里木湖",
+            "JOIN (R 附近attr) 赛里木湖",
+            " JOIN (R 经验项目名称) 赛里木湖"
+        ]
+    },
+    {
+        "label": "AND (JOIN 别名_平安京) (JOIN 人口 ?y)",
+        "predict": [
+            "AND (JOIN 人口?y) (JOIN 别名_平安京)",
+            "JOIN 人口 (JOIN 别名_平安京，)",
+            "JOIN 别名_平安京，人口?",
+            "AND (JOIN 人口???) (JOIN 别名_平安京)",
+            "JOIN (R 人口) (JOIN 别名_平安京)",
+            "AND (JOIN 别名_平安京) (JOIN 人口?y)",
+            "AND (JOIN 人口??) (JOIN 别名_平安京)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 原产地 ?y) (JOIN 英文名 MaineCoon)",
+        "predict": [
+            "JOIN (R 原产地) MaineCoon",
+            "JOIN (R 原生产地区)_MAINE COON猫\nJOIN (R 原产地) MAINE COON猫",
+            "JOIN (R Origine) MaineCoon",
+            "JOIN (R 原产地) Mainecoon",
+            "JOIN (R Originali) MaineCoon",
+            "JOIN (R原产地) Mainecoon",
+            "JOIN (R 原產地) Maine Coon"
+        ]
+    },
+    {
+        "label": "AND (JOIN 电话区号 ?y) (JOIN 别名_湘、楚、湘楚、潇湘、三湘四水)",
+        "predict": [
+            "AND (JOIN 电话区号?y) (JOIN 别名_湘)",
+            "JOIN (R 电话区号) (JOIN 别名_湘)",
+            "AND (JOIN 别名_湘_（省、区、县）) (JOIN (R 电话区号)...)",
+            "AND (JOIN电话区号?y) (JOIN 别名_湘)",
+            "AND (JOIN 别名_湘) (JOIN 电话区号?y)",
+            "JOIN ((电话区号?y) (JOIN 别名_湘))",
+            "AND (JOIN 电话区号?y) (JOIN 别名 湘、上下)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 命名时间 ?y) (JOIN (R 引发病毒) 2020年新型冠状病毒疫情)",
+        "predict": [
+            "AND (JOIN 命名时间?y) (JOIN (R 引发病毒) 2020年新型冠状病毒疫情)",
+            "AND (JOIN命名时间?y) (JOIN (R 引发病毒) 2020年新型冠状病毒疫情)",
+            "AND (JOIN 纪录开始时间 2020) (JOIN (R 引发病毒) 2020年新型冠状病毒疫情)",
+            "AND (JOIN 任职时间?y) (JOIN (R 引发病毒) 2020年新型冠状病毒疫情)",
+            "AND (JOIN 命名时间?y) (JOIN (R 发生地) 2020年新型冠状病毒疫情)"
+        ]
+    },
+    {
+        "label": "AND (JOIN (R 出生地) (AND (JOIN 职业_主持人) (JOIN 职业_歌手_（职业名称）))) (JOIN (R 出生地) 郭德纲)",
+        "predict": [
+            "AND (JOIN 职业_主持人_（职业）) (AND (JOIN 职业_歌手_（职业名称）) (JOIN 出生地_郭德纲))",
+            "AND (JOIN 职业_主持人) (AND (JOIN 职业_歌手_（职业名称）) (JOIN 出生地_郭德纲出生地))",
+            "AND (JOIN 职业_主持人_（职业）) (AND (JOIN 职业_歌手_（职业名称）) (JOIN 出生地_北京_（中华人民共和国首都）))",
+            "AND (JOIN 经历_主持人) (AND (JOIN 职业_歌手_（职业名称）) (JOIN 出生地_郭德纲出生地))",
+            "AND (JOIN 职业_主持人) (AND (JOIN 职业_歌手_（职业名称）) (JOIN 出生地_北京_（中华人民共和国首都）))",
+            "AND (JOIN 出生地 (JOIN (R 出生地) 郭德纲)) (JOIN 职业_主持人_（职业）)",
+            "AND (JOIN 职业_主持人_（汉语词语）) (AND (JOIN 职业_歌手_（职业名称）) (JOIN 出生地_北京_（中华人民共和国首都）))",
+            "AND (JOIN 经验_主持人) (AND (JOIN 职业_歌手_（职业名称）) (JOIN 出生地_北京_（中华人民共和国首都）))",
+            "AND ( JOIN 出生地 (JOIN (R 出生地) 郭德纲)) (JOIN 职业_主持人_（职业）)",
+            "AND (JOIN 职业_主持人) (AND (JOIN 职业_歌手_（职业名称）) (JOIN 同乡_郭德纲))",
+            "AND (JOIN 职业_ 主持人_（职业）) (AND (JOIN 职业_歌手_（职业名称）) (JOIN 出生地_郭德纲))"
+        ]
+    },
+    {
+        "label": "AND (JOIN 类型_都市) (JOIN 主演 (AND (JOIN 出生地_上海_（中华人民共和国直辖市）) (AND (JOIN 毕业院校_上海戏剧学院) (JOIN 职业_演员_（职业）))))",
+        "predict": [
+            "AND (JOIN 职业_演员_（职业）) (AND (JOIN 学校_上海戏剧学院) (JOIN 民族_汉族))",
+            "AND (JOIN 国籍_上海_（中华人民共和国直辖市）) (AND (JOIN 毕业院校_上海戏剧学院) (JOIN 类型_都市剧))",
+            "AND (JOIN 主演 (AND (JOIN 出生地_上海_（中华人民共和国直辖市）) (JOIN 毕业院校_上海戏剧学院))) (JOIN 类型_都市剧)",
+            "AND (JOIN 主演 (AND (JOIN 出生地_上海_（中华人民共和国首都）) (JOIN 毕业院校_上海戏剧学院))) (JOIN 类型_都市剧)",
+            "AND (JOIN 出生地_上海_（中华人民共和国直辖市）) (AND (JOIN 毕业院校_上海戏剧学院) (JOIN 类型_都市剧))",
+            "AND (JOIN 谱曲_都市剧) (AND (JOIN 主演 (JOIN 出生地_上海_（中华人民共和国直辖市）)) (JOIN 毕业院校_上海戏剧学院))",
+            "AND (JOIN 毕业院校_上海戏剧学院) (AND (JOIN 职业_演员_（职业）) (JOIN 民族_汉族))",
+            "AND (JOIN 性别_男_（汉语词语）) (AND (JOIN 职业_演员_（职业）) (AND (JOIN 国籍_上海_（中华人民共和国直辖市）) (JOIN 毕业院校_上海戏剧学院)))",
+            "AND (JOIN 职业_演员_（职业）) (AND (JOIN 学校_上海戏剧学院) (JOIN 国籍_上海_（中华人民共和国直辖市）))",
+            "AND (JOIN 经历_上海戏剧学院) (AND (JOIN 国籍_中国) (JOIN (R 出演) 都市剧))",
+            "AND (JOIN 职业_演员_（职业）) (AND (JOIN 教育机构_上海戏剧学院) (JOIN 民族_汉族))"
+        ]
+    },
+    {
+        "label": "JOIN 别名_风清扬（阿里巴巴内部花名）",
+        "predict": [
+            "AND (JOIN 内部名_风清扬) (JOIN 内部名_阿里巴巴)",
+            "AND (JOIN 内号_风清扬) (JOIN (R 公司员工) 阿里巴巴)",
+            "JOIN_(R 内部名称) 风清扬_（《王的战车》中人物）",
+            "AND (JOIN 内封名_风清扬) (JOIN 属性_阿里巴巴内部成为名称)",
+            "AND (JOIN Interior 别称_风清扬) (JOIN Interior 别称_阿里巴巴)",
+            "AND (JOIN内部名称_风清扬) (JOIN 内部名称_阿里巴巴)",
+            "AND (JOIN 别名_风清扬) (JOIN 公司_阿里巴巴)",
+            "AND (JOIN 别名_风清扬) (JOIN (R 内部名) 阿里巴巴_（2013年周星驰主演电影）)",
+            "AND (JOIN 内人名_风清扬) (JOIN 主要成就_阿里巴巴电影中提到的人物)",
+            "AND (JOIN 中文名_风清扬) (JOIN 职业_阿里巴巴内部became)",
+            "JOIN (R内部名) 风清扬",
+            "AND (JOIN 中文名_風-clear揚) (JOIN 职业_阿里巴巴内部)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 类型_少年漫画) (JOIN (R 出自) 司法岛)",
+        "predict": [
+            "JOIN (R 登场作品) 司法岛",
+            "JOIN (R 登载杂志) 司法岛",
+            "JOIN (R 登场作品)司法岛",
+            "JOIN(Ｒ) 司法岛",
+            "JOIN (R 频道)司法岛",
+            "JOIN (R 登载漫画) 司法岛",
+            "JOIN (R 出现作品) 司法島"
+        ]
+    },
+    {
+        "label": "AND (JOIN 三要素 ?y) (JOIN (R 类型) 水浒传（竖版）)",
+        "predict": [
+            "JOIN (R 三要素) (JOIN (R 文学体裁) 水浒传_（中国古典长篇小说）)",
+            "JOIN (R 文学体裁要素) 水浒传_（中国古典长篇小说，四大名著之一）",
+            "AND (JOIN文学体裁要素?y) (JOIN (R 所属文学体裁) 水浒传_（中国古典长篇小说）)",
+            "JOIN (R 三要素) (JOIN (R 体裁) 水浒传_（中国古典长篇小说）)",
+            "JOIN (R 文学体裁三要素) 水浒传_（中国古典长篇小说，四大名著之一）",
+            "JOIN (R 文学体裁要素) 水浒传_（中国古典长篇小说）",
+            "JOIN (R трьох основоположних) 文学体裁",
+            "JOIN (R_three_elements) (JOIN (R 所属文学体裁) 水浒传_（中国古典长篇小说，四大名著之一）)",
+            "JOIN (R 三要素) (JOIN (R 文学体裁) 水浒传_（中国古典长篇小说，四大名著之一）)",
+            "JOIN (R trois composants) littérature"
+        ]
+    },
+    {
+        "label": "AND (JOIN 代表作品 ?y) (JOIN 中文名_查良镛)",
+        "predict": [
+            "JOIN (R 代表作品) 查良镛",
+            "AND (JOIN 代表works?y) (JOIN 中文名_查良镛)",
+            "JOIN (R 代表作品) 查良 镜折·风雨楼（2018年赵薇执导电影）",
+            "JOIN (R 代表作品)查良镛",
+            "JOIN (R 代表作品) 查良 镜锤",
+            "JOIN (R 代表作品)查 良镛"
+        ]
+    },
+    {
+        "label": "AND (JOIN 别名 ?y) (AND (JOIN 职业_作家_（汉语词语）) (JOIN 出生日期 1881-09-25))",
+        "predict": [
+            "AND (JOIN 别名?y) (AND (JOIN 出生日期 1881-09-25) (JOIN 职业_作家_（汉语词语）))",
+            "AND (JOIN别名?y) (AND (JOIN 出生日期 1881-09-25) (JOIN 职业_作家_（汉语词语）))",
+            "AND (JOIN 职业_作家_（汉语词语）) (JOIN 出生日期 1881-09-25)",
+            "AND (JOIN別名?y) (AND (JOIN 出生日期 1881-09-25) (JOIN 职业_作家_（汉语词语）))",
+            "AND (JOIN 别名?y) (AND (JOIN 出生日期 1881-09-25) (JOIN 职业_作家_（语言文学家）))",
+            "AND (JOIN 别名?y) (AND (JOIN 出生日 1881-09-25) (JOIN 职业_作家_（语言学术目])",
+            "AND (JOIN 别名?y) (AND (JOIN出生日期 1881-09-25) (JOIN 职业_作家_（词汇释义）))"
+        ]
+    },
+    {
+        "label": "AND (JOIN 监察机构 ?y) (JOIN 开国皇帝_赵匡胤_（宋朝开国皇帝）)",
+        "predict": [
+            "AND (JOIN 典故机构?y) (JOIN 国王_赵匡胤)",
+            "AND (JOIN 监察机构?y) (JOIN 国家_宋代开国君主)",
+            "AND (JOIN 内部机构监察机构?y) (JOIN 国家领袖_赵匡胤)",
+            "JOIN (R 监察机构) (JOIN 国家_赵匡胤建立的太平天国)",
+            "AND (JOIN 党校_监察) (JOIN 国籍_中国_（中华人民共和国）)",
+            "AND (JOIN 养济公 (JOIN 类别_监察机构)) (JOIN 建立者_赵匡胤)",
+            "AND (JOIN monitors_机构名称) (JOIN 国籍_唐_（中国历史朝代）)",
+            "JOIN (R 监察机构) (JOIN 主要成就_建立太平天国)",
+            "AND (JOIN监察机构?y) (JOIN 国家_宋代新政)",
+            "AND (JOIN monitored_by (JOIN机构类型_监察院)) (JOIN 国家_宋代新建的国家)",
+            "AND (JOIN 内部机构监察员?y) (JOIN 国家领袖_赵匡胤)",
+            "JOIN (R 监察机构) (JOIN 国籍_赵匡胤)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 结束时间 ?y) (JOIN (R 所处时代) 织田信长_（日本战国三杰之一，安土桃山时代的大名）)",
+        "predict": [
+            "AND (JOIN 结束时间?y) (JOIN (R 所处乱世) 织田信长_（日本战国三杰之一）)",
+            "AND (JOIN 乱世结束?y) (JOIN 所处时间_织田信长所处时间)",
+            "AND (JOIN 乱世结束时间?y) (JOIN 所处时间_织田信长)",
+            "JOIN (R 举行时间) (JOIN (R 参战者) 日本史)",
+            "JOIN (R乱世结束时间) 织田信长_（日本战国三杰之一）",
+            "JOIN (R 举行时间) (JOIN (R 所处时代) 织田信长_（日本战国三杰之一）)",
+            "AND (JOIN Ending_year?y) (JOIN 参战者_织田信长_（日本战国时代著名武将）)",
+            "AND (JOIN 结束时间?y) (JOIN (R 参与者) 戰國之乱)",
+            "AND (JOIN 乱世结束?y) (JOIN 所处时间_织田信长所处时期)",
+            "AND (JOIN 异事时间结束?y) (JOIN 主要人物_织田信长)",
+            "AND (JOIN 结束时间?y) (JOIN (R 所处乱世) 织田信长_（日本战国时期伟大的军事统帅）)",
+            "JOIN (R 结束时间) (JOIN (R 参与者) Weaver)",
+            "JOIN (R 举行时间) (JOIN (R 参战者) 戰国之世)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 星座 ?y) (AND (JOIN 喜欢的东西_金钱_（汉语词汇）) (JOIN 登场作品_海贼王_（尾田荣一郎创作的漫画作品）))",
+        "predict": [
+            "JOIN (R 星座) (JOIN (R 最贪财的) 海贼王_（尾田荣一郎创作的漫画作品）)",
+            "JOIN (R 星座) (JOIN (R 贪财排名 1) 海贼王_（尾田荣一郎创作的漫画作品）)",
+            "JOIN (R 星座) (JOIN (R 最贪财) 海贼王_（尾田荣一郎创作的漫画作品）)",
+            "JOIN (R Star) (JOIN (R 最贪财) 海贼王_（尾田荣一郎创作的漫画作品）)",
+            "JOIN (R 星座) (JOIN (R 贪财排名_1) 海贼王_（尾田荣一郎创作的漫画作品）)",
+            "JOIN (R 星座) (JOIN 贪财排名 1) (_ (JOIN 登场作品_海贼王_（尾田荣一郎创作的漫画作品）))",
+            "AND (JOIN 星座?y) (JOIN (R 贪财度) 海贼王_（尾田荣一郎创作的漫画作品）)",
+            "AND (JOIN 星座?y) (JOIN (R 贪财度) 主要人物)",
+            "JOIN (R 星座) (JOIN ขี้เห็น_ジン_（日本动漫《海贼王》中的人物）)",
+            "JOIN (R 星座) (JOIN 性格_贪财) (JOIN 登场作品_海贼王_（尾田荣一郎创作的漫画作品）)",
+            "AND (JOIN星座?y) (JOIN (R 贪财性格) 海贼王_（尾田荣一郎创作的漫画作品）)",
+            "AND (JOIN星座?y) (JOIN (R 贪财程度) 海贼王_（尾田荣一郎创作的漫画作品）)",
+            "AND (JOIN星座?y) (JOIN (R 贪财度) 海贼王_（尾田荣一郎创作的漫画作品）)"
+        ]
+    },
+    {
+        "label": "JOIN (R 悬赏金) (AND (JOIN 梦想_成为世界第一的大剑豪) (JOIN 登场作品_海贼王_（尾田荣一郎创作的漫画作品）))",
+        "predict": [
+            "JOIN (R 悬赏金) (JOIN 意义_梦想成为世界第一大剑豪)",
+            "JOIN (R 悬赏金) (JOIN 属性_梦想成为世界第一大剑豪的主角) (JOIN 登场作品_海贼王_（尾田荣一郎创作的漫画作品）)",
+            "JOIN (R 悬赏金) (JOIN 主要角色_梦想成为世界第一大剑豪为主角) (JOIN 登场作品_海贼王_（尾田荣一郎创作的漫画作品）)",
+            "JOIN (R悬赏金) (AND (JOIN 意义_梦想成为世界第一大剑豪) (JOIN 登场作品_海贼王_（尾田荣一郎创作的漫画作品）))",
+            "JOIN (R 赏金) (JOIN 意义_梦想成为世界第一大剑豪)",
+            "JOIN (R 悬赏金) (JOIN思いどころ世界一位の剣豪として)",
+            "JOIN (R 冲锋奖金) (JOIN 意义_梦想成为世界第一大剑豪)",
+            "JOIN (R 悬赏金) (JOIN 需要成就_梦想成为世界第一大剑豪)",
+            "JOIN (R 悬赏金) (JOIN 意识 Become_世界第一大剑豪)",
+            "JOIN (R 冀人赏金) (JOIN 履历_梦想成为世界第一大剑豪)",
+            "JOIN (R 缺席赏金) (JOIN 意义_梦想成为世界第一大剑豪)",
+            " JOIN 悬赏金",
+            "JOIN (R 悬赏金) (JOIN 确定地位_世界第一大剑豪)"
+        ]
+    },
+    {
+        "label": "JOIN 奖杯类型_乒乓球男子双打冠军杯",
+        "predict": [
+            "JOIN (R 男子双打冠军奖杯名称) 世界乒乓球锦标赛",
+            "JOIN (R 男双奖杯名称) 世界乒乓球锦标赛",
+            "JOINT_CROWN (JOIN (R 男子双打冠军奖杯) 世界乒乓球锦标赛)",
+            "JOIN (R 男双奥林匹克杯) 世界乒乓球锦标赛",
+            "JOIN (R 男双冠军奖杯名称) 世界乒乓球锦标赛",
+            "JOIN (R男子双打冠军奖杯名称) 世界乒乓球锦标赛",
+            "JOIN (R 女子双打冠军奖杯) 世界乒乓球锦标赛",
+            "JOIN (R 男女双打奖杯名称) 世界乒乓球锦标赛"
+        ]
+    },
+    {
+        "label": "JOIN (R 主要成就) (JOIN (R 丈夫) 黄蓉_（金庸武侠小说《射雕英雄传》女主角）)",
+        "predict": [
+            "AND (JOIN 主要成就?y) (JOIN (R 丈夫) 黄蓉_（金庸武侠小说《射雕英雄传》女主角）)",
+            "AND (JOIN 主要 成justices (JOIN (R 丈夫) 黄蓉_（金庸武侠小说《射雕英雄传》女主角）)) (JOIN (R 丈夫) 黄蓉_（金庸武侠小说《射雕英雄传》女主角）)",
+            "AND (JOIN主要成就?y) (JOIN (R 丈夫) 黄蓉_（金庸武侠小说《射雕英雄传》女主角）)",
+            "AND (JOIN 主要成就?y) (JOIN (R 配偶) 黄蓉_（金庸武侠小说《射雕英雄传》女主角）)",
+            "AND (JOIN 主要 成 就?y) (JOIN (R 配偶) 黄蓉_（金庸武侠小说《射雕英雄传》女主角）)",
+            "AND (JOIN 主要成就?y) (JOIN (R 夫人) 黄蓉_（金庸武俏爱情小说《射雕英雄传》女主角）)",
+            "AND (JOIN 主要成就?y) (JOIN (R 丈夫) 黄蓉_（ 金庸 武侠小说《射雕英雄传》女主角）)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 爱好 ?y) (AND (JOIN 出生地_香港_（中华人民共和国特别行政区）) (JOIN (R 主演) 霸王别姬_（1993年陈凯歌执导，张国荣主演电影）))",
+        "predict": [
+            "AND (JOIN 息事爱好?y) (AND (JOIN 出生地_香港_（中华人民共和国特别行政区）) (JOIN 代表作品_霸王别姬_（1993年陈凯歌执导电影）))",
+            "AND (JOIN 越多兴趣爱好?y) (AND (JOIN 出生地_香港_（中华人民共和国特别行政区）) (JOIN (R 主演) 霸王别姬_（1993年陈凯歌执导电影）))",
+            "AND (JOIN 恋爱成就 (JOIN 出生地_香港)) (JOIN (R 主演) 霸王别姬_（1993年陈凯歌执导电影）)",
+            "AND (JOIN 舞台表现 (JOIN 恋爱状态_单身)) (AND (JOIN 出生地_香港_（中华人民共和国特别行政区）) (JOIN 代表作品_霸王别姬_（1993年陈凯歌执导电影）))",
+            "AND (JOIN 适职_演员_（职业）) (AND (JOIN 出生地_香港_（中华人民共和国特别行政区）) (JOIN (R 主演) 霸王别姬_（1993年陈凯歌执导电影）))",
+            "AND (JOIN 越战后著名演员) (AND (JOIN 出生地_香港_（中华人民共和国特别行政区）) (JOIN (R 主要角色) 霸王别姬_（1993年陈凯歌执导电影）))",
+            "AND (JOIN 荣誉 (JOIN (R 主演) 霸王别姬_（1993年陈凯歌执导电影）)) (JOIN 出生地_香港_（中华人民共和国特别行政区）)",
+            "AND (JOIN 足球运动员_兴趣爱好) (AND (JOIN 足球运动员 (JOIN 出生地_香港_（中华人民共和国特别行政区）)) (JOIN 代表作品_霸王别姬_（1993年陈凯歌执导电影）))",
+            "AND (JOIN 歌曲进行_（在电影《霸王别姬》中perform）) (AND (JOIN 出生地_香港_（中华人民共和国特别行政区）) (JOIN 息事_兴趣爱好))",
+            "AND (JOIN 兴趣爱好?y) (AND (JOIN 出生地_香港_（中华人民共和国特别行政区）) (JOIN 代表作品_霸王别姬_（1993年王家卫导演电影）))",
+            "AND (JOIN 敢兴趣爱好?y) (AND (JOIN 出生地_香港_（中华人民共和国特别行政区）) (JOIN 代表作品_霸王别姬_（1993年陈凯歌执导电影）))",
+            "AND (JOIN 所处国家_香港_（中华人民共和国特别行政区）) (AND (JOIN 职业_演员_（职业）) (JOIN (R 主演) 霸王别姬_（1993年陈凯歌执导电影）))",
+            "AND (JOIN 舞台成就 (JOIN 出生地_香港_（中华人民共和国特别行政区）)) (JOIN (R 恋爱情场景) 霸王别姬_（1993年陈凯歌执导电影）)",
+            "AND (JOIN 息事爱好?y) (AND (JOIN 出生地_香港_（中华人民共和国特别行政区）) (JOIN 代表作品_霸王别姬_（1993年林超荣主演电视剧）))"
+        ]
+    },
+    {
+        "label": "AND (JOIN (R 作者) (JOIN 文学体裁_七言律诗)) (JOIN (R 作者) 摆脱贫困)",
+        "predict": [
+            "AND (JOIN 主要作品_七言诗_（中国古代诗词式体裁）) (JOIN 主要作品_摆脱贫困)",
+            "AND (JOIN 主要作品_七言诗) (JOIN 主要作品_摆脱贫困)",
+            "AND (JOIN 主要作品_七言诗_（中国古代诗式）) (JOIN 主要作品_摆脱贫困)",
+            "AND (JOIN 文学体裁_七言诗) (JOIN 作者 (JOIN (R 作者) 拉赛尔))",
+            "AND (JOIN 主要成就_七言诗) (JOIN 主要成就_《摆脱贫困》)",
+            "AND (JOIN 作品性质_七言诗) (JOIN 作者 (JOIN 代表作品_摆脱贫困))",
+            "AND (JOIN 所处文学体裁_七言诗) (JOIN 代表作品_摆脱贫困)",
+            "AND (JO 七言诗) (JOIN 作者 (JOIN (R 作者)摆脱贫困))",
+            "AND (JOIN 主要作品_七言诗_（中国古代诗形式）) (JOIN 主要作品_摆脱贫困)",
+            "AND (JOIN 文学体裁_七言诗) (JOIN 作者 (JOIN (R 作者)摆脱贫困))",
+            "AND (JOIN 主要作品_七言诗_（中国古代诗形态）) (JOIN 主要作品_摆脱贫困)",
+            "AND (JOIN 代表工作_七言诗) (JOIN 作者 (JOIN 代表作品_摆脱贫困))",
+            "AND (JOIN 别名_小句子) (JOIN 韵律_七言诗)"
+        ]
+    },
+    {
+        "label": "JOIN (R 平均价格) 禅泉度假酒店",
+        "predict": [
+            "AND (JOIN 是否有酒店_禅泉度假酒店) (JOIN 平均价格?y)",
+            "JOIN 本酒店距离距离  (AND (JOIN 实体名称_禅泉度假酒店) (JOIN 距离?z)) (JOIN 类型_酒店)",
+            "AND (JOIN 是否开朗_有禅泉度假酒店) (JOIN 平均价格?y)",
+            "JOIN 这家酒店的价格",
+            "AND (JOIN 平均价格?y) (JOIN 酒店名称_禅泉度假酒店)",
+            "AND (JOIN 价格?y) (JOIN 酒店名称_禅泉度假酒店)",
+            "JOIN 酒店ROOM类型 (JOIN (R 类型) 禅泉度假酒店)",
+            "AND (JOIN 是否免费 0) (JOIN 酒店名称_禅泉度假酒店)",
+            "JOIN 这家酒店的平均价格?PR 禅泉度假酒店",
+            "JOIN 酒店房间价格_禅泉度假酒店",
+            "JOIN 本酒店距离เฉลิมพระบิดาเธอเจ้าฟ้า 0.01 km",
+            "JOIN 住宿费",
+            "JOIN 火车站距离距离_禅泉度假酒店"
+        ]
+    },
+    {
+        "label": "JOIN (R 相关股票) 跌破举牌价",
+        "predict": [
+            "JOIN 跌破举牌价",
+            "JOIN 涉及股票 (JOIN terms_跌破举牌价)",
+            "JOIN 倍数_跌破举牌价",
+            "JOIN 股票跌破举牌价",
+            "JOIN 举牌价_跌破举牌价",
+            "JOIN 涉及股票 (JOIN Terms_跌破举牌价)",
+            "JOIN跌破举牌价",
+            "JOIN 墜破舉牌價 = 股票",
+            "JOIN 切换到跌破举牌价",
+            "JOIN 值跌破举牌价",
+            " JOIN 举牌价_跌破举牌价"
+        ]
+    },
+    {
+        "label": "AND (JOIN 口号 ?z) (JOIN 发起者_卡尔·马克思_（马克思主义创始人）)",
+        "predict": [
+            "AND (JOIN 口号?y) (JOIN 发起者_卡尔·马克思)",
+            "AND (JOIN 口号?y) (JOIN 发起人_卡尔·马克思)",
+            "AND (JOIN 君主词) (JOIN 口号?y)",
+            "AND (JOIN 没有终点_著名口号) (JOIN 发起者_卡尔·马克思)",
+            "AND (JOIN口号?y) (JOIN 发起者_卡尔·马克思)",
+            "AND (JOIN 含义 (JOIN (R 口号)?z)) (JOIN 发起者_卡尔·马克思)",
+            "AND (JOIN 着名口号?y) (JOIN 发起者_卡尔·马克思)",
+            "AND (JOIN 沿线思想人_卡尔·马克思_（经济学家、社会理论家）) (JOIN 口号?y)",
+            "AND (JOIN 毕业词?y) (AND (JOIN 发起者_卡尔·马克思) (JOIN 毕业词?y))",
+            "AND (JOIN 存在证明?y) (AND (JOIN 存在证明 exists) (JOIN 口号?y))",
+            "AND (JOIN 著名口号?y) (JOIN 发起人_卡尔·马克思)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 霸气种类_霸王色) (AND (JOIN 霸气种类_武装色) (AND (JOIN 霸气种类_见闻色) (JOIN 登场作品_海贼王_（尾田荣一郎创作的漫画作品）)))",
+        "predict": [
+            "AND (ALL (JOIN 主要角色) 海泽王_（日本动漫《一方通行》中的人物）) (AND (JOIN 都会 三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三三",
+            "AND (JOIN 会得技能_三种霸气) (JOIN 登场作品_海泽王_（安利尔的电子角色扮演游戏）)",
+            "AND (JOIN 都会 (JOIN 数量 3)) (JOIN 主要成就_海泽王)",
+            "AND (JOIN 会了三种霸气 (JOIN 所属系列_海泽王_（《王者荣耀》电子游戏中的角色）)) (JOIN 所属系列_王者荣耀_（王者荣耀系列移动游戏）)",
+            "AND (JOIN 会都 (JOIN 类型_霸气都)) (JOIN 登场作品_海泽王_（藤卷忠明执导的日本动画系列）)",
+            "AND (JOIN都会三种霸气 (JOIN 所属漫画_海泽王_（藤本斗依加的漫画作品）)) (JOIN 所属漫画_海泽王_（藤本斗依加的漫画作品）)",
+            "AND (JOIN 都会 (JOIN 分类_霸气都会)) (JOIN 登场作品_海泽王_（中国大陆TV剧）)",
+            "AND (JOIN 会了三种霸气 (JOIN 所属漫画_海泽王_（藤本斗苗作漫画的漫画作品）)) (JOIN 所属漫画_海泽王_（藤本斗苗作漫画的漫画作品）)",
+            "AND (JOIN 运动_海泽王_（任天堂任天堂公司2018年9月发行的电子游戏）) (JOIN 运动_霸气都会)",
+            "AND (JOIN 会不会三种霸气 all) (JOIN 登场作品_海泽王_（安藤正成执导的游戏）)",
+            "AND (JOIN 会得技能_三种霸气) (JOIN 登场作品_海泽王_（安个小子创作的漫画）)",
+            "AND (JOIN 支持技巧_三种霸气都会) (JOIN 主要人物_海泽王_（动漫《喜欢·大师》中人物）)",
+            "AND (JOIN 都会 (JOIN 分类_霸气都会)) (JOIN 登场作品_海泽王_（日本动漫《海泽王》中的人物）)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 惯用脚_右脚) (JOIN 所属运动队_卡拉马)",
+        "predict": [
+            "AND (JOIN 运动项目_足球) (AND (JOIN 惯用脚_右脚) (JOIN 所属运动队_卡拉马运动队))",
+            "AND (JOIN 发球方 (JOIN 主要运动项目_足球_（足球运动）)) (JOIN 惯用脚右脚)",
+            "AND (JOIN 适用运动项目_足球) (AND (JOIN 惯用脚部_右脚) (JOIN 所属运动队_卡拉马运动队))",
+            "AND (JOIN 发生地点_卡拉马_（卡拉马运动队）) (AND (JOIN 运动项目_足球) (JOIN 惯用脚_右脚))",
+            "AND (JOIN 体育运动_足球_（足球运动员）) (AND (JOIN 惯用脚_右脚) (JOIN 所属运动队_卡拉马运动队))",
+            "JOIN 所属运动队_卡拉马_（卡拉马运动队）",
+            "AND (JOIN 运动项目_足球) (AND (JOIN 惯用脚_右脚) (JOIN 所属运动队_卡拉马_（卡拉马运动队）))",
+            "AND (JOIN 发球方 (JOIN 主要运动项目_足球_（足球运动员）)) (JOIN 惯用脚右脚)",
+            "AND (JOIN 适用运动项目_足球) (AND (JOIN 惯用脚_右脚) (JOIN 所属运动队_卡拉马运动队))",
+            "AND (JOIN 运动项目_足球) (AND (JOIN 惯用足部_右脚) (JOIN 所属运动队_卡拉马运动队))",
+            "JOIN 所属运动队_卡拉马_（足球队）",
+            "AND (JOIN 运动项目_足球) (AND (JOIN 触球类型_脚球) (JOIN 主要运动队_卡拉马运动队))"
+        ]
+    },
+    {
+        "label": "AND (JOIN 上映时间 2007-07-27) (JOIN 导演 Jay_（周杰伦制作专辑）)",
+        "predict": [
+            "AND (JOIN 上映时间 2007-07-27) (JOIN 导演 Jay)",
+            "AND (JOIN上 映时间 2007-07-27) (JOIN 导演_jay)",
+            "AND (JOIN上-market 2007-07-27) (JOIN 导演_jay_（华语电影）)",
+            "AND ( JOIN Above时间 2007-07-27) (JOIN 导演_jay)",
+            "AND (JOIN上映时间 2007-07-27) (JOIN 导演_jay)",
+            "AND (JOIN 上场日期 2007-07-27) (JOIN 导演_jay)",
+            "AND (JOIN 上映时间 2007-07-27) (JOIN导演 Jay)",
+            "AND (JOIN 上场日期 2007-07-27) (JOIN 导 演 Jay)"
+        ]
+    },
+    {
+        "label": "AND (JOIN (R 代表作品) 徐和瑾) (JOIN 首版字数 3000000)",
+        "predict": [
+            "AND (JOIN 字数_三百万) (AND (JOIN 外文名_徐和瑾) (JOIN 中文名_徐和瑾))",
+            "AND (JOIN 字数_三百万) (AND (JOIN 外文名_三百万) (JOIN 译者_徐和瑾))",
+            "AND (JOIN 字数_三百万) (AND (JOIN 外文名_长达三百万字数) (JOIN 译者_徐和瑾))",
+            "AND (join 单行本词数 3000000) (JOIN 外文名_徐和瑾)",
+            "AND (JOIN 字数_三百万) (AND (JOIN 原文版 (JOIN 翻译_徐和瑾)) (JOIN 类型_外文小说))",
+            "AND (JOIN 内容字数_三百万) (AND (JOIN 原文版_外文版) (JOIN 译者_徐和瑾))",
+            "AND (JOIN 字数_三百万字) (JOIN 外文名_徐和瑾)",
+            "AND (JOIN 译者_徐和瑾) (JOIN 字数_三百万)",
+            "AND (join 单本字数_三百万字数) (JOIN 译者_徐和瑾)",
+            "AND (JOIN 字数_三百万) (AND (JOIN 外文名_三百万) (JOIN 翻译人_徐和瑾))",
+            "AND (join 译者_徐和瑾) (join 字数_三百万)",
+            "AND (JOIN 字数_三百万) (AND (JOIN 版本) (JOIN 译者_徐和瑾))",
+            "AND (JOIN 字数_三 百 万) (AND (JOIN 外文名_外文名) (JOIN 译者_徐和瑾))"
+        ]
+    },
+    {
+        "label": "JOIN (R 简称) 5G",
+        "predict": [
+            "JOIN 简称 5G",
+            "JOIN 展现形式_简称",
+            "JOIN 属性 5G的简称",
+            "JOIN 缩写 5G",
+            "JOIN 展开形式 5G_（第五代移动通信）",
+            "JOIN简称 5G",
+            "JOIN 缩略名 5G",
+            "join简称 5G",
+            "JOIN 统稱 5G"
+        ]
+    },
+    {
+        "label": "AND (JOIN 外文名 ?y) (JOIN (R 发明者) 飞机_（交通工具）)",
+        "predict": [
+            "JOIN (R 外文名) (JOIN (R 最早发明者) 飞机_（交通工具）)",
+            "AND (JOIN 外文名?y) (JOIN (R 最早的发明者) 飞机_（交通工具）)",
+            "AND (JOIN 外文名?y) (JOIN (R 最早发明者) 飞机_（交通工具）)",
+            "JOIN (R 外文名) (JOIN (R 创始人) 飞机)",
+            "AND (JOIN外 文 (JOIN 外文名?z)) (JOIN (R 最早的飞机发明者) 飞机_（交通工具）)",
+            "AND (JOIN外 文名称?y) (JOIN (R 最早的飞机发明者) 飞机_（交通工具）)",
+            "JOIN (R 外文名) (JOIN (R 创造者) 飞机)",
+            "JOIN (R 外部文字名称) (JOIN (R 最早发明者) 飞机_（运输设备）)",
+            "AND (JOIN外文名?y) (JOIN (R 最早的发明者) 飞机_（交通工具）)",
+            "JOIN (R 外文名) (JOIN (R 首次飞机发明者) 飞机)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 特点 ?y) (JOIN 中文名_十面埋伏)",
+        "predict": [
+            "JOIN (R 特点) 十面埋伏_（琵琶曲）",
+            "JOIN (R 实现方法) 十面埋伏_（琵琶曲）",
+            "JOIN (R 程序特点) 十面埋伏_（ 琵琶曲）",
+            "JOIN (R 特点)十面埋伏_(琵琶曲)",
+            "JOIN (R特点)十面埋伏_（ 琵琶曲）",
+            " JOIN (R 특性)十-face-bury-_( 琵 琶 词曲)",
+            "JOIN (R 특点) 十面埋伏_（琵 琢 曲）",
+            "JOIN (R特点) 十面bury付"
+        ]
+    },
+    {
+        "label": "AND (JOIN 拍摄地点_安徽) (AND (JOIN ?b 章子怡) (JOIN ?a 周润发))",
+        "predict": [
+            "AND (JOIN 拍摄地点_安徽) (AND (JOIN 主演_章子怡) (JOIN 主演_周润发))",
+            "AND (JOIN 拍摄地点_安徽_（中国省级行政区）) (AND (JOIN 主演_章子怡) (JOIN 主演_周润发))",
+            "AND (JOIN 制片地区_安徽_（中国省级行政区）) (AND (JOIN 主演_章子怡) (JOIN 主演_周润发))",
+            "AND (JOIN 册名_章子怡) (AND (JOIN 合作演员_周润发) (JOIN 拍摄地点_安徽))",
+            "AND (JOIN拍摄地点_安徽_（中国省级行政区）) (AND (JOIN 主演_章子怡) (JOIN 主演_周润发))",
+            "AND (JOIN 发影地点_安徽) (AND (JOIN 主演_章子怡) (JOIN 主演_周润发))",
+            "AND (JOIN 制片地区_安徽_（中华人民共和国省级行政单位之一）) (AND (JOIN 主演_章子怡) (JOIN 主演_周润发))",
+            "AND (JOIN 制片地区_安徽_（中华人民共和国省级行政区）) (AND (JOIN 主演_章子怡) (JOIN 主演_周润发))",
+            "AND (JOIN 配演_章子怡) (AND (JOIN 拍摄地点_安徽_（中国省级行政区）) (JOIN 配演_周润发))",
+            "AND (JOIN 采影地_安徽_（中国省级行政区）) (AND (JOIN 主演_章子怡) (JOIN 主演_周润发))"
+        ]
+    },
+    {
+        "label": "AND (JOIN (R 涉及症状) 消瘦) (JOIN (R 涉及症状) 口干)",
+        "predict": [
+            "AND (JOIN 涉及症状_消瘦) (JOIN 涉及症状_口干)",
+            "AND (JOIN 代谢症状_消瘦) (JOIN 症状_口干)",
+            "AND (JOIN 常见症状_消瘦) (JOIN 常见症状_口干)",
+            "AND (JOIN 涉 及 症状_消瘦) (JOIN 涉及症状_口干)",
+            "JOIN 症状_口干并且消瘦"
+        ]
+    },
+    {
+        "label": "AND (JOIN (R 代表作品) 杨幂) (AND (JOIN (R 代表作品) 季冠霖) (JOIN 出品人_蒲树林))",
+        "predict": [
+            "AND (JOIN 制片公司_蒲树林) (AND (JOIN 主演_季冠霖) (JOIN 主演_杨幂))",
+            "AND (JOIN 主演_季冠霖) (AND (JOIN 主演_杨幂) (JOIN 出品公司_蒲树林))",
+            "AND (JOIN 领导群体_季冠霖) (AND (JOIN 领导群体_杨幂) (JOIN 出品公司_蒲树林))",
+            "AND (JOIN 类型_电视剧) (AND (JOIN 主演_季冠霖) (JOIN 主演_杨幂))",
+            "AND (JOIN 主演_季冠霖) (AND (JOIN 主演_杨幂) (JOIN 制片公司_蒲树林))",
+            "AND (JOIN 领导组_季冠霖) (AND (JOIN 领导组_杨幂) (JOIN 出品公司_蒲树林))",
+            "AND (JOIN 出品_蒲树林) (AND (JOIN 主演_季冠霖) (JOIN 主演_杨幂))",
+            "AND ( JOIN 主演_季冠霖) (AND (JOIN 出品_蒲树林) (JOIN 主演_杨幂))",
+            "AND (JOIN 登场地_蒲树林) (AND (JOIN 主演_季冠霖) (JOIN 主演_杨幂))"
+        ]
+    },
+    {
+        "label": "AND (JOIN 类型_奇幻) (JOIN 主演 (AND (JOIN 出生地_北京_（中华人民共和国首都）) (AND (JOIN 毕业院校_中央戏剧学院) (JOIN 职业_演员_（职业）))))",
+        "predict": [
+            "AND (JOIN 职业_演员_（职业）) (AND (JOIN 学校_中央戏剧学院) (JOIN 国籍_北京_（中华人民共和国首都）))",
+            "AND (JOIN 主演 (AND (JOIN 出生地_北京_（中华人民共和国首都）) (JOIN 毕业院校_中央戏剧学院))) (JOIN 类型_奇幻)",
+            "AND (JOIN 毕业院校_中央戏剧学院) (AND (JOIN 职业_演员_（职业）) (AND (JOIN 国籍_北京_（中华人民共和国首都）) (JOIN 类型_奇幻电影)))",
+            "AND (JOIN 谱曲_奇幻) (AND (JOIN 类型_奇幻) (AND (JOIN 出品地_北京_（中华人民共和国首都）) (JOIN 毕业院校_中央戏剧学院)))",
+            "AND (JOIN 教育背景_中央戏剧学院) (AND (JOIN 职业_演员_（职业）) (AND (JOIN 国籍_北京_（中华人民共和国首都）) (JOIN 类型_奇幻)))",
+            "AND (JOIN 毕业院校_中央戏剧学院) (AND (JOIN 职业_演员_（职业）) (AND (JOIN 国籍_北京_（中华人民共和国首都）) (JOIN 类型_奇幻)))",
+            "AND (JOIN 经过培训_中央戏剧学院) (AND (JOIN 职业_演员_（职业）) (AND (JOIN 出生地_北京_（中华人民共和国首都）) (JOIN 代表作品?y)))",
+            "AND (JOIN 职业_演员_（职业）) (AND (JOIN 教育机构_中央戏剧学院) (JOIN 国籍_北京_（中华人民共和国首都）))",
+            "AND (JOIN 所属地区_北京_（中华人民共和国首都）) (AND (JOIN 毕业院校_中央戏剧学院) (JOIN 类型_奇幻_（词语解释）))",
+            "AND (JOIN 配音 (AND (JOIN 职业_演员_（职业）) (JOIN 出生地_北京_（中华人民共和国首都）))) (JOIN 类型_奇幻_（词语解释）)",
+            "AND (join 主演 (AND (JOIN 出生地_北京_（中华人民共和国首都）) (JOIN 毕业院校_中央戏剧学院))) (JOIN 类型_奇幻)"
+        ]
+    },
+    {
+        "label": "JOIN 宪章_联合国宪章",
+        "predict": [
+            "JOIN (R 类别) 联合国宪章",
+            "JOIN (R 来源) 联合国宪章",
+            "JOIN (R 来源)联合国宪章",
+            "JOIN (R 提出者) 联合国宪章",
+            "JOIN 宪章 (JOIN (R 来源) 联合国宪章)",
+            "Join (JOIN 基本上的宪章) 联合国宪章",
+            "JOIN (R 类属) 联合国宪章",
+            "JOIN (R 根据) 聯合國宪章",
+            "JOIN (R 概念) 联合国宪章",
+            "JOIN (R 出自) 联合国宪章"
+        ]
+    },
+    {
+        "label": "AND (JOIN 类型_景点) (AND (JOIN 景点的等级A 5A) (JOIN 城市_九寨沟县))",
+        "predict": [
+            "AND (JOIN 景点的等级A 5A) (JOIN 城市_九寨沟县)",
+            "AND (JOIN 类型_景点) (AND (JOIN 景点的等级A) (JOIN 城市_九寨沟县))",
+            "JOIN (R 建议游玩时间) 九寨沟县",
+            "AND (JOIN 景点之一 (JOIN 景点类型 AAAAA)) (JOIN 城市_九寨沟县)",
+            "JOIN (R 建议游玩时长) 九寨沟县AAA超级景点",
+            "JOIN (R 经营范围) AAAAA级景点",
+            "AND (JOIN 景点名称?y) (AND (JOIN 景点等级A) (JOIN 城市_九寨沟县))",
+            "AND (JOIN 景点的等级A 1A) (JOIN 城市_九寨沟县)"
+        ]
+    },
+    {
+        "label": "JOIN (R 身高) (AND (JOIN 其他名称_海贼猎人、绿藻头) (JOIN 登场作品_海贼王_（尾田荣一郎创作的漫画作品）))",
+        "predict": [
+            "AND (JOIN 身高?y) (AND (JOIN 别名_绿藻头) (JOIN 别名_海贼猎人))",
+            "AND (JOIN 谱号_绿藻头) (AND (JOIN 外号_海贼猎人) (JOIN (R 身高) 在看_海贼王))",
+            "AND (JOIN 身高?y) (AND (JOIN 其他名称_绿藻头) (JOIN 其他名称_海贼猎人))",
+            "JOIN (R 身高) (AND (JOIN 其他名称_绿藻头) (JOIN 其他名称_海贼猎人)) (JOIN 登场作品_海贼王_（尾田荣一郎创作的漫画作品）)",
+            "AND (JOIN 园地 (JOIN 身高?z)) (AND (JOIN 其他人名_绿藻头) (JOIN 其他人名_海贼猎人))",
+            "AND (JOIN 体重?y) (AND (JOIN 体重?y) (AND (JOIN 其他名称_绿藻头) (JOIN 其他名称_海贼猎人)))",
+            "JOIN (R 身高) (AND (JOIN 其他名称_绿藻头) (AND (JOIN 其他名称_海贼猎人) (JOIN 登场作品_海贼王_（尾田荣一郎创作的漫画作品）)))",
+            "AND (JOIN 谱名_绿藻头) (AND (JOIN 外号_海贼猎人) (JOIN (R 身高) 相关人物))",
+            "AND (JOIN 体重?y) (AND (JOIN 身高?y) (AND (JOIN 别名_绿藻头) (JOIN 别名_海贼猎人)))",
+            "JOIN (R身高) (AND (JOIN 其他名称_绿藻头) (JOIN 其他名称_海贼猎人)) (JOIN 登场作品_海贼王_（尾田荣一郎创作的漫画作品）)"
+        ]
+    },
+    {
+        "label": "JOIN (R 不良反应) (JOIN 标签_耳、鼻、咽拭子细菌培养)",
+        "predict": [
+            "JOIN (R 不良反应) 耳、鼻、咽拭子细菌培养",
+            "JOIN (R 未批准使用时可能出现的不良反应) 耳、鼻、咽拭子细菌培养",
+            "JOIN (R 可能会出现不良反应) 耳、鼻、咽拭子细菌培养",
+            "JOIN (R 未好反响) 耳、鼻、咽拭子细菌培养",
+            "JOIN (R ไม่良反应) 耳、鼻、咽拭子细菌培养",
+            "JOIN (Rไม่良反应) 耳、鼻、咽拭子细菌培养",
+            "JOIN (R 不良反应) 尾、鼻、咽拭子细菌培養"
+        ]
+    },
+    {
+        "label": "JOIN (R 技能) (JOIN 称号_美猴王_（2010年陈家奇执导动画片）)",
+        "predict": [
+            "JOIN (R 易数) 孙悟空_（古典名著《西游记》中的主角）",
+            "JOIN (R变化次数) 美猴王_（《西游记》中的主角）",
+            "JOIN (R 字数) 美猴王_（西游记故事名）",
+            "AND (JOIN 变化形式?y) (JOIN 别名_美猴王，铁猴王)",
+            "JOIN (R Changes) 美猴王_（《西游记》中的主角）",
+            "JOIN (R 易数) 宫娶·美猴王",
+            "JOIN (R 版本) 美猴王_（儒家的传奇故事）",
+            "JOIN (R 化身) 孙悟空_（古典名著《西游记》中的主角）",
+            "JOIN (R 修炼方法) 宝象记_（金庸小说中的人物）",
+            "AND (JOIN 转化形式?y) (JOIN 别名_美猴王，铁马王)",
+            "JOIN (R变化次数) 美猴王_（红楼梦人物）",
+            "AND (JOIN 转变程度?y) (JOIN 其他名称_美猴王，)",
+            "AND (JOIN 变化形式?y) (JOIN 别名_美猴王，金头monkey)",
+            "JOIN (R 度数)美猴王_（金庸小说）",
+            "JOIN (R 类别) 美猴王_（金庸小说）"
+        ]
+    },
+    {
+        "label": "AND (JOIN 职业_歌手_（职业名称）) (JOIN 经纪公司_福茂唱片)",
+        "predict": [
+            "JOIN (R 签约歌手) 福茂唱片",
+            "JOIN 签约记录_福茂唱片",
+            "JOIN 签约录音公司_福茂唱片",
+            "JOIN (R 歌手) 福茂唱片",
+            "JOIN (R 签约歌手) Fukumg_（福茂唱片）JOIN (R 公司名称) Fukumg_（福茂唱片）",
+            "JOIN (R signer) 福茂唱片"
+        ]
+    },
+    {
+        "label": "AND (JOIN 墓葬 ?y) (JOIN 代表作品_出师表_（诸葛亮作品）)",
+        "predict": [
+            "AND (JOIN 逝世地?y) (JOIN (R 作者) 出师表_（东汉末年书籍）)",
+            "JOIN (R 陵墓) (JOIN (R 作者) 出师表_（东汉军事作家司马迁著文战事表）)",
+            "AND (JOIN 墓葬?y) (JOIN 主要作品_出师表_（东晋周瑜著兵书）)",
+            "AND (JOIN 逝世地?y) (JOIN (R 作者) 出师表_（东晋文学家作作出师表）)",
+            "JOIN (R 陵墓) (JOIN 主要作品_出师表_（东晋文学家周瑜所作军事告辞表）)",
+            "JOIN (R 墓葬地) (JOIN 主要作品_出师表_（司马迁著兵书）)",
+            "AND (JOIN 墓葬地?y) (JOIN (R 作者) 出师表_（东汉末年军事诸侯、书作家孙武著作文）)",
+            "AND (JOIN 逝世地点?y) (JOIN 主要作品_出师表_（东晋文学家作作诗篇出师表）)",
+            "JOIN (R 陵墓) (JOIN (R 作者) 出师表_（东晋文学家薛仁贵著文战事表）)",
+            "AND (JOIN 墓葬?y) (JOIN (R 作者) 出师表_（东汉军事作家司马迁著文战事表）)",
+            "JOIN (R 陵墓) (JOIN 主要作品_出师表_（东晋师出所作兵书）)",
+            "JOIN (R 陵墓) (JOIN 主要作品_出师表_（司马迁著兵书）)",
+            "AND (JOIN 逝世地?y) (JOIN (R 作者) 出师表_（东晋军事将领司马仲仕的辞章）)",
+            "AND (JOIN 逝世处?y) (JOIN 主要作品_出师表_（东汉文学家司马仲仕著军事告辞表）)",
+            "AND (JOIN 逝世地点?y) (JOIN 主要作品_出师表_（司马迁著兵书）)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 代表作品 ?y) (JOIN (R 作者) 额尔古纳河右岸)",
+        "predict": [
+            "JOIN (R 代表作品) (JOIN (R 作者) 额尔古纳河右岸)",
+            "JOIN (R 作品) (JOIN (R 作者) 额尔古纳河右岸)",
+            "JOIN (R 代表作品) (JOIN (R.author) 适合自己地的故事_额尔古纳河右岸)",
+            "JOIN (R 代表作品) (JOIN (R 作者) 颖之书)",
+            "JOIN (R 代表作品) (JOIN (R 作者)额尔古纳河右岸)",
+            "JOIN (R 대표作) (JOIN (R 作品成就) 额尔古纳河右岸)",
+            "JOIN (R 代表作品) (JOIN (R 作者) 适婚)",
+            "JOIN (R 代表作品) (JOIN (R 作者) 额尔古納河右岸)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 逝世日期 ?y) (JOIN (R 作者) 雪国_（日本川端康成著小说）)",
+        "predict": [
+            "JOIN (R 逝世日期) (JOIN (R 作者) 雪国_（日本川端康成著小说）)",
+            "AND (JOIN 去世时间?y) (JOIN (R 作者) 雪国_（日本川端康成著小说）)",
+            "AND (JOIN 死亡时间?y) (JOIN (R 作者) 伊豆的舞女_（王重之 1948年出版小说）)",
+            "AND (JOIN 身份 作者) (JOIN (R 逝世日期) (JOIN (R 作者) 雪国_（日本川端康成著小说）))",
+            "JOIN (R 逝世日期) (JOIN (R 作者) 伊豆的舞女_（日本首部电影）)",
+            "JOIN (R逝 世时间) (JOIN 代表作品_伊豆的舞女_（王家英著小说）)",
+            "JOIN (R 逝世日期) (JOIN (R 作者) 伊豆的舞女_（王旬之著小说）)",
+            "JOIN (R 去世时间) (JOIN (R 作者) 雨月书馆_（日本尾崎红著小说改编）)",
+            "JOIN (R 逝 世时间) (JOIN (R 作者) 魔女)"
+        ]
+    },
+    {
+        "label": "JOIN (R 是否免费) (AND (JOIN 城市_重庆) (JOIN (R 实体名称) (AND (LE 距离值 5) (JOIN (R 附近) 重庆君豪大饭店))))",
+        "predict": [
+            "AND (JOIN 是否免费_收费) (AND (JOIN 类型_景点) (JOIN (R 实体名称) (AND (JOIN 距离值 5) (JOIN (R 附近) 重庆君豪大饭店))))",
+            "AND (JOIN 是否免费_收费) (JOIN (R 实体名称) (AND (JOIN 距离值 5) (JOIN (R 附近) 重庆君豪大饭店)))",
+            "AND (JOIN 附近距离值 5km) (AND (JOIN 收费类型?z) (JOIN (R 实体名称) (JOIN (R 附近) 重庆君豪大饭店)))",
+            "AND (JOIN 属性:免费) (AND (JOIN 类型_景点) (JOIN (R 实体名称) (AND (LE 距离值 5) (JOIN (R 附近) 重庆君豪大饭店))))",
+            "AND (JOIN 附近距离值 5km) (AND (JOIN 收费类型?z) (JOIN (R 景点) 重庆君豪大饭店))",
+            "AND (JOIN 是否免费_收费_（汉语词语）) (AND (JOIN 类型_景点) (JOIN (R 实体名称) (AND (JOIN 距离值 5) (JOIN (R 附近) 重庆君豪大饭店))))",
+            "AND (JOIN 附近距离值 5km) (AND (JOIN 是否免费?y) (JOIN (R 景点) 重庆君豪大饭店))",
+            "AND (JOIN 属性:免费) (AND (JOIN 类型_景点) (JOIN (R 实体名称) (AND (JOIN 距离值 5) (JOIN (R 附近) 重庆君豪大饭店))))",
+            "AND ( JOIN 建议免费) (JOIN (R 实体名称) (AND (JOIN 距离值 5) (JOIN (R 附近) 重庆君豪大饭店)))",
+            "AND (JOIN 综合描述_免费) (JOIN (R 建议游玩的景点) (AND (JOIN 距离值 5) (JOIN (R 附近) 重庆君豪大饭店)))",
+            "AND (JOIN 是否免费_非免费) (AND (JOIN 城市_重庆) (JOIN (R 实体名称) (AND (JOIN 距离值 5) (JOIN (R 附近) 重庆君豪大饭店))))",
+            "AND (JOIN 类型_景点) (AND (JOIN 是否免费?y) (JOIN (R 实体名称) (AND (JOIN 距离值 5) (JOIN (R 附近) 重庆君豪大饭店))))",
+            "AND (JOIN 费用?y) (AND (JOIN 类型_景点) (JOIN (R 实体名称) (AND (LE 距离值 5) (JOIN (R 附近) 重庆君豪大饭店))))"
+        ]
+    },
+    {
+        "label": "JOIN 代表作品_贞德_（法国民族英雄）",
+        "predict": [
+            "AND (JOIN 作者_贞德_（欧洲历史人物）) (JOIN 相关人物_贞德_（欧洲历史人物）)",
+            "AND (JOIN 主要作品_贞德_（欧洲历史人物）) (JOIN 主要作家?y)",
+            "AND (JOIN 创造者 (JOIN 职业_画家_（职业）)) (JOIN 主要成就_贞德_（欧洲民族英雄）)",
+            "AND (JOIN 创作人_贞德_（欧洲历史人物）) (JOIN 标签_宣传民族英雄)",
+            "AND (JOIN 作者_贞德_（欧洲历史人物）) (JOIN 涉及人物_贞德_（欧洲历史人物）)",
+            "AND (JOIN 主要作品_贞德_（欧洲历史人物）) (JOIN 主要作品 (JOIN (R 代表作品) 贞德_（中国四川大学校长,为国而战的女英雄）))",
+            "AND (JOIN 创造者 (JOIN 职业_画家_（职业）)) (JOIN 主要成就_贞德_（欧洲中世纪的民族英雄）)",
+            "AND (JOE_贞德_（欧洲历史人物）) (JOIN 创作人?y)",
+            "AND (JOIN 作者_贞德_（欧洲历史人物）) (JOIN 标签_宣传民族英雄)",
+            "AND (JOIN 主要作品_贞德_（欧洲历史人物）) (JOIN 所处文学时代_文艺复兴)",
+            "AND (JOIN 代表人物_贞德_（欧洲中世纪事实与 legends）) (JOIN 类型_作品)",
+            "AND (JOIN 中文名 *贞德) (JOIN 主要作品_宣传民族英雄)",
+            "AND (JOIN 相关人物_贞德_（欧洲中世纪时期比利时人、法国人）) (JOIN 作者_（多位名家创造过）)",
+            "AND (JOIN 共同主题_贞德_（欧洲历史人物）) (JOIN 作者_名家)",
+            "AND (JOIN 主要作品_贞德_（欧洲中世纪史人物）) (JOIN 主要作家?y)"
+        ]
+    },
+    {
+        "label": "JOIN (R 中文名) (JOIN 别名_六小龄童（艺名）)",
+        "predict": [
+            "JOIN (R 中文名) 六小龄童",
+            "Join 本名 (JOIN (R 别名) 六小龄童)",
+            "JOIN (R 本名) 六小龄童",
+            "JOIN (R 中 文名) Six Degree Tong_（中国内地男演员六小龄童）",
+            "JOIN (R中名) 六小龄童",
+            "JOIN (R 中文名) 六小年龄童"
+        ]
+    },
+    {
+        "label": "AND (JOIN 逝世日期 ?y) (JOIN (R 人物) 数论变换)",
+        "predict": [
+            "AND (JOIN 逝世日期?y) (JOIN (R 提出人) 数论变换)",
+            "JOIN (R 去世时间) (JOIN 主要成就_提出数论变换)",
+            "JOIN (R去世时间) (JOIN 主要成就_提出数论变换)",
+            "JOIN (R 去逝日期) (JOIN 主要成就_提出数论变换)",
+            "AND (JOIN 逝世日期?y) (JOIN (R 创造者) 数论变换)",
+            "AND (JOIN 去世时间?y) (JOIN (R 提出人) 数论变换)",
+            "AND (JOIN 逝 世?y) (JOIN (R 提出人) 数论变换)",
+            "JOIN (R 去 世时间) (JOIN 主要成就_提出数论变换)",
+            "AND (JOIN 逝世日期?y) (JOIN (R 创始人) 数论变换)",
+            "AND (JOIN 逝世日期?y) (JOIN 主要成就_提出数论变换)"
+        ]
+    },
+    {
+        "label": "JOIN (R 星座) (JOIN 妈妈_昆凌)",
+        "predict": [
+            "AND (JOIN 星座?y) (JOIN (R 女儿) 昆凌)",
+            "JOIN (R 星座) (JOIN (R 女儿) 昆凌)",
+            "AND (JOIN Старший знак зодиака_昆凌女儿) (JOIN Старший знак зодиака?y)JOIN (R 女儿) 昆凌",
+            "AND (JOIN Star_SIGN (JOIN (R 生日) 昆凌)) (JOIN (R 女儿) 昆凌)",
+            "AND (JOIN 星座?y) (JOIN 父母_昆凌)",
+            "JOIN (R星座) (JOIN 父亲_昆凌)",
+            "AND (JOIN 星座?y) (JOIN parent_ 昆凌)",
+            "JOIN (R星座) (JOIN 父母_昆凌)"
+        ]
+    },
+    {
+        "label": "JOIN (R 代表作品) 凯撒_（凯撒）",
+        "predict": [
+            "AND (JOIN 代表作品?y) (JOIN 职业_作者_（著作家）)",
+            "AND (JOIN 作者 (JOIN (R 代表作品) 凯撒_独裁官)) (JOIN 职业_作者_（词语解释）)",
+            "AND (JOIN 作者 (JOIN (R 作者) 凯撒_（罗马独裁官）)) (JOIN (R 代表作品) 凯撒_（罗马独裁官）)",
+            "AND (JOIN 作者 (JOIN (R 代表作品) 凯撒_独裁官)) (JOIN 职业_作者_（词语释义）)",
+            "AND (JOIN 作者 (JOIN 职业_作者_（以文章体裁为义务写作的人）)) (JOIN 职业_独裁官)",
+            "AND (JOIN 代表作品?y) (AND (JOIN 职业_作者_（著作家）) (JOIN 职业_独裁官))",
+            "AND (JOIN 代表作品?y) (JOIN 职业_作家_（语言体裁）)",
+            "AND (JOIN 代表作品?y) (AND (JOIN 职业_作家_（汉语词语）) (JOIN 主要成就_凯撒_（恺撒，罗马帝国的首位皇帝）))",
+            "AND (JOIN (R 代表作品) 凯撒_（罗马独裁官）) (JOIN 职业_作家_（汉语词语）)",
+            "AND (JOIN (R 代表作品) 凯撒_（独裁官）) (JOIN 职业_作者_（词语解释）)",
+            "AND (JOIN 作者 (JOIN 其他名称_凯撒_（罗马独裁官）)) (JOIN 其他名称_凯撒_（罗马独裁官）)",
+            "AND (JOIN 作者 (JOIN (R 代表作品) 凯撒_独裁官)) (JOIN 职业 作者_（著作人）)",
+            "AND (JOIN 代表作品?y) (JOIN 职业_作者_（作者（（中文字词）]?))",
+            "AND (JOIN 代表作品?y) (JOIN 职业_作家_（汉语词语）)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 中文名 ?name) (AND (JOIN 代表作品 ?y) (JOIN (R 歌曲原唱) (JOIN 中文名称_可惜我是水瓶座)))",
+        "predict": [
+            "JOIN (R 代表作品) (JOIN (R 演唱者) 可惜我是水瓶座_（单曲）)",
+            "JOIN (R 代表作品) (JOIN (R 演唱者) 可惜我是水瓶座_（单机游戏《火焰之缘》主题歌）)",
+            "JOIN (R 代表作品) (JOIN (R 歌曲原唱) 可惜我是水瓶座_（明日回来的你中的我系列第二部）)",
+            "JOIN (R 代表作品) (JOIN (R 演员) 可惜我是水瓶座_（2007年郑晓龙执导的电影）)",
+            "JOIN (R 代表作品) (JOIN (R 歌曲原唱) 可惜我是水瓶座_（黄明志的歌曲）)",
+            "JOIN (R 代表作品) (JOIN (R 演唱者) 可惜我是水瓶座_（单机游戏《流星雨》主题歌）)",
+            "JOIN (R 代表作品) (JOIN 代表作品_可惜我是水瓶座_（单曲名称）)",
+            "JOIN (R  REPRESENTATIVE_WORKS) (JOIN (R 演唱者) 可惜我是水瓶座_（单曲）)",
+            "JOIN (R 代表作品) (JOIN (R 歌曲原唱) 可惜我是水瓶座)",
+            "JOIN (R 代表作品) (JOIN (R 演员) 可惜我是水瓶座_（2007年陈奕迅主唱歌曲）)",
+            "JOIN (R 代表作品) (JOIN (R 歌曲原声带) 可惜我是水瓶座)",
+            "JOIN (R 代表作品) (JOIN (R 演唱者) 可惜我是水瓶座_（ 单曲）)",
+            "JOIN (R 代表作品） (JOIN 歌曲_可惜我是水瓶座)"
+        ]
+    },
+    {
+        "label": "JOIN (R 所属专辑) 认错_（许嵩演唱歌曲）",
+        "predict": [
+            "JOIN 专辑 (JOIN (R 所属专辑) 许嵩)",
+            "JOIN 专辑_许嵩_（中国内地流行音乐男歌手）",
+            "JOIN 所属专辑 (JOIN (R 所属歌曲) 许嵩)",
+            "JOIN 演唱者_许嵩",
+            "JOIN (R 所属专辑) 认错 JOIN (R 歌曲作者) 许嵩_（中国内地男歌手）",
+            "JOIN 典型曲《认错》 (JOIN 专辑 (JOIN (R 专辑) 许嵩))",
+            "JOIN 所属专辑 (JOIN (R 所属歌曲) 许嵩_（中国内地男歌手）) (JOIN 歌曲名称_认错)",
+            "JOIN 歌曲_认错 JOIN 专辑作者_许嵩",
+            "JOIN 专辑_许嵩_（中国内地男歌手）",
+            "JOIN 主要歌曲_认错"
+        ]
+    },
+    {
+        "label": "AND (JOIN 涉及疾病_休克型肺炎) (JOIN 涉及症状_静脉血氧饱和度（SVO2）降低)",
+        "predict": [
+            "JOIN (R 涉及检查) 当休克型肺炎患者的静脉血氧饱和度（SVO2）降低",
+            "JOIN (R 涉及检查) 当休克型肺炎患者的静脉血氧饱和度（SVO2）降低时.want\n\nJOIN (R 涉及检查) 当休克型肺炎患者的静脉血氧饱和度（SVO2）降低时\n\nJOIN (R 涉及检查) 当休克型肺炎患者的静脉血氧饱和度（SVO2）降低时\n\nJOIN (R 涉及检查) 当休克型肺炎患者的静脉血氧饱和度（SVO2）降低时\n\nJOIN (R 涉及检查) 当休克型肺炎患者的静脉血氧饱和度（SVO2）降低时\n\nJOIN (R 涉及检查) 当休克型肺炎患者的静脉血氧饱和度（SVO2）降低时\n\nJOIN (R 涉及检查) 当休克型肺炎患者的静脉血氧饱和度（SVO2）降低时\n\nJOIN (R 涉及检查) 当休克型肺炎患者的静脉血氧饱和度（SVO2）降低时\n\nJOIN (R 涉及检查) 当休克型肺炎患者的静脉血氧饱和度（SVO2）降低时\n\nJOIN (R 涉及检查) 当休克型肺炎患者的静脉血氧饱和度（SVO2）降低时\n\nJOIN (R 涉及检查) 当休克型肺炎患者的静脉血氧饱和度（SVO2）降低时\n\nJOIN (R 涉及检查) 当休克型肺炎患者的静脉血氧饱和度（SVO2）降低时\n\nJOIN (R 涉及检查) 当休克型肺炎患者的静脉血氧饱和度（SVO2）降低时\n\nJOIN (R 涉及检查) 当休克型肺炎患者的静脉血氧饱和度（SVO2）降低时\n\nJOIN (R 涉及检查) 当休克型肺炎患者的静脉",
+            "JOIN (R 检查) 当休克型肺炎患者的静脉血氧饱和度（SVO2）降低时，要做什么检查",
+            "JOIN (R Checks) 当休克型肺炎患者的静脉血氧饱和度（SVO2）降低",
+            "JOIN (R 检查) 当休克型肺炎患者的静脉血氧饱和度（SVO2）降低",
+            "JOIN (R Checking) 当休克型肺炎患者的静脉血氧饱和度（SVO2）降低",
+            "JOIN (R 涉及检查) 静脉血氧饱和度（SVO2）降低",
+            "JOIN (R 检查) 当休克型肺炎患者的静脉血氧饱和度（SVO2）降低时要做什么检查"
+        ]
+    },
+    {
+        "label": "AND (JOIN 配偶_嫦娥_（中国上古神话传说人物）) (JOIN 主要成就 ?y)",
+        "predict": [
+            "AND (JOIN 主要成就?y) (JOIN (R 丈夫) 嫦娥)",
+            "AND (JOIN 主要成就?y) (JOIN (R 丈夫) 嫦娥_（中国古代月神）)",
+            "AND (JOBS?y) (JOIN (R 丈夫) 嫦娥_（中国古代月亮神话人物）)",
+            "AND (JOIN 主要成就?y) (JOIN (R 配偶) 嫦娥_（古典名著《西游记》中的女仙）)",
+            "AND (JOBS?y) (JOIN 丈夫_嫦娥_（中国古代月亮神女）)",
+            "AND (JOIN 主要成就?y) (JOIN (R 丈夫)嫦娥_（中国古代月神）)",
+            "AND (JOIN 主成就?y) (JOIN (R 丈夫)嫦娥_（中国古代月亮神女名）)",
+            "AND (JOIN 主要成就?y) (JOIN (R 丈夫) 嫦娥_（中国古代女飞将军）)",
+            "AND (JOIN 主要成就?y) (JOIN (R 配偶) 嫦娥_（古代女仙）)",
+            "AND (JOIN 主要成就?y) (JOIN (R 配偶) 嫦娥_（中国古代女仙话题材为基准）)",
+            "AND (JOIN 主要成就?y) (JOIN (R 夫人) 嫦娥_（中国古代女勇士）)",
+            "AND (JOIN 主要成就?y) (JOIN (R 丈夫)嫦娥)",
+            "AND (JOIN 主要成 就?y) (JOIN (R 丈夫) 兰เกษม_（嫦娥的丈夫）)",
+            "AND (JOIN 主要成就是?y) (JOIN (R 配偶) 嫦娥_（古典名著《西游记》中一个角色）)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 重要事件_职业生涯所有比赛未下领奖台) (AND (JOIN 重要事件 11次刷新国际滑联女单世界纪录) (JOIN 运动项目_花样滑冰_（体育运动项目）))",
+        "predict": [
+            "JOIN 职业_滑冰运动员",
+            "JOIN 别名_曾次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次次",
+            "JOIN 主要奖项 11次刷新国际滑联女子单人花样滑冰世界纪录，未下过领奖台",
+            "AND (JOIN 主要奖项 (JOIN 主要成就 11次刷新国际滑联女子单人花样滑冰世界纪录)) (JOIN 主要成就 亂台)",
+            "JOIN 终生成就 11次刷新国际滑联女子单人花样滑冰世界纪录并在所有比赛中从未下过领奖台",
+            "JOIN 经历 11次刷新国际滑联女子单人花样滑冰世界纪录，未下过领奖台",
+            "JOIN 主要奖项 11次刷新国际滑联女子单人花样滑冰世界纪录并在所有比赛中从未下过领奖台",
+            "AND (JOIN 主要奖项 (JOIN 主要成就 11次刷新国际滑联女子单人花样滑冰世界纪录)) (JOIN 主要成就 Never retired from a competition)",
+            "JOIN 成就 11次刷新国际滑联女子单人花样滑冰世界纪录，且未下过领奖台",
+            "JOIN 编号 11",
+            "AND (JOIN 主要奖项 (JOIN 主要成就 11次刷新国际滑联女子单人花样滑冰世界纪录)) (JOIN 主要成就  NEVER输过比赛)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 公司口号 ?y) (JOIN 外文名称 MI)",
+        "predict": [
+            "AND (JOIN 公司口号?y) (AND (JOIN 总部地点_北京_（中华人民共和国首都）) (JOIN 公司名称 MI))",
+            "AND (JOIN 公司口号?y) (AND (JOIN 经营范围_创新技术支持) (JOIN 创立时间 1997))",
+            "AND (JOIN 公司口号?y) (AND (JOIN 经营范围?z) (JOIN 总部地点_北京_（中华人民共和国首都）))",
+            "AND (JOIN 公司口号?y) (AND (JOIN 成立地点_北京_（中华人民共和国首都）) (JOIN 公司名称 MI))",
+            "JOIN (R 公司口號) (AND (JOIN 经营范围 (JOIN 起源_中国北京)) (JOIN 公司名称 MI))",
+            "AND (JOIN 口号?y) (AND (JOIN 涉及国家_中国) (JOIN 公司名称 MI))",
+            "AND (JOIN 口号?y) (AND (JOIN 经营范围_公司) (JOIN 成立地点_北京_（中华人民共和国首都）))",
+            "AND (JOIN 口号?y) (AND (JOIN 景象 (JOIN 创始人?z)) (JOIN 公司名称 MI))",
+            "AND (JOIN 公司口号?y) (JOIN 总部地点_北京_（中华人民共和国首都）)",
+            "AND (JOIN 公司口号?y) (AND (JOIN 成立地点_中国北京) (JOIN 公司名称 MI))",
+            "AND (JOIN Company Mouthword?y) (AND (JOIN 成立地_北京_（中华人民共和国首都）) (JOIN Company name MI))",
+            "AND (JOIN 公司口號?y) (AND (JOIN 总部地点_北京_（中华人民共和国首都）) (JOIN 公司名称 MI))"
+        ]
+    },
+    {
+        "label": "JOIN (R 邮政区码) (JOIN (R 首都) 澳大利亚)",
+        "predict": [
+            "AND (JOIN 邮编?y) (JOIN (R 首都) 澳大利亚)",
+            "AND (JOIN 邮政区码?y) (JOIN (R 首都) 澳大利亚)",
+            "AND (JOIN邮编?y) (JOIN (R 首都) 澳大利亚)",
+            "AND (JOIN邮政区码?y) (JOIN (R 首都) 澳大利亚)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 星座 ?y) (JOIN (R 导演) 卧虎藏龙_（李安导演电影）)",
+        "predict": [
+            "AND (JOIN 星座?y) (JOIN (R 导演) 卧虎藏龙_（李安导演电影）)",
+            "JOIN (R 星座) (JOIN (R 导演) 卧虎藏龙_（李安导演电影）)",
+            "JOIN (R_star_sign) (JOIN (R 导演) 卧虎藏龙_（李安导演电影）)",
+            "AND (JOIN 星座?y) (JOIN 代表作品_卧虎藏龙_（2000年李安导演电影）)",
+            "AND (JOIN星座?y) (JOIN 代表作品_卧虎藏龙_（2000年李安导演电影）)",
+            "AND (JOIN星座?y) (JOIN 代表作品_卧虎藏龙_（2000年周星驰主演电影）)",
+            "JOIN (R Starsign) (JOIN (R 导演) 卧虎藏龙_（李安导演电影）)",
+            "AND (JOIN 星座?y) (JOIN (R 导演) 卧虎藏龙_（李安执导电影）)"
+        ]
+    },
+    {
+        "label": "JOIN (R 主要成就) 老佛爷_（知名设计师卡尔·拉格斐）",
+        "predict": [
+            "JOIN 设计师_老佛爷",
+            "JOIN.designer_（JOIN (R 设计师) 老佛爷（云南老佛爷茶叶公司茶叶品牌）)",
+            "JOIN 创立品牌 (JOIN (R 参与设计) 老佛爷)",
+            "JOIN 设计总监_老佛爷_（知名设计师）",
+            "JOIN设计师_老佛爷",
+            "JOIN 设计者_老佛爷_（知名品牌）",
+            "JOIN designers_老佛爷",
+            " JOIN 创始人_老佛爷_（知名设计师）",
+            "JOIN 开创者_老佛爷_（日升酒厂的高端系列产品）",
+            "JOIN designer_老佛爷",
+            " JOIN 开创者_老佛爷_（日式茶道典范）",
+            "JOIN 设计家_老佛爷_（知名设计师）"
+        ]
+    },
+    {
+        "label": "AND (JOIN 国籍_美国_（美利坚合众国）) (AND (JOIN 职业_小说家_（写小说的作家）) (JOIN 出生日期 1835-11-30))",
+        "predict": [
+            "AND (JOIN 职业_小说家_（基础含义）) (JOIN 出生日期 1835-11-30)",
+            "AND (JOIN 国籍_美国_（美利坚合众国）) (JOIN 职业_小说家_（写小说的作者）) (JOIN 出生日期 1835-11-30)",
+            "AND (JOIN 职业_小说家_（职业）) (JOIN 出生日期 1835-11-30)",
+            "AND (JOIN 国籍_美国_（美利坚合众国）) (JOIN 职业_小说家_（小说作家）)",
+            "AND (JOIN 职业_小说家_（基督教会神职人员）) (JOIN 出生地 1835年11月30日)",
+            "AND (JOIN 国籍_美国_（美利坚合众国）) (JOIN 职业_小说家_（职业）) (JOIN 出生日期 1835-11-30)",
+            "AND (JOIN 职业_小说家_（基础含义）) (JOIN 出生地 1835年11月30日)",
+            "AND (JOIN 职业_美国小说家) (JOIN 出生日期 1835-11-30)",
+            "AND (join 国籍_美国_（美利坚合众国）) (join 职业_小说家_（著作家）)"
+        ]
+    },
+    {
+        "label": "JOIN (R 片长) (JOIN 主演_胡琳_（广东籍歌手）)",
+        "predict": [
+            "AND (JOIN 片长?y) (JOIN (R 出演) 胡琳_（中国内地女歌手）)",
+            "AND (JOIN 片长?y) (JOIN 主演_胡琳_（中国内地女歌手）)",
+            "AND (JOIN 片长?y) (AND (JOIN 出品_胡琳_（中国内地男歌手）) (JOIN 主演_胡琳_（中国内地男歌手）))",
+            "AND (JOIN片长?y) (JOIN 主演_胡琳_（中国内地女歌手）)",
+            "JOIN (R 别名) (AND (JOIN 片长?y) (JOIN (R 出演) 胡琳_（中国内地女歌手）))",
+            "AND (JOIN 片长?y) (JOIN 主演_胡琳_（中国内地男歌手）)",
+            "AND (JOIN 剧场以上 0) (AND (JOIN 片长?y) (JOIN 主演_胡琳_（中国内地男歌手）))",
+            "AND (JOIN 片长?y) (AND (JOIN 主演_胡琳_（中国内地女歌手）) (JOIN 类型_电影))",
+            "JOIN (R 总片長) (JOIN (R 出演) 胡琳_（中国内地女歌手）)",
+            "AND (JOIN 导演?y) (JOIN (R 出道作品) 胡琳_（中国内地音乐女歌手）)",
+            "JOIN (R 集片长) (JOIN (R 出品) 胡琳_（中国内地女歌手）)",
+            "AND (JOIN 片长?y) (AND (JOIN 主演_胡琳_（中国四川籍男歌手）) (JOIN 类型_电影))"
+        ]
+    },
+    {
+        "label": "AND (JOIN 职业_哲学家_（基础含义）) (JOIN (R 提出者) 上帝已死)",
+        "predict": [
+            "JOIN (R 提出人) 上帝已死",
+            "AND (JOIN (R 作者) 上帝已死) (JOIN 职业_哲学家_（基础含义）)",
+            "JOIN (R Philosophers) 上帝已死",
+            "AND (JOIN 代表作品_上帝已死_（俄国哲学家卡夫卡著名观点）) (JOIN 职业_哲学家_（基础含义）)",
+            "AND (JOIN 代表作品_上帝已死_（卡尔·波普尔著名观点）) (JOIN 职业_哲学家_（基础含义）)",
+            "JOIN (R 支持者) 上帝已死",
+            "JOIN (Rphilosophical background) 上帝已死",
+            "JOIN (R哲学家) 上帝已死",
+            "JOIN (R 设计师) 上帝已死"
+        ]
+    },
+    {
+        "label": "AND (JOIN 国树 ?y) (AND (JOIN 主要宗教_逊尼派) (JOIN 所属洲_亚洲))",
+        "predict": [
+            "AND (JOIN 国树?y) (JOIN (R 主要宗教) 亚太逊尼派)",
+            "AND (JOIN 国树?y) (JOIN (R 主要宗教) 亚洲)",
+            "AND (JOIN 国树?y) (JOIN (R 主要宗教) 逊尼派)",
+            "AND (JOIN 国树?y) (JOIN 主要宗教_逊尼派)",
+            "AND (JOIN 국화_針葉樹) (JOIN 主要宗教_逊尼派)",
+            "AND (JOIN 国树?y) (JOIN 主要宗教_逊尼派_（伊斯兰教三大宗教之一）)",
+            "AND (JOIN 国树?y) (JOIN (R 主要宗教) 亚太地区)",
+            "AND (JOIN 国树?y) (AND (JOIN 主要宗教_逊尼派) (JOIN 所属洲_亚洲))",
+            "AND (JOIN 国樹?y) (JOIN 主要宗教_逊尼派_（伊斯兰派系）)",
+            "JOIN (R 국화) (AND (JOIN 主要宗教_逊尼派) (JOIN 所属洲_亚洲))",
+            "AND (JOIN国花?y) (AND (JOIN 所属洲_亚洲) (JOIN 主要宗教_逊尼派))",
+            "AND (JOIN 国樹?y) (JOIN 主要宗教_逊尼派_（伊斯兰教三宗派之一）)",
+            "AND (JOIN国树?y) (JOIN 主要宗教_逊尼派)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 国籍 ?y) (JOIN 毕业院校_哈罗公学)",
+        "predict": [
+            "AND (JOIN 毕业院校_哈罗公学) (JOIN 国籍?y)",
+            "JOIN (R 国籍) (JOIN 毕业院校_哈罗公学)",
+            "JOIN 毕业院校_哈罗公学",
+            "AND (JOIN 国籍?y) (JOIN 毕业院校_哈罗公学)",
+            "JOIN 学校_哈罗公学"
+        ]
+    },
+    {
+        "label": "AND (JOIN 英文名 Peking University) (JOIN 类别_公立大学)",
+        "predict": [
+            "JOIN 别名 Peking University",
+            "JOIN 英文名 Peking University",
+            "JOIN 领域 (JOIN 别名 Peking University)",
+            "JOIN 简称 Peking University",
+            "JOIN 标签 Peking University",
+            " JOIN 形象名称_北京大学",
+            "JOIN 英文名称 Peking University",
+            "join 学校名称_Pекинский университет",
+            "JOIN 英文名称 Peking_University"
+        ]
+    },
+    {
+        "label": "AND (JOIN 涉及症状_言语紊乱) (AND (JOIN 涉及症状_紫绀) (JOIN 类型_血清非蛋白含氮化合物测定))",
+        "predict": [
+            "AND (JOIN 涉及症状_言语紊乱) (JOIN 涉及症状_紫绀)",
+            "AND (JOIN 涉及症状_语言紊乱) (JOIN 涉及症状_紫绀)",
+            "AND (JOIN涂层效果_紫绀) (JOIN 涂层效果_言语紊乱)",
+            "AND (JOIN 涉 及疾病_语言紊乱) (JOIN 涉及疾病_紫绀)",
+            "AND (JOIN 涉 及疾病_语言紊乱) (JOIN 涉 及疾病_紫绀)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 国籍 ?y) (JOIN (R 创始人) 肯德基)",
+        "predict": [
+            "AND (JOIN 国籍?y) (JOIN (R 创始人) 肯德基)",
+            "JOIN (R 国籍) (JOIN (R 创始人) 肯德基)",
+            "JOIN (R 國籍) (JOIN (R 创始人) 肯德基)",
+            "AND (JOIN 民族?y) (JOIN (R 创始人) 肉类快餐-肯德基)",
+            "AND (JOIN 国别?y) (JOIN (R 创始人)肯德基)",
+            "AND (JOIN 国别?y) (JOIN (R 创始人) 肯德基)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 民族 ?y) (JOIN 主要成就_第九届_金鹰电视艺术节金鹰女神)",
+        "predict": [
+            "JOIN (R 民族) (JOIN (R 金鹰女神) 第九届金鹰节)",
+            "JOIN (R 民族) (JOIN (R 主要成就) 第九届金鹰节金鹰女神)",
+            " JOIN (R民族) (JOIN (R 主要成员) 第九届金鹰节金鹰女神)",
+            "JOIN (R 民族) (JOIN (R 银鹰女神) 第九届金鹰节)",
+            "JOIN (R 民族) (JOIN (R 客场主持人) 金鹰女神)",
+            "JOIN (R 民族) (JOIN 主要成就_第九届金鹰节金鹰女神)",
+            "JOIN (R 民族) (JOIN (R 主要奖项) 第九届金鹰节金鹰女神)",
+            "JOIN (R 民족) (JOIN 主要成就_第九届金鹰节金鹰女神)",
+            "JOIN (R 民족） (JOIN (R 银鹰女神) 第九届金鹰节)",
+            " JOIN (R 民族) (JOIN (R 金 鹰女神) 第九届金鹰节)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 别称 ?y) (JOIN (R 儿子) 严嵩)",
+        "predict": [
+            "JOIN (R 儿子人称) 严嵩",
+            "JOIN (R 别名) (JOIN 父亲_严嵩)",
+            "JOIN (R 人称) (JOIN 父亲_严嵩)",
+            "JOIN (R 尊号) 严嵩子",
+            " JOIN (R 人称) (JOIN 父亲_严嵩)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 政治体制 ?y) (JOIN (R 行政区类别) 东方之珠_（香港美称）)",
+        "predict": [
+            "AND (JOIN 政治体制?y) (JOIN 别名_东方之珠)",
+            "JOIN 政治体制?P (JOIN 别名_东方之珠)",
+            "JOIN 政治体制? (JOIN 别名_东方之珠、天下第一个)",
+            "JOIN (R 政治体制) (JOIN 别名_东方之珠，)",
+            "AND (JOIN Political Information?y) (JOIN 别名_东方之珠、)",
+            "AND (JOIN 政府类型?y) (JOIN 别名_东方之珠)",
+            "AND (JOIN 政治体制?y) (JOIN 其他名称_东方之珠)",
+            "AND (JOIN 政治体制?y) (JOIN別名_东方之珠、)"
+        ]
+    },
+    {
+        "label": "JOIN (R 创作年代) (JOIN 外文名称 The King Lear)",
+        "predict": [
+            "JOIN (R 创作时间) King Lear_（莎士比亚著作戏剧）",
+            "JOIN (R 创作时间) King_Lear_（莎士比亚著作戏剧）",
+            "JOIN (R 创作年代) King Lear_（莎士比亚著作戏剧）",
+            "JOIN (R 创作年代) The King Lear_（王乐尔戏剧）",
+            "AND (JOIN 出版时间?y) (JOIN 中文名_王 Lear)",
+            "AND (JOIN 出版时间?y) (JOIN 中文名_The King Lear)",
+            "JOIN (R 创作日期) The King Lear_（莎士比亚著作戏剧）",
+            "JOIN (R 上演时间) King Lear_（莎士比亚《王尔德》-play）",
+            "JOIN (R 创作年代) The King Lear_（王 lear戏剧）",
+            "JOIN (R 创作时间) King_Lear_（莎士比亚的王学王）",
+            "JOIN (R 创作日期) King Lear_（莎士比亚著作《王尔德》）",
+            "JOIN (R 创作年代) The King Lear_（《王 Lear》）",
+            "JOIN (R 创作时间) King_Lear_（莎士比亚著作《王尔德》）",
+            "JOIN (R 创 作 时间) KING LEAR_（莎士比亚著作戏剧）"
+        ]
+    },
+    {
+        "label": "JOIN (R 外文名) RDBMS",
+        "predict": [
+            "JOIN (R) 数据库管理系统缩写",
+            "JOIN 缩写_关系数据库管理系统",
+            "JOIN 缩写_红黑树 (JOIN (R 数据库管理系统缩写) RDBMS)",
+            "JOIN (R] RDBMS缩写)",
+            "JOIN 简称 RDBMS",
+            "JOIN 类别_数据库管理系统的缩写",
+            "JOIN (R) 简称",
+            "JOIN 标签 “关系数据库管理系统”",
+            "JOIN (R) 中文缩写"
+        ]
+    },
+    {
+        "label": "AND (JOIN 代表作品 ?y) (JOIN 主张_知识即美德)",
+        "predict": [
+            "AND (JOIN 代表作品?y) (JOIN 主张 Knowledge_即美德)",
+            "AND (JOIN 代表作品?y) (JOIN 主张 Knowledge_as_Virtue)",
+            "AND (JOIN 代表作品?y) (JOIN 主张Knowledge_is_beauty_（古希腊哲学家僧十诺斯的著作）)",
+            "AND (JOIN 代表作品?y) (JOIN 主张_知识即美德)",
+            "AND (JOIN 代表作品?y) (JOIN 主张 Knowledge_as_virtue)",
+            "AND (JOIN representative_work?y) (JOIN 主张 Knowledge_as_beauty)",
+            "AND (JOIN 代表作品?y) (JOIN 主要成就_知识即美德)",
+            "AND (JOIN 代表作?y) (JOIN 联合名言_知识即美德)",
+            "AND (JOIN 代表作品?y) (JOIN 性格词 knowledge_（词语释义）)",
+            "AND (JOIN 代表作品?y) (JOIN 主张 Knowledge_为美德)",
+            "AND (JOIN 代表工作?y) (JOIN 表示理念_知识即美德)",
+            "AND (JOIN 代表作?y) (JOIN 主張 Knowledge_即_美德)",
+            "AND (JOIN 代表作品?y) (JOIN 信仰_知识即美德)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 国籍 (JOIN 汽车品牌 ?z)) (JOIN (R 提出者) 加减消元法)",
+        "predict": [
+            "AND (JOIN 国土_中华人民共和国) (AND (JOIN 主要经济指数_汽车销售) (JOIN (R 发明人) 加减消元法))",
+            "AND (JOIN 国籍 (JOIN (RMathematician) 加减消元法)) (JOIN (R生产公司) 汽车)",
+            "AND (JOIN 国别 (JOIN 汽车品牌?z)) (JOIN (R 发明者) 加减消元法)",
+            "AND (JOIN 国土_中华人民共和国) (JOIN (R 创始人) 加减消元法)",
+            "AND (JOIN 国家品牌汽车?y) (JOIN (R 发明人) 加减消元法)",
+            "AND (JOIN 成就_发明加减消元法) (JOIN 国籍_美国_（美利坚合众国）)",
+            "AND (JOIN 国籍 (JOIN (R mathematician) 加减消元法)) (JOIN (R 制造商) 汽车)",
+            "JOIN (R 品牌汽车) (JOIN (R 所属国家) (JOIN 主要成就_加减消元法))",
+            "AND (JOIN 建功_加减消元法) (JOIN 国籍_美国_（美利坚合众国）)",
+            "AND (JOIN Manufacturing_BRAND (JOIN 类型_汽车品牌) ) (JOIN (R 所属国家) (JOIN (R 创始人) 加减消元法))",
+            "AND (JOIN 成立成就_发明加减消元法) (JOIN 国籍_中华人民共和国)",
+            "AND (JOIN 主要品牌?y) (JOIN (R 出生地) (JOIN (R 发明人) 加减消元法))",
+            "AND (JOIN manufacturingbrands?y) (JOIN (R 所属国家) (JOIN 职业_数学家_（数学家（世界著名数学家））))",
+            "JOIN (R 分布区域) (JOIN (R 发明人) 加减消元法)",
+            "AND (JOIN 国土_中華人民共和國) (JOIN (R 创始人) 加减消元法)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 老师 ?y) (JOIN (R 谱曲) 欢乐颂_（贝多芬作品）)",
+        "predict": [
+            "AND (JOIN (R 老师)?y) (JOIN (R 作者) 欢乐颂_（黄易所著小说）)",
+            "JOIN (R 老师) (JOIN (R 作者) 欢乐颂_（黄易所著小说）)",
+            "AND (JOIN 教育背景?y) (JOIN (R 作者) 欢乐颂_（黄易所著小说）)",
+            "AND (JOIN (R 老师)?y) (JOIN (R 作者) 欢乐颂_（陈忠实创作长篇小说）)",
+            "JOIN (R 老师) (JOIN (R 作者) 欢乐颂_（汪峰著小型图书）)",
+            "AND (JOIN 教职员?y) (JOIN (R 作者) 欢乐颂_（陈忠实创作长篇小说）)",
+            "JOIN (R 老师) (JOIN (R 作者) 欢乐颂_（陈忠实创作长篇小说）)",
+            "AND (JOIN (R 教师)?y) (JOIN (R 作者) 欢乐颂_（黄易所著小说）)",
+            "AND (JOIN 教育背景?y) (JOIN (R 作者) 欢乐颂_（汪峰的歌曲）)",
+            "AND (JOIN (R 老师)?y) (JOIN (R 作者) 欢乐颂_（陈忠实作品）)",
+            "JOIN (R 老师) (JOIN (R 作者)欢乐颂_（黄易所著小说）)",
+            "JOIN (R 老师) (JOIN (R 作者) 欢乐颂_（汪峰著诗画画册）)",
+            "JOIN (R 学生) (JOIN (R 作者) 欢乐颠颠_（网页小说）)",
+            "AND (JOIN (R 教师)?y) (JOIN (R 作者) 欢乐颂_（黄易著武侠小说）)"
+        ]
+    },
+    {
+        "label": "JOIN 制片人_赵本山",
+        "predict": [
+            "JOIN (R 制片人) (JOIN (R 主演) 赵本山)",
+            "RETURN (JOIN 制片人 (JOIN (R 主演) 赵本山))",
+            "RETURN (JOIN (R 制片人) (JOIN 类型_电视剧)) (JOIN 别名_赵本山)",
+            "RETURN (JOIN 组成_赵本山) (JOIN (R 制片人)?z)",
+            "RETURN (JOIN 制片人 (JOIN (R 演出) 赵本山))",
+            "JOIN 主要作品 (JOIN 主要成就_赵本山)",
+            "JOIN (R 制片人) (JOIN (R 主要代表作品) 赵本山)",
+            "RETURN (JOIN 职业_制片人) (JOIN (R 主要作品) 赵本山)",
+            "RETURN (JOIN 配演 (JOIN 类型_制片人)) 赵本山",
+            "JOIN (R 监制) (JOIN 主演_赵本山)",
+            "RETURN (JOIN 编剧_赵本山)",
+            "JOIN (R 导演) (JOIN (R 导演) 赵本山)",
+            "JOIN (R 制片人) (JOIN (R 主要成就) 赵本山)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 类型_景点) (JOIN 位于 (AND (JOIN 方向_东北方向) (JOIN 实体名称_颐和园)))",
+        "predict": [
+            "AND (JOIN 类型_景点) (JOIN (R 实体名称) (JOIN (R 东北) 颐和园))",
+            "JOIN (R 实体名称) (AND (JOIN 实体属性类别_园林) (JOIN (R 方向) 颐和园))",
+            "JOIN (R 方向) 颐和园",
+            "AND (JOIN 类型_景点) (JOIN (R 实体名称) (JOIN (R 东北) 往颐和园))",
+            "JOIN (R 实体名称) (AND (JOIN 定位_颐和园东北) (JOIN 类型_景点))",
+            "AND (JOIN class 类型_景点) (JOIN (R 实体名称) (JOIN (R 方向) 颐和园))",
+            "JOIN (R 建议游玩地) 颐和园东北",
+            "AND (JOIN 类型_景点) (JOIN (R 方向) 颐和园)",
+            "AND (JOIN 类型_景点) (JOIN (R 实体名称) (JOIN (R 東北) 颐和园))",
+            "AND (JOIN 类型_景点) (JOIN (R 实体名称) (JOIN (R 方向) 颐和园))"
+        ]
+    },
+    {
+        "label": "AND (JOIN 代表作品 ?y) (JOIN (R 儿子) 成龙_（中国香港演员、导演）)",
+        "predict": [
+            "JOIN (R 代表作品) (JOIN (R 儿子) 成龙_（中国香港演员、导演）)",
+            "AND (JOIN 主要代表作品?y) (JOIN (R 儿子) 成龙_（中国香港演员、导演）)",
+            "JOIN (R 代表作品) (JOIN 父亲_成龙_（中国香港演员、导演）)",
+            "AND (JOIN 主要成就?y) (JOIN (R 儿子) 成龙_（中国香港演员、导演）)",
+            "AND (JOIN 主要代表作品?y) (JOIN 父亲_成龙_（中国香港演员、导演）)",
+            "AND (JOIN 主演_成龙) (JOIN 主演?y)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 口号 ?y) (JOIN 所属公司_阅文集团)",
+        "predict": [
+            "JOIN (R 口号) (JOIN (R 属下公司) 阅文集团)",
+            "JOIN (R 网站口号) (JOIN 组织机构_阅文集团)",
+            "JOIN (R 口号) (JOIN (R 属性) 阅文集团属下一个小说连载网站)",
+            "JOIN (R口号) (JOIN (R 属下公司) 阅文集团)",
+            "JOIN (R 公司口号) 阅文集团属下一个小说连载网站",
+            "JOIN (R 网站口号) (JOIN 组织者_阅文集团)",
+            "JOIN (R 联合口号) (JOIN (R 属下公司) 阅文集团)",
+            "AND (JOIN 没有短语) (AND (JOIN 口号?y) (JOIN 所属公司_阅文集团))",
+            "AND (JOIN 口号?y) (JOIN 所属企业_阅文集团)",
+            "JOIN (R 口号) (JOIN (R 所属机器) 阅文集团)",
+            "AND (JOIN 公司口号?y) (JOIN 公司名称_阅文集团)",
+            "JOIN (R 网站口号) (JOIN 主要成就_阅文集团下属小说连载网站)",
+            "JOIN (R口号) (JOIN (R 属于) 阅文集团)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 创始人 ?y) (JOIN 中文名_高等数学)",
+        "predict": [
+            "JOIN (R 创立者) 高数_（高级数学）",
+            "JOIN (R 创始人) 高数_（快速数学）",
+            "JOIN (R 发明者) 高数_（快速数学）",
+            "JOIN (R 创始人) 高数_（快速计算的数学）",
+            "JOIN (R 首次提出) 高数_（超数theory）",
+            "JOIN (R 发明者) 高数_（快速计算和转换的数理学)",
+            "JOIN (R 创立者) 高数_（高学校数学课程）",
+            "JOIN (R 创始人) 高等数学_（最高年级数学课程）",
+            " JOIN (R 首次提出) 高数_（量体力学的原理）",
+            "JOIN (R 创立者) 高数_（高级数 theory）",
+            "JOIN (R 发起者) 高数_（法学理论）",
+            "JOIN (R 首次建立者) 高数_（计算机程序设计语言）",
+            "JOIN (R 创立者) 高数_（高速网络的简称）"
+        ]
+    },
+    {
+        "label": "JOIN (R 所处时代) (JOIN 别称_李十二)",
+        "predict": [
+            "JOIN 主要人物_李十二",
+            "JOIN 主要人物_李二十二_（北宋皇子）",
+            "JOIN 首名_李十二",
+            "JOIN 国籍_中国_（中华人民共和国）",
+            "JOIN 别名_李十二",
+            " JOIN 首名_李十二",
+            "JOIN 别名_ 李二进士、李十二进士"
+        ]
+    },
+    {
+        "label": "AND (JOIN 组成 ?y) (JOIN (R 载体) 基因)",
+        "predict": [
+            "JOIN (R 组成) 基因载体",
+            "JOIN (R 成份) 基因载体",
+            "JOIN (R 成分) 基因载体",
+            "JOIN (R 类别) 基因载体",
+            "JOIN (R 组成) 基因載體"
+        ]
+    },
+    {
+        "label": "AND (JOIN 儿子 (AND (JOIN 中文名 ?name) (JOIN (R 儿子) (JOIN 中文名_景天)))) (JOIN 中文名_唐雪见)",
+        "predict": [
+            "JOIN (R 所属作品) 唐雪_（《仙剑奇侠传三外传·问情篇》人物）",
+            "JOIN (R 子女名称) (AND (JOIN 父亲_唐雪_（小说《仙剑奇侠传三外传·问情篇》人物）) (JOIN 母亲_景天_（小说《仙剑奇侠传三外传·问情篇》人物）))",
+            "AND (JOIN (R 中文名)?y) (AND (JOIN 父亲_景天_（黄天风在《仙剑奇侠传三外传·问情篇》中的人物）) (JOIN 父亲_唐雪_（《仙剑奇侠传三外传·问情篇》中的人物）))",
+            "JOIN (R saw daughter name) (AND (JOIN father_景天_（小说《仙剑奇侠传三外传·问情篇》中人物）) (JOIN mother_唐雪_（小说《仙剑奇侠传三外传·问情篇》中人物）))",
+            "JOIN (R 主要人物) 仙剑奇侠传三外传·问情篇",
+            "AND (JOIN (R 主要人物) 问情篇) (AND (JOIN 父亲_景天_（人物）) (JOIN 母亲_唐雪))",
+            "JOIN 儿子 (JOIN (R 妻子) 景天_（古典名著《仙剑奇侠传三外传·问情篇》中的人物）)",
+            "JOIN (R 次男) 景天_（《仙剑奇侠传三外传·问情篇》人物）",
+            "JOIN 儿子 (JOIN (R 子女) 唐雪) (JOIN (R 子女) 景天)",
+            "AND (JOIN (R 中文名) (JOIN 父亲_唐雪)) (JOIN (R 子女) 景天_（小说人物）)",
+            "JOIN (R sees子女) 景天_（小说《仙剑奇侠传三外传·问情篇》人物）",
+            "AND (JOIN (R 男主角) 问情篇) (AND (JOIN 男主角_景天_（仙剑奇侠传三外传·问情篇）) (JOIN 男主角_唐雪_（仙剑奇侠传三外传·问情篇）))",
+            "JOIN (R 所属作品) 景天_（《仙剑奇侠传三外传·问情篇》人物）",
+            "AND (JOIN (R 主要人物) 问情篇) (AND (JOIN 父亲_唐雪) (JOIN 母亲_景天))"
+        ]
+    },
+    {
+        "label": "AND (JOIN 别名 ?y) (JOIN (R 陵墓) 刘邦_（汉朝开国皇帝）)",
+        "predict": [
+            "JOIN (R 别名) (JOIN (R 陵墓) 刘邦_（汉朝开国皇帝）)",
+            "JOIN (R 别名) (JOIN (R 陵墓) 刘邦_（西汉开国皇帝）)",
+            "JOIN (R 别名) (JOIN (R 陵寝) 汉高祖_（首位汉代皇帝）)",
+            "JOIN (R 外名) (JOIN (R 陵墓) 刘邦_（西汉开国皇帝）)",
+            "AND (JOIN 简称?y) (JOIN (R 陵墓) 刘邦_（西汉开国皇帝）)",
+            "JOIN (R 其他名称) (JOIN (R 陵墓) 刘邦_（汉朝开国皇帝）)",
+            "AND (JOIN 简称?y) (JOIN (R 陵寝) 刘邦_（汉朝开国皇帝）)",
+            "JOIN (R 别名) (JOIN (R 陵寝) 汉高祖_（初立帝国皇帝）)",
+            "JOIN (R 字别名) (JOIN (R陵寝) 汉高祖_（首位汉代皇帝）)",
+            "JOIN (R 别名) (JOIN (R 陵墓) 刘邦_（东方汉武帝）)",
+            "JOIN (R 别名) (JOIN (R 陵寝) 汉高祖_（首位汉汉 emperor）)",
+            "JOIN (R 简称) (JOIN (R 陵寝) 刘邦_（汉朝建立者）)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 类型_少年漫画) (AND (JOIN 出版社_集英社_（日本综合出版社）) (JOIN 作者_尾田荣一郎))",
+        "predict": [
+            "AND (JOIN 出版社_集英社) (JOIN 作者_尾田荣一郎)",
+            "AND (JOIN出版社_集英社) (JOIN 作者_尾田荣一郎)",
+            "AND (JOIN 出版公司_集英社) (JOIN 作者_尾田荣一郎)",
+            "AND (JOIN 出版社_集英社) (JOIN 作者_尾田伟谦)",
+            "AND (JOIN 公式出版公司_集英社) (JOIN 作者_尾田荣一郎)",
+            "AND ( JOIN 出品者_ 集成_集英社) (JOIN 作者_尾田荣一郎)",
+            "AND ( JOIN出版社_集英社) (JOIN 作者_尾田荣一郎)",
+            "AND (JOIN 出版社_集英社) (JOIN 作者_尾田伟忠)",
+            "AND (JOIN 发行公司_集英社) (JOIN 作画者_尾田荣一郎)",
+            "AND (JOIN 出版公司_集英社) (JOIN 原作_尾田荣一郎)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 出品时间 ?y) (JOIN 外文名 House of Flying Daggers)",
+        "predict": [
+            "JOIN (R 出品时间) 十面埋伏_（2006年张艺谋执导电影）",
+            "JOIN (R 出品时间) 十面埋伏_（2006年周星驰主演电影）",
+            "JOIN (R 发行时间)十-face_（2006年陈晓卿执导电影）",
+            "JOIN (R 公开日期) 十面埋伏_（2006年周星驰主演操作导演周星驰电影）",
+            "JOIN (R 出品时间) 十面埋伏_（2006年陈可辛执导电影）",
+            "JOIN (R 出版时间)十面埋伏_（2006年郑晓龙执导张艺谋主演电影）",
+            "JOIN (R 发行时间)十面 burying",
+            "JOIN (R 公开日期) 十面埋伏_（2006年张艺谋导演的运动项目电影）",
+            "JOIN (R 公开日期) 十面 burying",
+            "JOIN (R 出品時間) 十-face-埋伏"
+        ]
+    },
+    {
+        "label": "AND (JOIN 国籍_古希腊_（爱琴海-色雷斯文明圈的黄金时期）) (AND (JOIN 代表作品_形而上学_（哲学术语）) (JOIN 职业_思想家_（词语）))",
+        "predict": [
+            "AND (JOIN 职业_思想家_（思想家）) (AND (JOIN (R 作者) 形而上学) (JOIN 出生地_古希腊_（爱琴海-色雷斯文明圈的黄金时期）))",
+            "AND (JOIN 职业_思想家_（思想家（世界著名思想家））) (AND (JOIN (R 作者) 形而上学) (JOIN 出生地_古希腊_（爱琴海-色雷斯文明圈的黄金时期）))",
+            "JOIN 职业_古希腊思想家",
+            "AND (JOIN職業_思想家_（思想家（人物））) (AND (JOIN (R 作者) 形而上学) (JOIN 出生地_古希腊_（爱琴海-色雷斯文明圈的黄金时期）))",
+            "AND (JOIN职业_思想家_（思想家）) (AND (JOIN (R 作者) 形而上学) (JOIN 出生地_古希腊_（爱琴海-色雷斯文明圈的黄金时期）))",
+            "AND (JOIN 职业_思想家_（想法的创造者）) (AND (JOIN (R 作者) 形而上学) (JOIN 出生地_古希腊_（爱琴海-色雷斯文明圈的黄金时期）))",
+            "AND (JOIN 职业_思想家_（Thoughtful心地善良的人）) (AND (JOIN (R 作者) 形而上学) (JOIN 出生地_古希腊_（爱琴海-色雷斯文明圈的黄金时期）))",
+            "AND (JOIN 职业_思想家_（词语）) (AND (JOIN (R 作者) 形而上学) (JOIN 出生地_古希腊_（爱琴海-色雷斯文明圈的黄金时期）))",
+            "AND (JOIN 职业_思想家_（思想家（知名思想家））) (AND (JOIN (R 作者) 形而上学) (JOIN 职业_古希腊思想家))",
+            "AND (JOIN 职业_思想家_（思想家（世界著名思想家））) (AND (JOIN (R 作者) 形而上学) (JOIN 职业_古希腊思想家))",
+            "AND (JOIN 职业_思想家) (JOIN 代表作品_形而上学)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 国籍 (JOIN 主要民族 ?z)) (JOIN 主要成就_拉格朗日中值定理)",
+        "predict": [
+            "AND (JOIN 主要民族?y) (JOIN (R 提出者) 拉格朗日中值定理)",
+            "AND (JOIN 民族?y) (JOIN (R 提出者) 拉格朗日中值定理)",
+            "JOIN (R 主要民族) (JOIN (R 提出者) 拉格朗日中值定理)",
+            "AND (JOIN 国家民众 (JOIN (R 民族)?z)) (JOIN (R 提出者) 拉格朗日中值定理)",
+            "AND (JOIN 国别 (JOIN 主要民族?z)) (JOIN (R 提出者) 拉格朗日中值定理)",
+            "AND (JOIN 国土_ (JOIN 主要民族?z) ) (JOIN (R 提出者) 拉格朗日中值定理)",
+            "JOIN (R 主要 民族) (JOIN (R 提出者) 拉格朗日中值定理)",
+            "JOIN (R 主要民众) (JOIN (R 提出人) 拉格朗日中值定理)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 主演 ?y) (AND (JOIN 出品时间 1997) (JOIN 中文名_泰坦尼克号))",
+        "predict": [
+            "AND (JOIN (R 主演) 泰坦尼克号_（2012年詹姆斯·卡梅隆执导第三部电影）) (JOIN 代表作品 1997版_泰坦尼克号_（雅典娜电影公司生产的美国情景喜剧电影）)",
+            "AND (JOIN 主演 (JOIN 出生日期 1979-06-24)) (JOIN 中文名_罗伯特_（罗伯特・大一郎·斯卡萨拉受奖的角色）)",
+            "AND (JOIN 登场作品 1997版_泰坦尼克号_（美国2009年詹姆斯·卡梅隆执导电影）) (JOIN 职业_演员_（职业）)",
+            "AND (JOIN 登场作品 1997_版_泰坦尼克号_（美国2009年詹姆斯·卡梅隆执导电影）) (JOIN 主演?y)",
+            "AND (JOIN 1997版_泰坦尼克号_（1997年罗伯·詹姆斯·吉本斯执导电影）) (JOIN (R 主演) 泰坦尼克号_（2012年雅典尼克号沉船故事基于真事）)",
+            "AND (JOIN 主演 (JOIN 出生日期 1979-06-19)) (JOIN 中文名_罗伯·詹姆斯·帕丁森)",
+            "AND (JOIN 主演 (JOIN 出生年份 1970)) (JOIN 中文名_泰坦尼克号)",
+            "AND (JOIN (R 主演) 泰坦尼克号_（2012年詹姆斯·卡梅隆执导第三部电影）) (JOIN 重要日期 1997)",
+            "AND (JOIN 主演 (JOIN 主演 (JOIN 出生日期 1979-04-10))) (JOIN 中文名_泰坦尼克号_（2012年詹姆斯·卡梅隆执导第三部系列电影）)",
+            "AND (JOIN (R 主演) 塔尼克号_（2012年詹姆斯·卡梅隆执导电影）) (JOIN 主演 (JOIN (R 主演) 塔尼克号_（1997年詹姆斯·卡梅隆执导电影）))",
+            "JOIN 主演 (JOIN 释名_1997版_（加拿大2000年罗斯·丹尼尔斯执导版）)",
+            "AND (JOIN 登场作品 1997版泰坦尼克号_（美国1997年雅伦·布鲁克尔执导电影）) (JOIN 职业_演员_（职业）)",
+            "AND (JOIN 职业_演员_（职业）) (JOIN 代表作品 1997版泰坦尼克号_（美国2009年罗伯·詹姆斯··卡梅隆执导电影）)",
+            "AND (JOIN 主演 (JOIN 出生日期 1979-07-24)) (JOIN 名称_泰坦尼克号_（2012年詹姆斯·卡梅隆执导电影）)",
+            "AND (JOIN (R 主演) 泰坦尼克号_（2012年詹姆斯·卡梅隆执导第三部系列电影）) (JOIN 重要日期 1997)"
+        ]
+    },
+    {
+        "label": "AND (JOIN (R 代表作品) ?z) (AND (JOIN 中文名 (JOIN (R 中文名) ?z)) (JOIN 登场作品_柯南_（同名漫画改编的长篇推理动画）))",
+        "predict": [
+            "AND (JOIN 中文名 (JOIN (R 声优) 中文名)) (JOIN 登场作品_名侦探柯南_（大圆作家阿西木作成的漫画）)",
+            "AND (JOIN 中文名 (JOIN (R 声优) 中文名)) (JOIN (R 主要角色) 名侦探柯南_（日本动画）)",
+            "AND (JOIN 中文名?y) (JOIN 声优 (JOIN 中文名))",
+            "AND (JOIN 中文名 (JOIN (R 中文名)?z)) (JOIN 声优 (JOIN 中文名 (JOIN (R 声优)?z))))",
+            "AND (JOIN 称号_侦探_（词语释义）) (JOIN 声优 (JOIN 中文名?z))",
+            "AND (JOIN 环境_和声优中文名相同) (JOIN 中文名_小兰)",
+            "AND (JOIN 职业_侦探_（侦探小说中的侦探）) (JOIN 声优 (JOIN 中文名?z))",
+            "AND (JOIN 中文名 (JOIN (R 声优)?z)) (JOIN (R 主要角色) 名侦探柯南_（日本动画）)",
+            "AND (JOIN 声优中文名?y) (JOIN (R 主要角色) 名侦探柯南_（日本动画）)",
+            "AND (JOIN 环境_（地点）) (AND (JOIN 声优 (JOIN 中文名?z)) (JOIN 登场作品_名侦探柯南))",
+            "AND (JOIN 称号_特工侦探_（日本动漫《名侦探柯南》中的中文字体）) (JOIN 声优 (JOIN 中文名?z))",
+            "AND (JOIN 译名 (JOIN 中文名?z)) (JOIN (R 声优) (JOIN (R 主要角色) 名侦探柯南_（日本动画）))",
+            "AND (JOIN Trung 名) (JOIN seiyuu_ (JOIN Trung 名) )"
+        ]
+    },
+    {
+        "label": "AND (JOIN 水溶液ph 室温下为7) (JOIN (R 主要成分) 火药_（汉语词语）)",
+        "predict": [
+            "AND (JOIN 水溶液PH值 7) (JOIN (R 成份) 火药)",
+            "AND (JOIN 水溶液PH值 7) (JOIN (R 成份) 火药_（水溶液）)",
+            "AND (JOIN PH值 7) (AND (JOIN 水溶液) (JOIN (R 成份) 火药))",
+            "AND (JOIN 水溶解 PH 7) (JOIN (R 成份) 火药)",
+            "AND (JOIN 水溶液PH值 7) (JOIN (R 成分) 火药)",
+            "AND (JOIN 水溶液PH值 7) (JOIN (R 主要成分) 火药)",
+            "AND (JOIN Water PH 7) (JOIN (R 成份) 火药_（水溶液）)",
+            "JOIN (R PH值) (AND (JOIN 水溶液) (JOIN (R 主要成分) 火药))",
+            "AND (JOIN PH值 7) (JOIN 水溶液)",
+            "AND (JOIN water_溶解度 7) (JOIN 成分_水溶液) (JOIN (R 成份) 火药_（文明两千年中出现的新技术）)",
+            "AND (JOIN水溶解 PH 7) (JOIN (R 成份) 火药_（水溶液）)",
+            "AND (JOIN 水溶液PH值 7) (JOIN 主要成分_火药)",
+            "AND (JOIN 水溶液PH值_七) (JOIN 主要成分_火药)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 称号 ?y) (JOIN 代表作品_兰亭集序_（集序文章）)",
+        "predict": [
+            "AND (JOIN 谥号?y) (JOIN (R 作者) 兰亭集序)",
+            "AND (JOIN 职业_书法家) (JOIN 主要成就_兰亭集序)",
+            "AND (JOIN 所处时代_唐朝_（中国历史朝代）) (AND (JOIN 职业_书法家) (JOIN 主要作品_兰亭集序))",
+            "AND (JOIN 称号?y) (JOIN (R 作者) 兰亭集序)",
+            "AND (JOIN 谱序《兰亭集序》) (JOIN 主要成就_著名篇章)",
+            "JOIN 别名?",
+            "AND (JOIN 职业_书法家) (JOIN 著名篇章_兰亭集序)",
+            "AND (JOIN 别名?y) (JOIN (R 作者) 兰亭集序)",
+            "AND (JOIN 谥号?y) (JOIN (R 作者) 蘭亭集序)",
+            "AND (JOIN 称号?y) (JOIN (R 作者) 蘭亭集序)",
+            "AND (JOIN 称誉?y) (JOIN 主要作品_兰亭集序)",
+            "AND (JOIN 别名?y) (JOIN (R 作者)兰亭集序)"
+        ]
+    },
+    {
+        "label": "AND (JOIN 主要成就_威尼斯国际电影节金狮奖) (AND (JOIN 国籍_中华人民共和国) (JOIN 职业_导演))",
+        "predict": [
+            "AND (JOIN 职业_导演_（导演定义）) (JOIN 主要成就_柏林国际电影节金熊奖)",
+            "AND (JOIN 职业_导演_（词语释义）) (JOIN 主要成就_柏林国际电影节金熊奖)",
+            "AND (JOIN 职业_导演_（电影导演）) (JOIN 主要成就_柏林国际电影节金熊奖)",
+            "AND (JOIN 主要成就_柏林国际电影节金熊奖) (JOIN 职业_导演)",
+            "AND (JOIN 国籍_中华人民共和国) (JOIN 主要成就_柏林国际电影节金熊奖)",
+            "AND (JOIN 职业_导演) (JOIN 主要成就_柏林国际电影节金熊奖)",
+            "AND (JOIN 职业_导演_（导演的小词）) (JOIN 主要成就_柏林国际电影节金熊奖)",
+            "AND (JOIN 职业_导演_（摄影师）) (JOIN 主要成就_柏林国际电影节金熊奖)",
+            "AND (JOIN 职业_导演_（职业）) (JOIN 主要成就_柏林国际电影节金熊奖)",
+            "AND (JOIN 主要成就_柏林国际电影节金熊奖) (JOIN 国籍_中华人民共和国)",
+            "AND (join 主要成就_柏林国际电影节金熊奖) (join 国籍_中华人民共和国)",
+            "AND (JOIN 职业_导演_（词语定义）) (JOIN 主要成就_BER林电影节金熊奖)"
+        ]
+    },
+    {
+        "label": "AND (JOIN (R 典型例子) 二元酸) (JOIN (R 主要成分) 酸洗工艺)",
+        "predict": [
+            "JOIN (R 类型) 酸洗工艺",
+            "JOIN (R 二元酸类型) 酸洗工艺",
+            "JOIN (R 典型用途) 二元酸",
+            "JOIN (R 类别) 二元酸",
+            "JOIN (R_Two_kinds_of_acid) 酸洗工艺",
+            " JOIN (R 类型) 酸洗工艺"
+        ]
+    },
+    {
+        "label": "JOIN (R 宗教主张) (JOIN (R 信仰) 伊凡四世_（历史人物）)",
+        "predict": [
+            "AND (JOIN 主要宗教主张?y) (JOIN 别名_恐怖的伊凡)",
+            "AND (JOIN 主张 (JOIN 信仰 (JOIN (R 信仰) 俄国大公))) (JOIN 别名_恐怖的伊凡)",
+            "AND (JOIN 信仰 (JOIN 主要宗教主张?z)) (JOIN 别名_恐怖的伊凡)",
+            "AND (JOIN 主张 (JOIN 信仰 (JOIN (R 信仰) 俄罗斯帝国))) (JOIN 别名_恐怖的伊凡)",
+            "AND (JOIN 主要信仰?y) (JOIN 别名_恐怖的伊凡)",
+            "AND (JOIN 信仰?y) (JOIN 别名_恐怖的伊凡)",
+            "AND (JOIN宗教主张?y) (JOIN别名_恐怖的伊凡)",
+            "AND (JOIN 宗教主张?y) (JOIN 别名_恐怖的伊凡)",
+            "JOIN (R 宗教主张) (JOIN 别名_恐怖的伊凡)",
+            "AND (JOIN 主张 (JOIN 信仰 (JOIN (R 信仰) 俄国)))) (JOIN 别名_恐怖的伊凡)",
+            "JOIN (R宗教主张) (JOIN 别名_恐怖的伊凡)"
+        ]
+    },
+    {
+        "label": "JOIN (R 所属) (JOIN (R 方言) 南阳_（河南省地级市）)",
+        "predict": [
+            "JOIN (R 方言) 南阳地区",
+            "AND (JOIN 所属语言区?y) (JOIN (R 方言) 南阳_（河南省地级市）)",
+            "AND (JOIN 言语?y) (JOIN (R 方言) 南阳_（河南省地级市）)",
+            "AND (JOIN 分类_语言学概念) (JOIN (R 所属语言区) (JOIN (R 方言) 南阳_（河南省地级市）))",
+            "AND (JOIN 所属语言区?y) (JOIN (R 方言) 南阳_（河南省市）)",
+            "JOIN (R 方言) 南阳_（河南省地级市）"
+        ]
+    },
+    {
+        "label": "JOIN (R 代表国家) (AND (JOIN 梦想_透明果实) (JOIN 悬赏金 1亿7700万贝利))",
+        "predict": [
+            "AND (JOIN标志_哪个国家的男人) (AND (JOIN 透明果实（道具）能量) (JOIN 悬赏金 1770000))",
+            "AND (JOIN Symbol_代表_（男人）) (AND (JOIN 透明果实 (JOIN 悬赏金 1770000)) (JOIN 登场作品_海贼王_（尾田荣一郎创作的漫画作品）))",
+            "AND (JOIN (R 分别所属国) (JOIN 男人) ) (AND (JOIN 悬赏金 1770000) (JOIN 悬赏理由_梦想获得透明果实能力))",
+            "AND (JOIN 标签 (JOIN 国籍?z)) (AND (JOIN 悬赏金 1770000) (AND (JOIN 标签_透明果实) (JOIN 登场作品_海贼王_（尾田荣一郎创作的漫画作品）)))",
+            "AND (JOIN symbol_英语 (AND (JOIN 男性_男_（男性之总称）) (JOIN 所属作品_海贼王_（尾田荣一郎创作的漫画作品）))) (AND (JOIN 悬赏金 1770000) (JOIN (R 能力) 透明果实))",
+            "AND (JOIN 主要符号_透明果实) (AND (JOIN 主要符号_梦想) (JOIN 主要符号 1亿7700万))",
+            "AND (JOIN 所属国?y) (AND (JOIN 透明果实（地图）) (JOIN 悬赏金 1770000))",
+            "AND (JOIN (R 分别代表国旗) (JOIN 男人_男性)) (AND (JOIN 悬赏金 1770000) (JOIN (R 悬赏) 透明果实))",
+            "AND (JOIN标志_哪个国家的男人) (AND (JOIN 透明果实 (JOIN 主要人物_小张三)) (JOIN 悬赏金 1770000))",
+            "AND (join 提出者 (JOIN 职业_工人)) (AND (JOIN (R 悬赏金) 透明果实) (JOIN (R 悬赏金) 1亿7700万))",
+            "AND (JOINSymbol_透明果实) (AND (JOIN符号_梦想获得) (JOIN悬赏金 1770000))",
+            "AND (JOIN Symbols_代表_外海自在子) (AND (JOIN 透明果实_能力) (JOIN 主要成就 1亿7700万悬赏))",
+            "AND (JOIN 标签 (JOIN 地区?z)) (AND (JOIN 悬赏金 1770000) (AND (JOIN 透明果实 (JOIN 类型_能力)) (JOIN 登场作品_海贼王_（尾田荣一郎创作的漫画作品）)))",
+            "AND (JOIN Symbol_代表_（男人）) (AND (JOIN 透明果实 (JOIN 所属电视剧_海贼王)) (JOIN 悬赏金 1770000))",
+            "AND (JOIN-icon_（透明果实）) (AND (JOIN 悬赏金 1770000) (JOIN (R 所属国家) 织田布施))"
+        ]
+    },
+    {
+        "label": "AND (JOIN 主要产地 ?y) (JOIN 中文名_咖啡)",
+        "predict": [
+            "JOIN (R 产地) 咖啡_（饮料）",
+            "JOIN (R 主要产地) 咖啡_（饮料）",
+            "JOIN (R 产地) 咖啡_（饮品）",
+            "JOIN (R 主要产地) 咖啡_（咖啡树产出的饮料）",
+            "JOIN (R 主要产地) 咖啡_（饮品）",
+            "JOIN (R 主要产地) 咖啡_（咖啡树的果实）",
+            "JOIN (R 产地) 咖啡_（酒类）",
+            "JOIN (R 主要产地) 咖啡_（酒类）",
+            "JOIN (R 产地) 咖啡_（茶类饮料）",
+            "JOIN (R 主要产地) 咖啡_（豆类）",
+            "JOIN (R 主生产地区) 咖啡_（豆类食材）",
+            "JOIN (R 产生地区) 咖啡_（酒类）"
+        ]
+    },
+    {
+        "label": "AND (JOIN 地点 (JOIN 首都 ?z)) (JOIN 外文名 Nicholson)",
+        "predict": [
+            "JOIN (R 国籍) Jack Nicholson",
+            "JOIN (R 国籍) JACK NICHOLSON_（美国演员）",
+            "JOIN (R 所属国家) Jack Nicholson",
+            "AND (JOIN 国家?y) (JOIN (R 出生地) Jack Nicholson)",
+            "JOIN (R 所属国家) 雅克·尼科尔森",
+            "JOIN (R 国籍)Jack Nicholson",
+            "JOIN (R 国家) Jack Nicholson",
+            "JOIN (R 国籍) jack nicholson",
+            "JOIN (R 所属国家) JACK Nicholson"
+        ]
+    },
+    {
+        "label": "AND (JOIN 国际组织 (JOIN 官网 ?z)) (JOIN (R 出生地) 舒伯特)",
+        "predict": [
+            "AND (JOIN 国籍_舒伯特) (AND (JOIN 官网?y) (JOIN (R 出生地) 舒伯特))",
+            "JOIN (R 官网) (AND (JOIN 国籍_舒伯特) (JOIN (R 出生地) 舒伯特))",
+            "AND (JOIN 官网?y) (AND (JOIN 国籍_德国_（德意志联邦共和国）) (JOIN 出生地_出生地))",
+            "AND (JOIN 国籍_舒伯特) (AND (JOIN 所属组织?y) (JOIN 出生城市_舒伯特))",
+            "AND (JOIN 国籍 (JOIN 官网?z)) (JOIN (R 出生地) 舒伯特)",
+            "AND (JOIN 國家_舒伯特（Hindustan）) (AND (JOIN 所属组织 (JOIN 官网?z)) (JOIN 出生地_舒伯特))",
+            "AND (JOIN 国籍_舒伯特) (JOIN (R 出生地) 舒伯特)",
+            "AND (JOIN 国籍 (JOIN 官方网站?z)) (JOIN (R 出生地) 舒伯特)",
+            "AND (JOIN 国籍_舒伯特) (AND (JOIN 官方网站?y) (JOIN (R 出生地) 舒伯特))",
+            "JOIN (R 官网) (AND (JOIN 国籍_德国_（德意志联邦共和国）) (JOIN (R 出生地) 舒伯特))",
+            "JOIN (R 官网) (AND (JOIN 国籍_舒伯特) (JOIN 出生城市_舒伯特))"
+        ]
+    },
+    {
+        "label": "JOIN (R 知名校友) (JOIN (R 毕业院校) 章子怡)",
+        "predict": [
+            "AND (JOIN 毕业院校 (JOIN 主要毕业生_国际章)) (JOIN 类别_大学)",
+            "AND (JOIN 毕业院校 (JOIN 主要学人?z)) (JOIN 中文名_国际章)",
+            "AND (JOIN 出名人?y) (JOIN (R 出著名校友) 国际章)",
+            "AND (JOIN 毕业院校 (JOIN 主要成就_国际章)) (JOIN 职业_大学生)",
+            "AND (JOIN 毕业院校 (JOIN (R 出自) 国际章)) (JOIN 类别_大学毕业生)",
+            "AND (JOIN 主要毕业学生 (JOIN (R 主要毕业学生) 国际章)) (JOIN 类别_大学)",
+            "AND (JOIN 出名人?y) (JOIN (R 出料大学) 国际章)",
+            "AND (JOIN 获得荣誉 作者_（原指作者简介）) (JOIN 所属院校 (JOIN 别名_国际章))",
+            "AND (JOIN 简历生平?) (JOIN 毕业院校 (JOIN 类别_专门学校))",
+            "AND (JOIN 毕业院校 (JOIN 主要毕业生_国际章)) (JOIN 主要毕业生_国际章)",
+            "AND (JOIN 共同学校 (JOIN 主要人物?z)) (JOIN 中文名_国际章)",
+            "AND (JOIN 毕业院校 (JOIN 名人?z)) (JOIN 别名_国际章)",
+            "AND (JOIN 出名人?y) (JOIN (R 高等学府) 国际章)",
+            "AND (JOIN 毕业院校 (JOIN (R 出自) 国际章)) (JOIN 类别_大学生)",
+            "AND (JOIN 毕业院校 (JOIN 主要人物?z)) (JOIN 别名_国际章、原名International)"
+        ]
+    },
+    {
+        "label": "JOIN 英文简称 MSI",
+        "predict": [
+            "JOIN (R 中文名称) MSI",
+            "JOIN (R 中文名称) msi_（微软公司的著名产品）",
+            "JO MSI (JOIN 中文名?y)",
+            "JOIN (R 中文名) MSI",
+            "JOIN (R trungwenmianduihao) msi",
+            "JOIN (R 外号) MSI",
+            "JOIN (R 中 文名称) msi"
+        ]
+    },
+    {
+        "label": "AND (JOIN 拉丁学名 ?y) (JOIN (R 国花) 法国_（法兰西共和国）)",
+        "predict": [
+            "AND (JOIN 拉丁学名?y) (JOIN (R 国花) 法国_（法兰西共和国）)",
+            "AND (JOIN 拉丁名?y) (JOIN (R 国花) 法国_（法兰西共和国）)",
+            "JOIN (R Λατινική назва) (JOIN (R 国花) 法国_（法兰西共和国）)",
+            "AND (JOIN 拉丁名字?y) (JOIN (R 国花) 法国_（法兰西共和国）)",
+            "AND (JOIN 谱曲_法国国花) (JOIN 拉丁学名?y)",
+            "AND (JOIN 典故_法国国花) (JOIN 拉丁学名?y)",
+            "AND (JOIN 拉丁名字?y) (JOIN 所属国家_法国_（法兰西共和国）)",
+            "AND (JOIN 拉丁名称?y) (JOIN (R 国花) 法国_（法兰西共和国）)",
+            "AND (JOIN ラテン名?y) (JOIN (R 国花) 法兰西共和国_（法兰西共和国）)",
+            "AND (JOIN ラテン名?y) (JOIN (R 国花) 法国_（法兰西共和国）)",
+            "JOIN (R 拿拉丁学名) (JOIN (R 国花) 法国_（法兰西共和国）)"
+        ]
+    }
+]

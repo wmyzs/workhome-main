@@ -1,0 +1,127 @@
+conda create -n chatkbqa python=3.8
+conda init bash && source /root/.bashrc
+conda activate chatkbqa
+pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
+pip install -r requirement.txt
+
+CUDA_VISIBLE_DEVICES=0 nohup python -u LLMs/LLaMA/src/train_bash.py --stage sft --model_name_or_path /root/autodl-tmp/Meta-Llama3-8B-Instruct --do_train  --dataset_dir LLMs/data --dataset WebQSP_Freebase_NQ_train --template llama2  --finetuning_type lora --lora_target q_proj,v_proj --output_dir Reading/LLaMA2-7b/WebQSP_Freebase_NQ_lora_epoch100/checkpoint --overwrite_cache --per_device_train_batch_size 4 --gradient_accumulation_steps 4  --lr_scheduler_type cosine --logging_steps 10 --save_steps 1000 --learning_rate 5e-5  --num_train_epochs 100.0 --plot_loss  --fp16 >> train_LLaMA2-7b_WebQSP_Freebase_NQ_lora_epoch100.txt 2>&1 &
+CUDA_VISIBLE_DEVICES=0 nohup python -u LLMs/LLaMA/src/train_bash.py --stage sft --model_name_or_path /root/autodl-tmp/Meta-Llama3-8B-Instruct --do_train  --dataset_dir LLMs/data --dataset WebQSP_Freebase_NQ_train --template llama2  --finetuning_type lora --lora_target q_proj,v_proj --output_dir Reading/LLaMA2-7b/WebQSP_Freebase_NQ_lora_epoch100/checkpoint --overwrite_cache --per_device_train_batch_size 4 --gradient_accumulation_steps 4  --lr_scheduler_type cosine --logging_steps 10 --save_steps 1000 --learning_rate 5e-5  --num_train_epochs 100.0 --plot_loss  --fp16 >> train_LLaMA2-7b_WebQSP_Freebase_NQ_lora_epoch100.txt 2>&1 &
+CUDA_VISIBLE_DEVICES=0 nohup python -u LLMs/LLaMA/src/train_bash.py --stage sft --model_name_or_path /root/autodl-tmp/Meta-Llama3-8B-Instruct
+--do_train  --dataset_dir LLMs/data --dataset WebQSP_Freebase_NQ_train --template llama2
+--finetuning_type lora --lora_target q_proj,v_proj --output_dir
+Reading/LLaMA2-7b/WebQSP_Freebase_NQ_lora_epoch100/checkpoint --overwrite_cache
+--per_device_train_batch_size 4 --gradient_accumulation_steps 4
+--lr_scheduler_type cosine --logging_steps 10
+--save_steps 1000
+--learning_rate 5e-5
+--num_train_epochs 100.0
+--plot_loss  --fp16 --save_safetensors False >> train_LLaMA2-7b_WebQSP_Freebase_NQ_lora_epoch100.txt 2>&1 &
+
+预测：
+CUDA_VISIBLE_DEVICES=0 nohup python -u LLMs/LLaMA/src/beam_output_eva.py --model_name_or_path /root/autodl-tmp/Meta-Llama3-8B-Instruct --dataset_dir LLMs/data --dataset WebQSP_Freebase_NQ_test --template llama2 --finetuning_type lora --checkpoint_dir Reading/LLaMA2-7b/WebQSP_Freebase_NQ_lora_epoch100/checkpoint/ --num_beams 15 >> predbeam_LLaMA2-7b_WebQSP_Freebase_NQ_lora_epoch100.txt 2>&1 &
+##/autodl-fs/data/ChatKBQA-main/LLMs/LLaMA/src/llmtuner/chat/ 修改了dtype=torch.float32使其保持一致
+CUDA_VISIBLE_DEVICES=0 python -u LLMs/LLaMA/src/beam_output_eva.py --model_name_or_path /root/autodl-tmp/Meta-Llama3-8B-Instruct --dataset_dir LLMs/data --dataset WebQSP_Freebase_NQ_test --template llama2 --finetuning_type lora --checkpoint_dir Reading/LLaMA2-7b/WebQSP_Freebase_NQ_lora_epoch100/checkpoint/ --num_beams 10
+###
+
+###
+修改了该文件中的
+"/root/miniconda3/lib/python3.10/site-packages/transformers/generation/utils.py"
+
+                if output_scores:
+                    next_token_scores_processed = next_token_scores_processed.to(torch.bfloat16)#改变张量类型
+                    processed_score[batch_group_indices] = next_token_scores_processed
+                            print(self.model)##查看模型结构
+python3 virtuoso.py start 6006 -d virtuoso_db
+
+
+
+"/autodl-fs/data/ChatKBQA-main/Reading/LLaMA2-7b/WebQSP_Freebase_NQ_lora_epoch100/checkpoint/evaluation_beam/generated_predictions.jsonl"
+CUDA_VISIBLE_DEVICES=0 nohup python -u eval_final_cwq.py --dataset CWQ --pred_file Reading/LLaMA2-13b/CWQ_Freebase_NQ_lora_epoch10/evaluation_beam/beam_test_top_k_predictions.json >> predfinal_LLaMA2-13b_CWQ_Freebase_NQ_lora_epoch10.txt 2>&1 &
+
+CUDA_VISIBLE_DEVICES=0 python -u eval_final_cwq.py --dataset CWQ --pred_file Reading/LLaMA2-13b/CWQ_Freebase_NQ_lora_epoch10/evaluation_beam/beam_test_top_k_predictions.json
+
+
+
+#环境安装
+#conda init bash && source /root/.bashrc激活环境配置
+conda create -n chatkbqa python=3.8
+conda init bash && source /root/.bashrc
+conda activate chatkbqa
+
+##pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu116
+pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
+pip install -r requirement.txt
+
+# 假设您的程序原执行命令为
+python train.py
+
+# 那么可以在您的程序后跟上shutdown命令
+python train.py; /usr/bin/shutdown      # 用;拼接意味着前边的指令不管执行成功与否，都会执行shutdown命令
+python train.py && /usr/bin/shutdown    # 用&&拼接表示前边的命令执行成功后才会执行shutdown。请根据自己的需要选择
+
+CUDA_VISIBLE_DEVICES=0 nohup python -u LLMs/LLaMA/src/train_bash.py --stage sft --model_name_or_path /root/autodl-tmp/Meta-Llama3-8B-Instruct --do_train  --dataset_dir LLMs/data --dataset CWQ_Freebase_NQ_train --template default  --finetuning_type lora --lora_target q_proj,v_proj --output_dir Reading/LLaMA2-13b/CWQ_Freebase_NQ_lora_epoch10/checkpoint --overwrite_cache --per_device_train_batch_size 4 --gradient_accumulation_steps 4  --lr_scheduler_type cosine --logging_steps 10 --save_steps 10 --learning_rate 5e-5  --num_train_epochs 1000 --plot_loss  --fp16 --save_safetensors False >> train_LLaMA2-13b_CWQ_Freebase_NQ_lora_epoch10.txt 2>&1 &
+CUDA_VISIBLE_DEVICES=0 python -u LLMs/LLaMA/src/lsbeam_output_eva.py --model_name_or_path /root/autodl-tmp/Meta-Llama3-8B-Instruct --dataset_dir LLMs/data --dataset WebQSP_Freebase_NQ_test --template llama2 --finetuning_type lora --checkpoint_dir Reading/LLaMA2-7b/WebQSP_Freebase_NQ_lora_epoch100/checkpoint --num_beams 15
+CUDA_VISIBLE_DEVICES=0 nohup python -u LLMs/LLaMA/src/train_bash.py \
+--stage sft \
+--model_name_or_path /root/autodl-tmp/Meta-Llama3-8B-Instruct \
+--do_train \
+--dataset_dir LLMs/data \
+--dataset CWQ_Freebase_NQ_train \
+--template default \
+--finetuning_type lora \
+--lora_target q_proj,v_proj \
+--output_dir Reading/LLaMA2-13b/CWQ_Freebase_NQ_lora_epoch10/checkpoint \
+--overwrite_cache \
+--per_device_train_batch_size 4 \
+--gradient_accumulation_steps 4 \
+--lr_scheduler_type cosine \
+--logging_steps 10 \
+--save_steps 1000 \
+--learning_rate 5e-5 \
+--num_train_epochs 10.0 \
+--plot_loss \
+--fp16 \
+--save_safetensors False >> train_LLaMA2-13b_CWQ_Freebase_NQ_lora_epoch10.txt 2>&1 && /usr/bin/shutdown &
+
+CUDA_VISIBLE_DEVICES=0 python -u eval_final.py --dataset WebQSP --pred_file Reading/LLaMA2-7b/WebQSP_Freebase_NQ_lora_epoch100/evaluation_beam/beam_test_top_k_predictions.json >> predfinal_LLaMA2-7b_WebQSP_Freebase_NQ_lora_epoch100.txt 2>&1
+
+
+CUDA_VISIBLE_DEVICES=0 nohup python -u eval_final.py --dataset WebQSP --pred_file Reading/LLaMA2-7b/WebQSP_Freebase_NQ_lora_epoch100/evaluation_beam/beam_test_top_k_predictions.json >> predfinal_LLaMA2-7b_WebQSP_Freebase_NQ_lora_epoch100.txt 2>&1 &
+CUDA_VISIBLE_DEVICES=0 python -u eval_final.py --dataset WebQSP --pred_file Reading/LLaMA2-7b/WebQSP_Freebase_NQ_lora_epoch100/evaluation_beam/beam_test_top_k_predictions.json
+
+
+##CCKS###
+CUDA_VISIBLE_DEVICES=0 nohup python -u LLMs/LLaMA/src/train_bash.py --stage sft --model_name_or_path /root/autodl-tmp/Meta-Llama3-8B-Instruct
+--do_train  --dataset_dir LLMs/data --dataset CCKS_NQ_train --template llama2
+--finetuning_type lora --lora_target q_proj,v_proj --output_dir
+Reading/LLaMA2-7b/WebQSP_Freebase_NQ_lora_epoch100/checkpoint --overwrite_cache
+--per_device_train_batch_size 4 --gradient_accumulation_steps 4
+--lr_scheduler_type cosine --logging_steps 10
+--save_steps 1000
+--learning_rate 5e-5
+--num_train_epochs 10.0
+--plot_loss  --fp16 --save_safetensors False >> train_LLaMA2-7b_CCKS_NQ_train_lora_epoch100.txt 2>&1 &
+##直接输出##
+CUDA_VISIBLE_DEVICES=0 python -u LLMs/LLaMA/src/train_bash.py --stage sft --model_name_or_path /root/autodl-tmp/Meta-Llama3-8B-Instruct
+--do_train  --dataset_dir LLMs/data --dataset CCKS_NQ_train --template llama2
+--finetuning_type lora --lora_target q_proj,v_proj --output_dir
+Reading/LLaMA2-7b/WebQSP_Freebase_NQ_lora_epoch100/checkpoint --overwrite_cache
+--per_device_train_batch_size 4 --gradient_accumulation_steps 4
+--lr_scheduler_type cosine --logging_steps 10
+--save_steps 1000
+--learning_rate 5e-5
+--num_train_epochs 10.0
+--plot_loss  --fp16 --save_safetensors False
+
+CUDA_VISIBLE_DEVICES=0 nohup python -u LLMs/LLaMA/src/train_bash.py --stage sft --model_name_or_path /root/autodl-tmp/Meta-Llama3-8B-Instruct --do_train --dataset_dir LLMs/data --dataset CCKS_NQ_train --template llama2 --finetuning_type lora --lora_target q_proj,v_proj --output_dir Reading/LLaMA2-7b/CCKS_NQ_lora_epoch100/checkpoint --overwrite_cache --per_device_train_batch_size 4 --gradient_accumulation_steps 4 --lr_scheduler_type cosine --logging_steps 10 --save_steps 1000 --learning_rate 5e-5 --num_train_epochs 10.0 --plot_loss --fp16 --save_safetensors False >> train_LLaMA2-7b_CCKS_NQ_train_lora_epoch100.txt 2>&1 &
+CUDA_VISIBLE_DEVICES=0 nohup python -u LLMs/LLaMA/src/beam_output_eva.py --model_name_or_path /root/autodl-tmp/Meta-Llama3-8B-Instruct --dataset_dir LLMs/data --dataset CCKS_NQ_train --template llama2 --finetuning_type lora --checkpoint_dir Reading/LLaMA2-7b/CCKS_NQ_lora_epoch100/checkpoint/ --num_beams 15 >> predbeam_LLaMA2-7b_CCKS_NQ_lora_epoch100.txt 2>&1 &
+CUDA_VISIBLE_DEVICES=0 nohup python -u LLMs/LLaMA/src/beam_output_eva.py --model_name_or_path /root/autodl-tmp/Meta-Llama3-8B-Instruct --dataset_dir LLMs/data --dataset CCKS_NQ_test --template llama2 --finetuning_type lora --checkpoint_dir Reading/LLaMA2-7b/CCKS_NQ_lora_epoch100/checkpoint/ --num_beams 15  >> predbeam_LLaMA2-7b_CCKS_NQ_lora_epoch100.txt 2>&1 &
+CUDA_VISIBLE_DEVICES=0 nohup python -u LLMs/LLaMA/src/train_bash.py --stage sft --model_name_or_path /root/autodl-tmp/Meta-Llama3-8B-Instruct --do_train --dataset_dir LLMs/data --dataset CCKS_NQ_train --template llama2 --finetuning_type lora --lora_target q_proj,v_proj --output_dir Reading/LLaMA2-7b/CCKS_NQ_lora2_epoch100/checkpoint --overwrite_cache --per_device_train_batch_size 4 --gradient_accumulation_steps 4 --lr_scheduler_type cosine --logging_steps 10 --save_steps 1000 --learning_rate 5e-5 --num_train_epochs 10.0 --plot_loss --fp16 --save_safetensors False >> train_LLaMA2-7b_CCKS_NQ_train_lora2_epoch100.txt 2>&1 &
+CUDA_VISIBLE_DEVICES=0 python -u LLMs/LLaMA/src/train_bash.py --stage sft --model_name_or_path /root/autodl-tmp/Meta-Llama3-8B-Instruct --do_train --dataset_dir LLMs/data --dataset CCKS_NQ_train --template llama2 --finetuning_type lora --lora_target q_proj,v_proj --output_dir Reading/LLaMA2-7b/CCKS_NQ_lora2_epoch1000/checkpoint --overwrite_cache --per_device_train_batch_size 4 --gradient_accumulation_steps 4 --lr_scheduler_type cosine --logging_steps 10 --save_steps 1000 --learning_rate 5e-5 --num_train_epochs 10.0 --plot_loss --fp16 --save_safetensors False
+
+python run_generator_final.py --data_file_name Reading/LLaMA2-7b/CCKS_NQ_lora_epoch100/checkpoint/evaluation_beam/generated_predictions.jsonl
+CUDA_VISIBLE_DEVICES=0 python -u eval_final.py --dataset WebQSP --pred_file /autodl-fs/data/ChatKBQA-main/Reading/LLaMA2-7b/CCKS_NQ_lora_epoch100/checkpoint/evaluation_beam/
+
+CUDA_VISIBLE_DEVICES=0 nohup python -u LLMs/LLaMA/src/train_bash.py --stage sft --model_name_or_path /root/autodl-tmp/Meta-Llama3-8B-Instruct --do_train --dataset_dir LLMs/data --dataset CCKS_NQ_train --template llama2 --finetuning_type lora --lora_target q_proj,v_proj --output_dir Reading/LLaMA3-8b/CCKS_NQ_lora_epoch100/checkpoint --overwrite_cache --per_device_train_batch_size 4 --gradient_accumulation_steps 4 --lr_scheduler_type cosine --logging_steps 10 --save_steps 1000 --learning_rate 5e-5 --num_train_epochs 100.0 --plot_loss --fp16 --save_safetensors False >> train_LLaMA3-8b_CCKS_NQ_train_lora2_epoch100.txt 2>&1 &
+CUDA_VISIBLE_DEVICES=0 nohup python -u LLMs/LLaMA/src/beam_output_eva.py --model_name_or_path /root/autodl-tmp/Meta-Llama3-8B-Instruct --dataset_dir LLMs/data --dataset CCKS_NQ_test --template llama2 --finetuning_type lora --checkpoint_dir Reading/LLaMA3-8b/CCKS_NQ_lora_epoch100/checkpoint/ --num_beams 15  >> predbeam_LLaMA3-8b_CCKS_NQ_lora_epoch100.txt 2>&1 &
+CUDA_VISIBLE_DEVICES=0 python -u eval_final.py --dataset CCKS --pred_file /autodl-fs/data/ChatKBQA-mainReading/LLaMA3-8b/CCKS_NQ_lora_epoch100/checkpoint/evaluation_beam/
